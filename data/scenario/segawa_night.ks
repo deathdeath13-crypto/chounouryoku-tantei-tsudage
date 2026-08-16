@@ -297,8 +297,8 @@
 ; 1回目挿入選択
 ;--------------------------------------------------
 *choice_insert_1
-[glink target="do_insert_1" text="ぶちこむ" x=280 y=420 size=26]
-[glink target="stop_insert_1" text="このへんで許す" x=280 y=500 size=26]
+[glink target="do_insert_1" text="ぶちこむ" x=280 y=270 size=26]
+[glink target="stop_insert_1" text="このへんで許す" x=280 y=375 size=26]
 [s]
 
 *stop_insert_1
@@ -431,8 +431,8 @@
 ; 2回目挿入選択
 ;--------------------------------------------------
 *choice_insert_2
-[glink target="do_insert_2" text="こます" x=280 y=420 size=26]
-[glink target="stop_insert_2" text="ここまでにする" x=280 y=500 size=26]
+[glink target="do_insert_2" text="こます" x=280 y=270 size=26]
+[glink target="stop_insert_2" text="ここまでにする" x=280 y=375 size=26]
 [s]
 
 *stop_insert_2
@@ -543,8 +543,8 @@
 ; 3回目挿入選択
 ;--------------------------------------------------
 *choice_insert_3
-[glink target="do_insert_3" text="ズッポリぶちこむ" x=220 y=420 size=26]
-[glink target="stop_insert_3" text="そろそろ手を打つ" x=220 y=500 size=26]
+[glink target="do_insert_3" text="ズッポリぶちこむ" x=220 y=270 size=26]
+[glink target="stop_insert_3" text="そろそろ手を打つ" x=220 y=375 size=26]
 [s]
 
 *stop_insert_3
@@ -615,8 +615,8 @@
 ; アナル挿入選択
 ;--------------------------------------------------
 *choice_insert_anal
-[glink target="do_insert_anal" text="ケツにこます" x=280 y=420 size=26]
-[glink target="stop_insert_anal" text="流石にやめておく" x=280 y=500 size=26]
+[glink target="do_insert_anal" text="ケツにこます" x=280 y=270 size=26]
+[glink target="stop_insert_anal" text="流石にやめておく" x=280 y=375 size=26]
 [s]
 
 *stop_insert_anal

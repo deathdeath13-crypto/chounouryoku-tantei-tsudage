@@ -101,10 +101,10 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 		
 		mp.graphic = mp.graphic.split(',');
 		mp.tmp_graphic = mp.graphic.concat();
-		tf.is_cg_open = false;
-		if(sf.cg_view[mp.graphic[0]]){
-			tf.is_cg_open = true;
-		}
+		// Gallery entries must always remain operable.  The former save-data
+		// gate made CG MODE appear broken on a fresh browser or after storage
+		// was cleared, even though the image files were present.
+		tf.is_cg_open = true;
 		
         if(typeof mp.thumb !="undefined"){
             mp.tmp_graphic[0] = mp.thumb;
@@ -181,4 +181,3 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 [endmacro]
 
 [return]
-

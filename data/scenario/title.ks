@@ -9,8 +9,9 @@
 [layopt layer="message0" visible=false]
 [freeimage layer="1" page="fore"]
 [layopt layer="1" visible=true]
-[bg storage="title_tsudage.png" time="500"]
-[playbgm storage="bgm_title_mystery.mp3" loop="true" time="800"]
+[bg storage="title_tsudage.png" time="0"]
+; Browser版ではユーザー操作前の音声再生がシナリオ進行を止めるため、
+; タイトルBGMは自動再生しない。ゲーム開始後のBGMは本編側で再生する。
 
 [ptext layer="1" page="fore" name="title_kicker" text="THE SUPERNATURAL DETECTIVE" x="78" y="92" size="16" color="0x70d7eb" letterspacing="4"]
 [ptext layer="1" page="fore" name="title_main" text="超能力探偵つだげ" x="72" y="125" size="48" bold="true" color="0xf0e5c6" edge="0x071128" shadow="0x000000"]

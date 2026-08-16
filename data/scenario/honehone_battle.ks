@@ -38,10 +38,10 @@
 [eval exp="f.hb_warning=(f.hb_turn%3==0)?'　⚠ 大技の気配！':''"]
 [eval exp="f.hb_status='TURN '+f.hb_turn+'　津田花 HP '+f.hb_player_hp+'/'+f.hb_player_max+'　ホネホネ神 HP '+f.hb_boss_hp+'/'+f.hb_boss_max+'　回復 '+f.hb_heal+f.hb_warning"]
 [ptext name="battle_status" layer="0" page="fore" text="&f.hb_status" x="35" y="30" size="25" color="0xffffff" edge="0x000000" width="1210" align="center"]
-[glink target="hb_attack" text="⚔ たたかう　―― 全力の一撃" x="125" y="500" width="470" size="24"]
-[glink target="hb_guard" text="◆ ぼうぎょ　―― 攻撃に備える" x="685" y="500" width="470" size="24"]
-[glink target="hb_heal" text="✚ かいふく　―― 救急セットを使う" x="125" y="600" width="470" size="24"]
-[glink target="hb_run" text="➤ にげる　―― 神から逃走" x="685" y="600" width="470" size="24"]
+[glink target="hb_attack" text="⚔ たたかう　―― 全力の一撃" x="125" y="260" width="470" size="24"]
+[glink target="hb_guard" text="◆ ぼうぎょ　―― 攻撃に備える" x="685" y="260" width="470" size="24"]
+[glink target="hb_heal" text="✚ かいふく　―― 救急セットを使う" x="125" y="370" width="470" size="24"]
+[glink target="hb_run" text="➤ にげる　―― 神から逃走" x="685" y="370" width="470" size="24"]
 [s]
 
 *hb_attack
@@ -133,8 +133,8 @@
 [eval exp="sf.honehone_clear=true"]
 [eval exp="f.hb_result='CLEAR　TURN '+f.hb_turn"]
 [ptext name="battle_clear" layer="0" page="fore" text="&f.hb_result" x="0" y="65" size="36" color="0xffe89a" edge="0x000000" width="1280" align="center"]
-[glink target="hb_retry" text="もう一度たたかう" x="175" y="610" width="400" size="24"]
-[glink target="hb_title" text="タイトルへ戻る" x="705" y="610" width="400" size="24"]
+[glink target="hb_retry" text="もう一度たたかう" x="175" y="330" width="400" size="24"]
+[glink target="hb_title" text="タイトルへ戻る" x="705" y="330" width="400" size="24"]
 [s]
 
 *hb_defeat
@@ -143,8 +143,7 @@
 [free layer="0" name="battle_status"]
 #ホネホネ神
 「防御と回復の使いどころを見極めよ。」[p]
-[glink target="hb_retry" text="再挑戦する" x="175" y="560" width="400" size="24"]
-[glink target="hb_title" text="タイトルへ戻る" x="705" y="560" width="400" size="24"]
+[glink target="hb_title" text="タイトルへ戻る" x="440" y="330" width="400" size="24"]
 [s]
 
 *hb_retry
