@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82" height="34" viewBox="0 0 82 34">
+  <rect x=".5" y=".5" width="81" height="33" rx="4" fill="#081723" fill-opacity=".9" stroke="#58798a"/>
+  <path d="M8 13V8h5M69 8h5v5M74 21v5h-5M13 26H8v-5" fill="none" stroke="#65dce9" stroke-width="1.5"/>
+  <text x="41" y="21.5" text-anchor="middle" fill="#e9f8ff" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">FULL</text>
+</svg>

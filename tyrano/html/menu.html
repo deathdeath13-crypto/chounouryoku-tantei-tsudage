@@ -1,0 +1,189 @@
+<div id="menu_menu_wrapper">
+    <style>
+        #menu_menu_wrapper {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            color: #eef7ff;
+            font-family: "Yu Gothic", "Meiryo", sans-serif;
+            background:
+                linear-gradient(115deg, rgba(3, 8, 16, .98) 0%, rgba(7, 20, 34, .96) 57%, rgba(11, 35, 47, .96) 100%);
+        }
+
+        #menu_menu_wrapper::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            opacity: .36;
+            background:
+                repeating-linear-gradient(0deg, transparent 0 4px, rgba(107, 230, 255, .055) 5px),
+                linear-gradient(90deg, transparent 0 64%, rgba(48, 211, 235, .1) 64% 64.2%, transparent 64.2%);
+        }
+
+        #menu_menu_wrapper .ts-menu-shell {
+            position: relative;
+            box-sizing: border-box;
+            width: 100%;
+            height: 100%;
+            padding: 58px 78px 50px;
+        }
+
+        #menu_menu_wrapper .ts-menu-head {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            padding-bottom: 18px;
+            border-bottom: 1px solid rgba(106, 225, 244, .45);
+        }
+
+        #menu_menu_wrapper .ts-menu-kicker {
+            margin-bottom: 4px;
+            color: #55dbea;
+            font: 700 13px/1.2 Consolas, monospace;
+            letter-spacing: .34em;
+        }
+
+        #menu_menu_wrapper .ts-menu-title {
+            font-size: 48px;
+            font-weight: 800;
+            letter-spacing: .14em;
+            line-height: 1;
+            text-shadow: 0 0 24px rgba(65, 216, 236, .22);
+        }
+
+        #menu_menu_wrapper .ts-menu-close {
+            min-width: 150px;
+            padding: 11px 18px;
+            color: #dcecf4;
+            font-weight: 700;
+            letter-spacing: .16em;
+            text-align: center;
+            cursor: pointer;
+            border: 1px solid rgba(201, 227, 237, .4);
+            background: rgba(255, 255, 255, .035);
+            transition: .16s ease;
+        }
+
+        #menu_menu_wrapper .ts-menu-close:hover {
+            color: #07141d;
+            border-color: #6ce6f3;
+            background: #6ce6f3;
+        }
+
+        #menu_menu_wrapper .ts-menu-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 14px;
+            width: 780px;
+            margin: 46px 0 0 110px;
+        }
+
+        #menu_menu_wrapper .menu_item {
+            position: relative;
+            box-sizing: border-box;
+            height: 94px;
+            margin: 0;
+            padding: 20px 25px 16px 30px;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid rgba(126, 190, 206, .27);
+            background: rgba(8, 21, 33, .7);
+            transition: transform .16s ease, border-color .16s ease, background .16s ease;
+        }
+
+        #menu_menu_wrapper .menu_item::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 5px;
+            background: #ec3150;
+            box-shadow: 0 0 18px rgba(236, 49, 80, .65);
+        }
+
+        #menu_menu_wrapper .menu_item:hover {
+            z-index: 2;
+            transform: translateX(7px);
+            border-color: rgba(101, 229, 242, .8);
+            background: rgba(14, 42, 56, .94);
+        }
+
+        #menu_menu_wrapper .ts-en {
+            display: block;
+            color: #f4fbff;
+            font: 700 27px/1 Consolas, monospace;
+            letter-spacing: .13em;
+        }
+
+        #menu_menu_wrapper .ts-ja {
+            display: block;
+            margin-top: 8px;
+            color: #8fb7c4;
+            font-size: 12px;
+            letter-spacing: .18em;
+        }
+
+        #menu_menu_wrapper .ts-menu-danger::before { background: #ffb321; }
+        #menu_menu_wrapper .ts-menu-danger { grid-column: 1 / -1; }
+
+        #menu_menu_wrapper .ts-menu-footer {
+            position: absolute;
+            right: 80px;
+            bottom: 47px;
+            color: rgba(166, 205, 216, .6);
+            font: 12px/1.6 Consolas, monospace;
+            letter-spacing: .13em;
+            text-align: right;
+        }
+    </style>
+
+    <div class="display_menu block_menu ts-menu-shell">
+        <div class="ts-menu-head">
+            <div>
+                <div class="ts-menu-kicker">SYSTEM / PAUSE</div>
+                <div class="ts-menu-title">MENU</div>
+            </div>
+            <div class="menu_close ts-menu-close" role="button" tabindex="0">RETURN ×</div>
+        </div>
+
+        <div class="ts-menu-grid">
+            <div class="menu_item menu_save menu_save_outer" role="button" tabindex="0">
+                <span class="ts-en">SAVE</span><span class="ts-ja">進行状況を保存</span>
+            </div>
+            <div class="menu_item menu_load menu_load_outer" role="button" tabindex="0">
+                <span class="ts-en">LOAD</span><span class="ts-ja">保存地点から再開</span>
+            </div>
+            <div class="menu_item menu_window_close menu_window_close_outer" role="button" tabindex="0">
+                <span class="ts-en">HIDE TEXT</span><span class="ts-ja">メッセージを隠す</span>
+            </div>
+            <div class="menu_item ts-menu-fullscreen" role="button" tabindex="0">
+                <span class="ts-en">FULL SCREEN</span><span class="ts-ja">全画面表示を切り替え</span>
+            </div>
+            <div class="menu_item menu_skip menu_skip_outer" role="button" tabindex="0">
+                <span class="ts-en">SKIP</span><span class="ts-ja">既読文章を早送り</span>
+            </div>
+            <div class="menu_item menu_back_title menu_back_title_outer ts-menu-danger" role="button" tabindex="0">
+                <span class="ts-en">BACK TO TITLE</span><span class="ts-ja">タイトル画面へ戻る</span>
+            </div>
+        </div>
+
+        <div class="ts-menu-footer">CHOUNOURYOKU TANTEI TSUDAGE<br>INTERFACE / 06</div>
+    </div>
+
+    <script>
+        $("#menu_menu_wrapper .ts-menu-fullscreen").on("click", function (event) {
+            event.stopPropagation();
+            TYRANO.kag.menu.screenFull();
+        });
+        $("#menu_menu_wrapper [role='button']").on("keydown", function (event) {
+            if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                $(this).trigger("click");
+            }
+        });
+    </script>
+</div>
