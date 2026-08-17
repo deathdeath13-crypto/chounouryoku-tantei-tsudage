@@ -29,7 +29,6 @@
 [clearfix]
 [cm]
 [freeimage layer="1" page="fore"]
-[stopbgm time="300" wait="false"]
 [jump storage="scenario_part_1.ks"]
 
 *exit_game
