@@ -4,6 +4,9 @@
 *start
 [cm]
 [clearfix]
+[free layer="0" name="to_be_continued"]
+[free layer="0" name="battle_status"]
+[free layer="0" name="battle_clear"]
 [clearstack]
 [hidemenubutton]
 [layopt layer="message0" visible=false]

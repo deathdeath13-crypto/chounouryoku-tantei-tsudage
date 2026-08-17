@@ -4,6 +4,8 @@
 *extra_battle_start
 [cm]
 [clearfix]
+[free layer="0" name="to_be_continued"]
+[free layer="0" name="battle_clear"]
 [clear_talk_chara]
 [stopbgm time=500]
 [bg storage="cg/cg_081_honehone_ending.png" time=800]
@@ -152,4 +154,3 @@
 *hb_title
 [stopbgm time=500]
 [jump storage="title.ks"]
-
