@@ -19,7 +19,7 @@
 [ptext name="scene_card_place_label" layer=1 page=fore text="LOCATION" x=92 y=326 size=16 bold="true" color="0x8fa0b5" letterspacing=5]
 [ptext name="scene_card_place" layer=1 page=fore text="%place" x=88 y=362 size=52 bold="true" color="0xf4f0e6" edge="0x111827" shadow="0x000000" letterspacing=3 width=1100]
 [ptext name="scene_card_mark" layer=1 page=fore text="■" x=88 y=458 size=20 color="0xd14343"]
-[wait time=1400]
+[wait time=800]
 [free layer=1 name="scene_card_date_label"]
 [free layer=1 name="scene_card_date"]
 [free layer=1 name="scene_card_rule"]
