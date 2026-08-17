@@ -435,8 +435,8 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 #津田花
 どうするか。[p]
 
-[glink target="join_card" text="勝負を受ける　―― 森下との一騎打ちへ" x=260 y=270 size=24]
-[glink target="skip_card" text="今回は見送る　―― 車窓の景色を眺める" x=260 y=375 size=24]
+[glink target="join_card" text="勝負を受ける" x=260 y=270 size=24]
+[glink target="skip_card" text="今回は見送る" x=260 y=375 size=24]
 [s]
 
 *join_card
@@ -934,8 +934,8 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 #津田花
 いや、気になるという時点でだいぶ終わっている。[p]
 
-[glink target="peek_bath_yes" text="禁断の透視を使う　―― 見てはいけない向こう側へ" x=260 y=270 size=24]
-[glink target="peek_bath_no" text="理性を守る　―― ここから立ち去る" x=260 y=375 size=24]
+[glink target="peek_bath_yes" text="禁断の透視を使う" x=260 y=270 size=24]
+[glink target="peek_bath_no" text="理性を守る" x=260 y=375 size=24]
 [s]
 
 *peek_bath_yes
@@ -2703,10 +2703,10 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 #津田花
 「犯人は――」[p]
 
-[glink target="bad_route_morishita" text="森下を指名する　―― 無邪気な笑顔の裏を疑う" x=260 y=150 size=24]
-[glink target="bad_route_segawa" text="瀬川を指名する　―― 冷静な態度の裏を疑う" x=260 y=255 size=24]
-[glink target="bad_route_maeda" text="前田を指名する　―― 明るさに隠れた動機を疑う" x=260 y=360 size=24]
-[glink target="true_route_other" text="三人ではない　―― すべての矛盾を追う" x=260 y=465 size=24]
+[glink target="bad_route_morishita" text="森下を指名する" x=260 y=130 size=24]
+[glink target="bad_route_segawa" text="瀬川を指名する" x=260 y=230 size=24]
+[glink target="bad_route_maeda" text="前田を指名する" x=260 y=330 size=24]
+[glink target="true_route_other" text="それ以外の人物" x=260 y=430 size=24]
 [s]
 
 ;==================================================
@@ -3007,8 +3007,8 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 #津田花
 「……誰かの部屋を、透視する。」[p]
 
-[glink target="bad_peek_segawa" text="瀬川の部屋を透視する　―― 静かな部屋の秘密へ" x=260 y=270 size=24]
-[glink target="bad_peek_maeda" text="前田の部屋を透視する　―― 明るさの裏側へ" x=260 y=375 size=24]
+[glink target="bad_peek_segawa" text="瀬川の部屋を透視する" x=260 y=270 size=24]
+[glink target="bad_peek_maeda" text="前田の部屋を透視する" x=260 y=375 size=24]
 [s]
 
 ;==================================================
@@ -4009,11 +4009,12 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 [bg storage="bg_black.png" time=1200]
 [stopbgm time=1000]
 [ptext name="to_be_continued" layer=0 page=fore text="TO BE CONTINUED" x=0 y=310 size=42 color="0xffffff" edge="0x333333" align="center" width=960]
-[glink target="start_extra_battle" text="EXTRA STAGE　―― ホネホネ神に挑戦" x=260 y=320 width=760 size=26]
+[glink target="start_extra_battle" text="EXTRA STAGE" x=260 y=320 width=760 size=26]
 [s]
 
 *start_extra_battle
 [jump storage="honehone_battle.ks" target="extra_battle_start"]
+
 
 
 

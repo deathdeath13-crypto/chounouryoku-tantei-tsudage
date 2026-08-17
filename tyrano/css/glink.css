@@ -11289,3 +11289,9 @@
   top: auto !important;
   transform: translateX(8px) scale(.985) !important;
 }
+/* Keep four-choice decisions inside the 720px game canvas. */
+.glink_button {
+  min-height: 60px !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}

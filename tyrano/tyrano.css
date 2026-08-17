@@ -350,6 +350,86 @@ body {
     box-sizing: border-box;
 }
 
+/* Tsudage save/load UI: dark investigative-console theme. */
+#menu_save_wrapper,
+#menu_load_wrapper {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    color: #eaf8ff;
+    background:
+        linear-gradient(90deg, rgba(3, 12, 25, .97), rgba(5, 20, 34, .91)),
+        url("../data/bgimage/title_tsudage.png") center/cover no-repeat;
+}
+
+#menu_save_wrapper::before,
+#menu_load_wrapper::before {
+    position: absolute;
+    left: 70px;
+    top: 42px;
+    z-index: 2;
+    color: #ecfaff;
+    font: 700 38px/1.1 "Yu Gothic", Meiryo, sans-serif;
+    letter-spacing: .18em;
+    text-shadow: 0 0 18px rgba(85, 220, 238, .3);
+}
+
+#menu_save_wrapper::before { content: "SAVE ARCHIVE"; }
+#menu_load_wrapper::before { content: "LOAD ARCHIVE"; }
+
+#menu_save_wrapper::after,
+#menu_load_wrapper::after {
+    content: "CASE DATA / MEMORY RECORD";
+    position: absolute;
+    left: 74px;
+    top: 92px;
+    z-index: 2;
+    color: #65d8e8;
+    font: 12px/1 Consolas, monospace;
+    letter-spacing: .22em;
+}
+
+#menu_save_wrapper .img_bg_base,
+#menu_load_wrapper .img_bg_base,
+#menu_save_wrapper .img_label,
+#menu_load_wrapper .img_label { display: none !important; }
+
+#menu_save_wrapper .area_save_list,
+#menu_load_wrapper .area_save_list {
+    position: absolute;
+    left: 75px;
+    top: 118px;
+    width: 1130px;
+    height: 535px;
+    margin: 0;
+    padding-right: 12px;
+}
+
+#menu_save_wrapper .save_list,
+#menu_load_wrapper .save_list { width: 1090px; }
+
+#menu_save_wrapper .save_list_item_thumb,
+#menu_load_wrapper .save_list_item_thumb,
+#menu_save_wrapper .save_list_item_area,
+#menu_load_wrapper .save_list_item_area {
+    color: #eaf8ff;
+    border-top: 1px solid rgba(94, 213, 229, .42);
+    border-bottom: 1px solid rgba(94, 213, 229, .22);
+    background: rgba(4, 18, 31, .84) !important;
+}
+
+#menu_save_wrapper .save_list_item:hover .save_list_item_thumb,
+#menu_save_wrapper .save_list_item:hover .save_list_item_area,
+#menu_load_wrapper .save_list_item:hover .save_list_item_thumb,
+#menu_load_wrapper .save_list_item:hover .save_list_item_area {
+    background: rgba(18, 62, 79, .92) !important;
+}
+
+#menu_save_wrapper .save_list_item_date,
+#menu_load_wrapper .save_list_item_date { color: #63ddea; }
+#menu_save_wrapper .save_list_item_text,
+#menu_load_wrapper .save_list_item_text { color: #eefaff; }
+
 /* VChat
 --------------------------------------*/
 
@@ -1128,3 +1208,4 @@ img#remodal-cancel {
     pointer-events: none;/*クリックできなくなるのを防ぐため。noneで対応*/
     opacity: 1;
 }
+
