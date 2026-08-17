@@ -30,8 +30,7 @@
 	text-decoration: none;
 }
 .glink_button:active {
-	position: relative;
-	top: 1px;
+	position: absolute;
 }
 
 
@@ -11220,7 +11219,7 @@
    Chounouryoku Tantei Tsudage - decision interface
 ----------------------------------------------------------------------------- */
 .glink_button {
-  position: relative !important;
+  position: absolute !important;
   min-width: 760px !important;
   min-height: 76px !important;
   padding: 18px 72px 18px 78px !important;
@@ -11277,7 +11276,7 @@
     0 16px 38px rgba(0, 0, 0, .58),
     0 0 24px rgba(73, 215, 232, .25),
     inset 0 1px 0 rgba(255, 255, 255, .12) !important;
-  transform: translateX(12px) scale(1.015) !important;
+  transform: none !important;
 }
 
 .glink_button:hover::after {
@@ -11286,8 +11285,7 @@
 }
 
 .glink_button:active {
-  top: auto !important;
-  transform: translateX(8px) scale(.985) !important;
+  transform: none !important;
 }
 /* Keep four-choice decisions inside the 720px game canvas. */
 .glink_button {
