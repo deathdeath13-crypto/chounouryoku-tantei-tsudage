@@ -2703,10 +2703,10 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 #津田花
 「犯人は――」[p]
 
-[glink target="bad_route_morishita" text="森下を指名する" x=260 y=130 size=24]
-[glink target="bad_route_segawa" text="瀬川を指名する" x=260 y=230 size=24]
-[glink target="bad_route_maeda" text="前田を指名する" x=260 y=330 size=24]
-[glink target="true_route_other" text="それ以外の人物" x=260 y=430 size=24]
+[glink target="bad_route_morishita" text="森下を指名する" x=260 y=155 size=24]
+[glink target="bad_route_segawa" text="瀬川を指名する" x=260 y=225 size=24]
+[glink target="bad_route_maeda" text="前田を指名する" x=260 y=295 size=24]
+[glink target="true_route_other" text="それ以外の人物" x=260 y=365 size=24]
 [s]
 
 ;==================================================
@@ -4014,8 +4014,6 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 
 *start_extra_battle
 [jump storage="honehone_battle.ks" target="extra_battle_start"]
-
-
 
 
 
