@@ -91,4 +91,11 @@
 [freeimage layer="base" page="fore"]
 [endmacro]
 
+; Full-screen character image used during the solo deduction chapter.
+[macro name="deduction_cg"]
+[clear_talk_chara]
+[bg storage="%storage" time="600"]
+[cg storage="%storage"]
+[endmacro]
+
 [return]

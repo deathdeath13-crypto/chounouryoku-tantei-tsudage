@@ -1,5 +1,5 @@
 ;==================================================
-; CG MODE - 4 columns x 3 rows / 3 pages
+; CG MODE - 4 columns x 3 rows / 4 pages
 ;==================================================
 [layopt layer="message0" visible=false]
 [clearfix]
@@ -21,7 +21,8 @@
 [button graphic="config/menu_button_close.png" enterimg="config/menu_button_close2.png" target="*backtitle" x="1170" y="30" folder="image"]
 [jump target="*page_0" cond="tf.page==0"]
 [jump target="*page_1" cond="tf.page==1"]
-[jump target="*page_2"]
+[jump target="*page_2" cond="tf.page==2"]
+[jump target="*page_3"]
 
 *page_0
 [cg_image_button graphic="cg/cg_010_morishita_bus_xray.png" no_graphic="../../tyrano/images/system/noimage.png" x="60" y="110" width="260" height="146" folder="bgimage"]
@@ -70,9 +71,19 @@
 [cg_image_button graphic="cg/cg_081_honehone_ending.png" no_graphic="../../tyrano/images/system/noimage.png" x="660" y="460" width="260" height="146" folder="bgimage"]
 [cg_image_button graphic="cg/cg_082_honehone_defeated.png" no_graphic="../../tyrano/images/system/noimage.png" x="960" y="460" width="260" height="146" folder="bgimage"]
 [button graphic="config/arrow_prev.png" target="*backpage" x="30" y="655" folder="image"]
+[button graphic="config/arrow_next.png" target="*nextpage" x="1200" y="655" folder="image"]
+[jump target="*endpage"]
+
+*page_3
+[cg_image_button graphic="cg/cg_090_segawa_deduction.png" no_graphic="../../tyrano/images/system/noimage.png" x="60" y="110" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_091_morishita_deduction.png" no_graphic="../../tyrano/images/system/noimage.png" x="360" y="110" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_092_sakamoto_deduction.png" no_graphic="../../tyrano/images/system/noimage.png" x="660" y="110" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_093_ishihara_deduction.png" no_graphic="../../tyrano/images/system/noimage.png" x="960" y="110" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_094_maeda_deduction.png" no_graphic="../../tyrano/images/system/noimage.png" x="60" y="285" width="260" height="146" folder="bgimage"]
+[button graphic="config/arrow_prev.png" target="*backpage" x="30" y="655" folder="image"]
 
 *endpage
-[ptext layer="1" name="cg_page" text=&(tf.page+1)+" / 3" x="570" y="660" width="140" align="center" size="20" color="0xffffff"]
+[ptext layer="1" name="cg_page" text=&(tf.page+1)+" / 4" x="570" y="660" width="140" align="center" size="20" color="0xffffff"]
 [s]
 
 *nextpage

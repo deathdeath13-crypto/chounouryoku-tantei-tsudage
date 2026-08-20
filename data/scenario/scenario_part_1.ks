@@ -2708,23 +2708,29 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 #津田花
 話し合おうにも、誰もまともに話せる状態じゃない。[p]
 
+[deduction_cg storage="cg/cg_094_maeda_deduction.png"]
 #津田花
 前田さんは泣いていた。[p]
 
+[deduction_cg storage="cg/cg_090_segawa_deduction.png"]
 #津田花
 瀬川は苛立っていた。[p]
 
+[deduction_cg storage="cg/cg_091_morishita_deduction.png"]
 #津田花
 森下さんは、俺の袖を離そうとしなかった。[p]
 
+[deduction_cg storage="cg/cg_092_sakamoto_deduction.png"]
 #津田花
 そして坂本さんは――もういない。[p]
 
 [wait time=700]
 
+[deduction_cg storage="cg/cg_093_ishihara_deduction.png"]
 #津田花
 石原さん。[p]
 
+[deduction_cg storage="cg/cg_092_sakamoto_deduction.png"]
 #津田花
 坂本さん。[p]
 
@@ -2869,7 +2875,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 
 *after_think_place
 
-[bg storage="bg_guest_room_night.png" time=600]
+[deduction_cg storage="cg/cg_093_ishihara_deduction.png"]
 
 #津田花
 次だ。[p]
@@ -2979,8 +2985,7 @@ UNOをしていた。[p]
 
 *suspect_morishita
 
-[clear_talk_chara]
-[bg storage="bg_event_morishita_scan.png" time=600]
+[deduction_cg storage="cg/cg_091_morishita_deduction.png"]
 
 #津田花
 ……森下さん。[p]
@@ -3061,8 +3066,7 @@ UNOをしていた。[p]
 
 *suspect_segawa
 
-[clear_talk_chara]
-[bg storage="bg_event_segawa_scan.png" time=600]
+[deduction_cg storage="cg/cg_090_segawa_deduction.png"]
 
 #津田花
 瀬川。[p]
@@ -3131,8 +3135,7 @@ UNOをしていた。[p]
 
 *suspect_maeda
 
-[clear_talk_chara]
-[bg storage="bg_event_maeda_scan.png" time=600]
+[deduction_cg storage="cg/cg_094_maeda_deduction.png"]
 
 #津田花
 前田さん。[p]
@@ -3198,12 +3201,15 @@ UNOを始めようと言ったのも前田さんだ。[p]
 #津田花
 決め手がない。[p]
 
+[deduction_cg storage="cg/cg_091_morishita_deduction.png"]
 #津田花
 森下さんには血痕。[p]
 
+[deduction_cg storage="cg/cg_090_segawa_deduction.png"]
 #津田花
 瀬川には行動の強さ。[p]
 
+[deduction_cg storage="cg/cg_094_maeda_deduction.png"]
 #津田花
 前田さんには、全員を動かしたタイミング。[p]
 
@@ -3236,9 +3242,11 @@ UNOを始めようと言ったのも前田さんだ。[p]
 
 [wait time=600]
 
+[deduction_cg storage="cg/cg_093_ishihara_deduction.png"]
 #津田花
 石原さん。[p]
 
+[deduction_cg storage="cg/cg_092_sakamoto_deduction.png"]
 #津田花
 坂本さん。[p]
 
@@ -3277,6 +3285,7 @@ UNOを始めようと言ったのも前田さんだ。[p]
 
 [playbgm storage="bgm_deduction.mp3" loop=true time=700]
 
+[deduction_cg storage="cg/cg_093_ishihara_deduction.png"]
 #津田花
 それより石原さんだ。[p]
 
@@ -3288,6 +3297,7 @@ UNOを始めようと言ったのも前田さんだ。[p]
 
 [wait time=800]
 
+[deduction_cg storage="cg/cg_092_sakamoto_deduction.png"]
 #津田花
 坂本さんと森下さん。[p]
 
@@ -3424,6 +3434,7 @@ UNO。[p]
 
 *motive_witness
 
+[deduction_cg storage="cg/cg_092_sakamoto_deduction.png"]
 #津田花
 口封じ。[p]
 
@@ -3487,6 +3498,7 @@ UNO。[p]
 
 *motive_personal
 
+[deduction_cg storage="cg/cg_093_ishihara_deduction.png"]
 #津田花
 石原さんと坂本さん。[p]
 
@@ -3549,18 +3561,22 @@ UNO。[p]
 #津田花
 俺は森下さんの血痕を見た。[p]
 
+[deduction_cg storage="cg/cg_091_morishita_deduction.png"]
 #津田花
 でも、その意味はわからない。[p]
 
+[deduction_cg storage="cg/cg_092_sakamoto_deduction.png"]
 #津田花
 坂本さんの服に凶器がないことも見た。[p]
 
 #津田花
 でも、それが何を意味するのかはわからない。[p]
 
+[deduction_cg storage="cg/cg_090_segawa_deduction.png"]
 #津田花
 瀬川も。[p]
 
+[deduction_cg storage="cg/cg_094_maeda_deduction.png"]
 #津田花
 前田さんも。[p]
 
