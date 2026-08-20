@@ -121,6 +121,11 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 	[endif]
 [endmacro]
 
+;CGモードのループ動画サムネイル
+[macro name="video_cg_button"]
+	[button graphic=%thumb x=&mp.x y=&mp.y width=&mp.width height=&mp.height preexp="mp.storage" exp="tf.selected_video = preexp" storage="cg.ks" target="*clickvideo" folder=%folder|bgimage]
+[endmacro]
+
 ;CGが閲覧された場合、CGモードで表示できるようにする
 [macro name="cg" ]
 

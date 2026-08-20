@@ -4415,7 +4415,7 @@ UNO。[p]
 
 *true_route_other
 
-[scene_card date="6月7日　7:10" place="温泉宿・ロビー　推理"]
+[scene_card date="6月7日　7:50" place="温泉宿・ロビー　推理"]
 [bg storage="bg_inn_lobby_night.png" time=1000]
 [playbgm storage="bgm_deduction.mp3" loop=true time=800]
 [chara_mod name="morishita" storage="ch_morishita_fear.png"]
@@ -4532,7 +4532,7 @@ UNO。[p]
 #森下
 【森下】「……今、音が。」[p]
 
-[scene_card date="6月7日　7:35" place="温泉宿・廊下"]
+[scene_card date="6月7日　8:15" place="温泉宿・廊下"]
 [bg storage="bg_inn_corridor_night.png" time=1000]
 
 [clear_talk_chara]
@@ -4783,7 +4783,7 @@ UNO。[p]
 #津田花
 「それが、一番怖かった。」[p]
 
-[scene_card date="6月7日　9:20" place="温泉宿前・事件解決"]
+[scene_card date="6月7日　18:30" place="温泉宿前・事件解決"]
 [stopse buf=1 fadeout=true time=1000]
 [bg storage="bg_inn_exterior_rain.png" time=1000]
 [playbgm storage="bgm_resolve_finale.mp3" loop=true time=800]
@@ -4842,9 +4842,9 @@ UNO。[p]
 #森下
 【森下】「本当にお疲れ様でした」[p]
 
-[solo_chara name="sakamoto"]
-#坂本
-【坂本】「まさか慰安旅行で殺人事件なんて……」[p]
+[solo_chara name="segawa"]
+#瀬川
+【瀬川】「まさか慰安旅行で殺人事件なんて……」[p]
 
 [clear_talk_chara]
 #津田花

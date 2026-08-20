@@ -1,5 +1,5 @@
 ;==================================================
-; CG MODE - 4 columns x 3 rows / 4 pages
+; CG MODE - 4 columns x 3 rows / 5 pages
 ;==================================================
 [layopt layer="message0" visible=false]
 [clearfix]
@@ -11,6 +11,7 @@
 [ptext layer="1" name="cg_subtitle" text="COLLECTED VISIONS / EVENT CG" x="62" y="78" size="12" color="0x63ddea" letterspacing="3"]
 [eval exp="tf.page=0"]
 [eval exp="tf.selected_cg_image='' "]
+[eval exp="tf.selected_video='' "]
 
 *cgpage
 [cm]
@@ -22,7 +23,8 @@
 [jump target="*page_0" cond="tf.page==0"]
 [jump target="*page_1" cond="tf.page==1"]
 [jump target="*page_2" cond="tf.page==2"]
-[jump target="*page_3"]
+[jump target="*page_3" cond="tf.page==3"]
+[jump target="*page_4"]
 
 *page_0
 [cg_image_button graphic="cg/cg_010_morishita_bus_xray.png" no_graphic="../../tyrano/images/system/noimage.png" x="60" y="110" width="260" height="146" folder="bgimage"]
@@ -81,9 +83,22 @@
 [cg_image_button graphic="cg/cg_093_ishihara_deduction.png" no_graphic="../../tyrano/images/system/noimage.png" x="960" y="110" width="260" height="146" folder="bgimage"]
 [cg_image_button graphic="cg/cg_094_maeda_deduction.png" no_graphic="../../tyrano/images/system/noimage.png" x="60" y="285" width="260" height="146" folder="bgimage"]
 [button graphic="config/arrow_prev.png" target="*backpage" x="30" y="655" folder="image"]
+[button graphic="config/arrow_next.png" target="*nextpage" x="1200" y="655" folder="image"]
+[jump target="*endpage"]
+
+*page_4
+[ptext layer="1" name="video_title" text="LOOP MOVIES" x="60" y="92" size="16" color="0xffe89a" letterspacing="3"]
+[video_cg_button thumb="cg/morishita_event_04_first.png" storage="morishita_event_04.mp4" x="60" y="130" width="260" height="146" folder="bgimage"]
+[video_cg_button thumb="cg/morishita_event_03_first.png" storage="morishita_event_03.mp4" x="360" y="130" width="260" height="146" folder="bgimage"]
+[video_cg_button thumb="cg/segawa_event_04_first.png" storage="segawa_event_04.mp4" x="660" y="130" width="260" height="146" folder="bgimage"]
+[video_cg_button thumb="cg/segawa_event_06_first.png" storage="segawa_event_06.mp4" x="960" y="130" width="260" height="146" folder="bgimage"]
+[video_cg_button thumb="cg/segawa_event_07_first.png" storage="segawa_event_07.mp4" x="60" y="315" width="260" height="146" folder="bgimage"]
+[video_cg_button thumb="cg/segawa_event_08_first.png" storage="segawa_event_08.mp4" x="360" y="315" width="260" height="146" folder="bgimage"]
+[video_cg_button thumb="cg/maeda_event_05_first.png" storage="maeda_event_05.mp4" x="660" y="315" width="260" height="146" folder="bgimage"]
+[button graphic="config/arrow_prev.png" target="*backpage" x="30" y="655" folder="image"]
 
 *endpage
-[ptext layer="1" name="cg_page" text=&(tf.page+1)+" / 4" x="570" y="660" width="140" align="center" size="20" color="0xffffff"]
+[ptext layer="1" name="cg_page" text=&(tf.page+1)+" / 5" x="570" y="660" width="140" align="center" size="20" color="0xffffff"]
 [s]
 
 *nextpage
@@ -108,6 +123,19 @@
 [jump target="*cgpage"]
 
 *no_image
+[jump target="*cgpage"]
+
+*clickvideo
+[cm]
+[freeimage layer="1"]
+[layopt layer="1" visible=true]
+[bg storage="bg_black.png" time="0"]
+[bgmovie storage=&tf.selected_video loop="true" mute="true" time="300"]
+[button graphic="config/menu_button_close.png" enterimg="config/menu_button_close2.png" target="*closevideo" x="1170" y="30" folder="image"]
+[s]
+
+*closevideo
+[stop_bgmovie time="200"]
 [jump target="*cgpage"]
 
 *backtitle
