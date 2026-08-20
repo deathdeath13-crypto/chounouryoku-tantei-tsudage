@@ -33,7 +33,7 @@
 [clear_talk_chara]
 [bg storage="cg/cg_059_maeda_room_peek.png" time=700]
 [cg storage="cg/cg_059_maeda_room_peek.png"]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「私も……。」[p]
 #前田
@@ -56,7 +56,7 @@
 「でも、無理に引き寄せるような雰囲気ではない。」[p]
 #津田花
 「ただ、怖くて、誰かの体温が欲しいだけだ。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「……ごめんね。」[p]
 #前田
@@ -66,7 +66,7 @@
 「子供じゃない。」[p]
 #津田花
 「怖いのは、普通だ。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「そう言ってくれるの、ありがとう。」[p]
 #前田
@@ -82,7 +82,7 @@
 「前田さんは、普段の明るさを意識的に落としている。」[p]
 #津田花
 「声も、いつもより少し低い。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「石原さんも、坂本さんも……。」[p]
 #前田
@@ -94,7 +94,7 @@
 [clear_talk_chara]
 #津田花
 「……ああ。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「怖くて眠れないの。」[p]
 #前田
@@ -108,7 +108,7 @@
 「前田さんは小さく息を吐いた。」[p]
 #津田花
 「それから、俺の袖をそっと掴んだ。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「……くっついても、いい？」[p]
 [clear_talk_chara]
@@ -122,7 +122,7 @@
 「甘いシャンプーの残り香。」[p]
 #津田花
 「雨の湿気と混じって、妙に落ち着く。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「温かい。」[p]
 #前田
@@ -146,13 +146,13 @@
 「彼女は、本当に怖がっていたのだ。」[p]
 #津田花
 「明るい仮面の下で。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「ねえ。」[p]
 [clear_talk_chara]
 #津田花
 「ん。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「津田花さんって、いつも冷静だよね。」[p]
 #前田
@@ -162,7 +162,7 @@
 [clear_talk_chara]
 #津田花
 「謝るしかなかった。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「でも、来てくれた。」[p]
 #前田
@@ -170,6 +170,7 @@
 [clear_talk_chara]
 #津田花
 「前田さんは顔を上げた。」[p]
+[clear_talk_chara]
 [bg storage="cg/cg_071_maeda_event_02.png" time=700]
 [cg storage="cg/cg_071_maeda_event_02.png"]
 #津田花
@@ -178,7 +179,7 @@
 「目が、すぐそこにあった。」[p]
 #津田花
 「いつもは明るい瞳が、今は少し潤んでいる。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「……ねえ、津田花さん。」[p]
 #前田
@@ -186,7 +187,7 @@
 [clear_talk_chara]
 #津田花
 「言ってみろ。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「怖いと、変なこと考えるんだよね。」[p]
 #前田
@@ -196,7 +197,7 @@
 [clear_talk_chara]
 #津田花
 「……。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「だからさ。」[p]
 #前田
@@ -204,7 +205,7 @@
 [clear_talk_chara]
 #津田花
 「……は？」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「冗談、冗談。」[p]
 #前田
@@ -220,7 +221,7 @@
 「怖い夜に、人は変なことを言う。」[p]
 #津田花
 「変なことをして、確かめたくなる。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「……見せるよ。」[p]
 #前田
@@ -244,7 +245,7 @@
 「旅行用に選んだのだろう。」[p]
 #津田花
 「でも、今の状況では、それだけで十分に生々しかった。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「……どう？」[p]
 #前田
@@ -254,7 +255,7 @@
 「変じゃない。」[p]
 #津田花
 「綺麗だ。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「……ふふ。」[p]
 #前田
@@ -270,7 +271,7 @@
 「俺は、手を伸ばした。」[p]
 #津田花
 「彼女の太ももに触れる。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「……ん。」[p]
 [clear_talk_chara]
@@ -284,7 +285,7 @@
 「布団の上。」[p]
 #津田花
 「前田さんは、恥ずかしそうに目を細めた。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「……優しくしてね。」[p]
 [clear_talk_chara]
@@ -307,7 +308,7 @@
 [clear_talk_chara]
 [bg storage="cg/cg_073_maeda_event_04.png" time=700]
 [cg storage="cg/cg_073_maeda_event_04.png"]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「……見ないで。」[p]
 #前田
@@ -325,7 +326,7 @@
 「脱がせはしない。」[p]
 #津田花
 「ただ、横にずらす。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「あっ……。」[p]
 [clear_talk_chara]
@@ -337,7 +338,7 @@
 「前田さんは顔をそむけたが、脚は閉じなかった。」[p]
 #津田花
 「俺は自分のものを取り出し、ずれた布地の隙間に当てた。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「……入ってくるの？」[p]
 [clear_talk_chara]
@@ -348,8 +349,9 @@
 [clear_talk_chara]
 [bg storage="cg/maeda_event_05_first.png" time=0]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
+[clear_talk_chara]
 [bgmovie storage="maeda_event_05.mp4" loop="true" mute="true" time="300"]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「んっ……あっ……。」[p]
 [clear_talk_chara]
@@ -361,13 +363,13 @@
 「前田さんの内壁が、優しく俺を迎え入れる。」[p]
 #津田花
 「パンツの布が、結合部を圧迫する感触が、妙に生々しい。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「……全部、入った？」[p]
 [clear_talk_chara]
 #津田花
 「ああ。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「動いて……。」[p]
 [clear_talk_chara]
@@ -379,7 +381,7 @@
 「引き抜いて、また沈める。」[p]
 #津田花
 「水音が、雨音に混じる。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「んっ……あっ……いい……。」[p]
 #前田
@@ -395,7 +397,7 @@
 「俺はペースを少し上げた。」[p]
 #津田花
 「奥まで届くたびに、彼女の太ももが震える。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「あっ……そこ……。」[p]
 #前田
@@ -409,7 +411,7 @@
 「キスをしながら、腰を打ちつける。」[p]
 #津田花
 「前田さんの声が、口の中に溶ける。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「んっ……んむ……。」[p]
 [clear_talk_chara]
@@ -419,12 +421,13 @@
 「引き抜く。」[p]
 #津田花
 「彼女の顔の前に、熱いものを突きつける。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「……え？」[p]
 [clear_talk_chara]
 #津田花
 「出す。」[p]
+[clear_talk_chara]
 [bg storage="cg/maeda_event_05_last.png" time=0]
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
@@ -435,7 +438,7 @@
 「白い飛沫が、前田さんの頰に、唇に、まぶたに飛び散る。」[p]
 #津田花
 「彼女は目を閉じ、小さく息を詰めた。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「……熱い。」[p]
 #前田
@@ -447,13 +450,13 @@
 「前田さんは、指でそれをそっと拭った。」[p]
 #津田花
 「そして、少し照れくさそうに笑った。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「……変なこと、しちゃったね。」[p]
 [clear_talk_chara]
 #津田花
 「した。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「でも……怖くなくなった。」[p]
 #前田
@@ -467,7 +470,7 @@
 「はだけた浴衣を、優しくかけてやる。」[p]
 #津田花
 「ずれたパンツも、元に戻してやる。」[p]
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「……朝まで、このままでいい？」[p]
 [clear_talk_chara]

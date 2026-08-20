@@ -82,6 +82,7 @@
 ; Event CGs use the base layer through one dedicated macro so the next [bg] clears them.
 ; Pass a path relative to data/image, for example cg/cg_010_xxx.png.
 [macro name="show_event_cg"]
+[clear_talk_chara]
 [image layer="base" page="fore" storage="%storage" left="0" top="0" width="1280" height="720"]
 [cg storage="%storage"]
 [endmacro]

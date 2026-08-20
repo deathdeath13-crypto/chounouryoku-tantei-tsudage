@@ -525,10 +525,6 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 
 
 [clear_talk_chara]
-[bg storage="cg/cg_010_morishita_bus_xray.png" time=700]
-[cg storage="cg/cg_010_morishita_bus_xray.png"]
-
-[clear_talk_chara]
 #津田花
 カードの裏側が、ぼんやりと透けて見える。[p]
 
@@ -547,8 +543,8 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 [clear_talk_chara]
 [stopbgm time=250 wait=true]
 [playbgm storage="bgm_lucky_comedy.mp3" loop=true time=500]
-[bg storage="cg/cg_011_morishita_bus_peek.png" time=700]
-[cg storage="cg/cg_011_morishita_bus_peek.png"]
+[bg storage="cg/cg_010_morishita_bus_xray.png" time=700]
+[cg storage="cg/cg_010_morishita_bus_xray.png"]
 
 #津田花
 だが、見えたのはカードだけではなかった。[p]
@@ -574,7 +570,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 #津田花
 まずい。これは真実を暴く力ではない。俺の理性を試す力だ。[p]
 
-[solo_chara name="morishita"]
+;[solo_chara name="morishita"]
 #森下
 【森下】津田花さん？　大丈夫ですか？[p]
 
@@ -596,7 +592,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 
 ;[playse storage="se_card.ogg"]
 
-[solo_chara name="morishita"]
+;[solo_chara name="morishita"]
 #森下
 【森下】あっ、やった！　私の勝ちです！[p]
 
@@ -904,6 +900,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 ;==================================================
 
 [scene_card date="6月6日　17:30" place="温泉・男湯"]
+[clear_talk_chara]
 [bg storage="bg_male_bath_night.png" time=1000]
 
 [clear_talk_chara]
@@ -943,6 +940,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 [playbgm storage="bgm_voyeur_comedy.mp3" loop=true time=800]
 [playse storage="se_xray.mp3"]
 
+[clear_talk_chara]
 [bg storage="cg/cg_020_dressing_room_01.png" time=700]
 [cg storage="cg/cg_020_dressing_room_01.png"]
 [playse storage="se_heartbeat.mp3"]
@@ -954,36 +952,42 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 #津田花
 壁の向こうから、楽しそうな声がする。[p]
 
+[clear_talk_chara]
 [bg storage="cg/cg_021_dressing_room_02.png" time=700]
 [cg storage="cg/cg_021_dressing_room_02.png"]
 
 #森下
 【森下】わぁ、気持ちいいですねぇ。[p]
 
+[clear_talk_chara]
 [bg storage="cg/cg_022_dressing_room_03.png" time=700]
 [cg storage="cg/cg_022_dressing_room_03.png"]
 
 #前田
 【前田】修学旅行みたい！[p]
 
+[clear_talk_chara]
 [bg storage="cg/cg_023_morishita_bath.png" time=700]
 [cg storage="cg/cg_023_morishita_bath.png"]
 
 #瀬川
 【瀬川】もう少し静かにしてよ……[p]
 
+[clear_talk_chara]
 [bg storage="cg/cg_024_maeda_bath.png" time=700]
 [cg storage="cg/cg_024_maeda_bath.png"]
 
 #坂本
 【坂本】ふふっ、でも楽しそうですね。[p]
 
+[clear_talk_chara]
 [bg storage="cg/cg_025_segawa_bath.png" time=700]
 [cg storage="cg/cg_025_segawa_bath.png"]
 
 #石原
 【石原】湯気が濃いですね。三歩先がもう異世界です。[p]
 
+[clear_talk_chara]
 [bg storage="cg/cg_026_sakamoto_bath.png" time=700]
 [cg storage="cg/cg_026_sakamoto_bath.png"]
 
@@ -997,6 +1001,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 #津田花
 目を逸らすべきなのに、逸らすほど鮮明になる。[p]
 
+[clear_talk_chara]
 [bg storage="cg/cg_027_ishihara_bath.png" time=700]
 [cg storage="cg/cg_027_ishihara_bath.png"]
 
@@ -1046,6 +1051,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 
 *after_bath_event
 
+[clear_talk_chara]
 [bg storage="bg_male_bath_night.png" time=500]
 
 [clear_talk_chara]
@@ -1824,6 +1830,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 
 [clear_talk_chara]
 [playse storage="se_xray.mp3"]
+[clear_talk_chara]
 [bg storage="cg/cg_040_segawa_scan.png" time=700]
 [cg storage="cg/cg_040_segawa_scan.png"]
 
@@ -1868,6 +1875,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 
 [clear_talk_chara]
 [playse storage="se_xray.mp3"]
+[clear_talk_chara]
 [bg storage="cg/cg_041_maeda_scan.png" time=700]
 [cg storage="cg/cg_041_maeda_scan.png"]
 
@@ -1912,6 +1920,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 
 [clear_talk_chara]
 [playse storage="se_xray.mp3"]
+[clear_talk_chara]
 [bg storage="cg/cg_042_sakamoto_scan.png" time=700]
 [cg storage="cg/cg_042_sakamoto_scan.png"]
 
@@ -1986,6 +1995,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 
 [clear_talk_chara]
 [playse storage="se_xray.mp3"]
+[clear_talk_chara]
 [bg storage="cg/cg_043_morishita_scan.png" time=700]
 [cg storage="cg/cg_043_morishita_scan.png"]
 
@@ -2200,12 +2210,14 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 [jump target="after_morishita_night"]
 
 [playse storage="se_door_open.mp3"]
+[clear_talk_chara]
 [bg storage="event_morishita_night_placeholder_01.png" time=500]
 [playbgm storage="bgm_romance.mp3" loop=true time=700]
+[clear_talk_chara]
 [cg storage="event_morishita_night_placeholder_01.png"]
 
 
-[solo_chara name="morishita"]
+;[solo_chara name="morishita"]
 #森下
 【森下】「ごめんなさい……。」[p]
 
@@ -2216,7 +2228,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 #津田花
 「いや、起きてた。」[p]
 
-[solo_chara name="morishita"]
+;[solo_chara name="morishita"]
 #森下
 【森下】「……よかった。」[p]
 
@@ -2242,7 +2254,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 #津田花
 「本当に怯えているように見えた。」[p]
 
-[solo_chara name="morishita"]
+;[solo_chara name="morishita"]
 #森下
 【森下】「朝まで……一緒にいてもいいですか。」[p]
 
@@ -2250,7 +2262,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 #津田花
 「……入って。」[p]
 
-[solo_chara name="morishita"]
+;[solo_chara name="morishita"]
 #森下
 【森下】「ありがとうございます……。」[p]
 
@@ -2272,7 +2284,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 「この時の俺には、まだわからなかった。」[p]
 
 
-[solo_chara name="morishita"]
+;[solo_chara name="morishita"]
 #森下
 【森下】「津田花さん……。」[p]
 
@@ -2283,7 +2295,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 #津田花
 「……そうだな。」[p]
 
-[solo_chara name="morishita"]
+;[solo_chara name="morishita"]
 #森下
 【森下】「昨日まで普通に話してたのに。」[p]
 
@@ -2297,7 +2309,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 #津田花
 「森下さんの声は、泣きそうで、でも涙は出ていなかった。」[p]
 
-[solo_chara name="morishita"]
+;[solo_chara name="morishita"]
 #森下
 【森下】「私、最低ですよね。」[p]
 
@@ -2305,7 +2317,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 #津田花
 「何が？」[p]
 
-[solo_chara name="morishita"]
+;[solo_chara name="morishita"]
 #森下
 【森下】「怖いんです。」[p]
 
@@ -2325,7 +2337,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 #津田花
 「人が死んで、自分も死ぬかもしれないと思ったら、怖いに決まってる。」[p]
 
-[solo_chara name="morishita"]
+;[solo_chara name="morishita"]
 #森下
 【森下】「……普通、ですか。」[p]
 
@@ -2333,7 +2345,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 #津田花
 「少なくとも、俺はそう思う。」[p]
 
-[solo_chara name="morishita"]
+;[solo_chara name="morishita"]
 #森下
 【森下】「津田花さんは、優しいですね。」[p]
 
@@ -2344,7 +2356,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 #津田花
 「たぶん今も、かなり最低なことを考えてる。」[p]
 
-[solo_chara name="morishita"]
+;[solo_chara name="morishita"]
 #森下
 【森下】「え？」[p]
 
@@ -2353,7 +2365,7 @@ CTがそんな殺意高めに回っていいわけないだろ！[p]
 「いや、何でもない。」[p]
 
 [chara_mod name="morishita" storage="ch_morishita_smile.png"]
-[solo_chara name="morishita"]
+;[solo_chara name="morishita"]
 #森下
 【森下】「変な津田花さん……。」[p]
 
@@ -2967,6 +2979,7 @@ UNOをしていた。[p]
 
 *suspect_morishita
 
+[clear_talk_chara]
 [bg storage="bg_event_morishita_scan.png" time=600]
 
 #津田花
@@ -3048,6 +3061,7 @@ UNOをしていた。[p]
 
 *suspect_segawa
 
+[clear_talk_chara]
 [bg storage="bg_event_segawa_scan.png" time=600]
 
 #津田花
@@ -3117,6 +3131,7 @@ UNOをしていた。[p]
 
 *suspect_maeda
 
+[clear_talk_chara]
 [bg storage="bg_event_maeda_scan.png" time=600]
 
 #津田花
@@ -4101,7 +4116,7 @@ UNO。[p]
 [bg storage="cg/cg_058_segawa_room_peek.png" time=700]
 [cg storage="cg/cg_058_segawa_room_peek.png"]
 
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「……情けない顔。」[p]
 
@@ -4112,7 +4127,7 @@ UNO。[p]
 #津田花
 「廃業した。」[p]
 
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「早いわね。」[p]
 
@@ -4120,7 +4135,7 @@ UNO。[p]
 #津田花
 「需要がなかった。」[p]
 
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「……入れば。」[p]
 
@@ -4180,7 +4195,7 @@ UNO。[p]
 [bg storage="cg/cg_059_maeda_room_peek.png" time=700]
 [cg storage="cg/cg_059_maeda_room_peek.png"]
 
-[solo_chara name="maeda"]
+;[solo_chara name="maeda"]
 #前田
 【前田】「私も……。」[p]
 

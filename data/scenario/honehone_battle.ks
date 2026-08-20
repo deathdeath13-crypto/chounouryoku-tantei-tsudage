@@ -124,6 +124,7 @@
 [stopbgm time=700]
 [playse storage="se_telekinesis.mp3"]
 [quake time=900 hmax=18 vmax=12]
+[clear_talk_chara]
 [bg storage="cg/cg_082_honehone_defeated.png" time=900]
 [cg storage="cg/cg_082_honehone_defeated.png"]
 #ホネホネ神

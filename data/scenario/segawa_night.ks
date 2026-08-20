@@ -39,9 +39,10 @@
 「一人にしないでくれ。」[p]
 [wait time=500]
 ;[playse storage="se_door_open.ogg"]
+[clear_talk_chara]
 [bg storage="cg/cg_060_segawa_event_01.png" time=700]
 [cg storage="cg/cg_060_segawa_event_01.png"]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「……情けない顔。」[p]
 #瀬川
@@ -49,13 +50,13 @@
 [clear_talk_chara]
 #津田花
 「廃業した。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「早いわね。」[p]
 [clear_talk_chara]
 #津田花
 「需要がなかった。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「……入れば。」[p]
 [clear_talk_chara]
@@ -78,7 +79,7 @@
 「俺は彼女を、根拠のない推理で犯人扱いした。」[p]
 #津田花
 「信頼を自ら壊した。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「……勝手に寝て。」[p]
 #瀬川
@@ -108,7 +109,7 @@
 「しばらくして、俺は口を開いた。」[p]
 #津田花
 「……悪かった。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「何が。」[p]
 [clear_talk_chara]
@@ -116,7 +117,7 @@
 「犯人扱いしたこと。」[p]
 #津田花
 「あんな薄い根拠で。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「……今更。」[p]
 #瀬川
@@ -126,7 +127,7 @@
 「そうだな。」[p]
 #津田花
 「戻らない。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「私、ずっと整理してたのよ。」[p]
 #瀬川
@@ -140,19 +141,19 @@
 [clear_talk_chara]
 #津田花
 「最低だった。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「最低よ。」[p]
 [clear_talk_chara]
 #津田花
 「同意する。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「……素直ね。」[p]
 [clear_talk_chara]
 #津田花
 「否定する材料がない。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「ふっ……。」[p]
 [clear_talk_chara]
@@ -170,7 +171,7 @@
 「雨の湿気で、生地が少し張りついている。」[p]
 #津田花
 「俺は、自分の布団から身を起こした。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「……何。」[p]
 [clear_talk_chara]
@@ -178,13 +179,13 @@
 「近づいた。」[p]
 #津田花
 「彼女の背中に、手を置いた。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「触らないで。」[p]
 [clear_talk_chara]
 #津田花
 「触る。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「は？」[p]
 [clear_talk_chara]
@@ -192,7 +193,7 @@
 「俺は彼女の肩を掴み、半ば強引に仰向けに転がした。」[p]
 #津田花
 「瀬川の目が、怒りで見開かれる。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「何するのよ……！」[p]
 [clear_talk_chara]
@@ -212,7 +213,7 @@
 「ブラの上からでもわかる、整った形の胸。」[p]
 #津田花
 「瀬川は即座に両腕で胸を隠そうとした。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「やめなさい……！」[p]
 #瀬川
@@ -228,7 +229,7 @@
 「予想より弾力がある。」[p]
 #津田花
 「指の間で形を変えながら、掌に収まる。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「んっ……っ、離しなさい……！」[p]
 [clear_talk_chara]
@@ -242,7 +243,7 @@
 「まんざらでもない、という顔だ。」[p]
 #津田花
 「口では拒否しているのに、耳まで赤い。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「最低……。」[p]
 #瀬川
@@ -256,7 +257,7 @@
 「指で先端を摘まみ、転がす。」[p]
 #津田花
 「瀬川の息が、短く乱れる。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「あっ……んっ……馬鹿……。」[p]
 [clear_talk_chara]
@@ -272,7 +273,7 @@
 「脱がせはしない。」[p]
 #津田花
 「横にずらす。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「や、やめ……そんなの……。」[p]
 [clear_talk_chara]
@@ -286,7 +287,7 @@
 「でも、脚は閉じなかった。」[p]
 #津田花
 「俺は自分のものを取り出し、ずれた布地の隙間に先端を当てた。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「入って……くるの……？」[p]
 [clear_talk_chara]
@@ -321,10 +322,12 @@
 「ぶちこむ。」[p]
 #津田花
 「一気に押し込む。」[p]
+[clear_talk_chara]
 [bg storage="cg/segawa_event_04_first.png" time=0]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
+[clear_talk_chara]
 [bgmovie storage="segawa_event_04.mp4" loop="true" mute="true" time="300"]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「んあっ……！」[p]
 [clear_talk_chara]
@@ -336,7 +339,7 @@
 「瀬川の内壁が、びくびくと収縮しながら俺を締めつける。」[p]
 #津田花
 「パンツの布が、結合部を圧迫してくる感触が余計に生々しい。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「っ……動くな……まだ……。」[p]
 [clear_talk_chara]
@@ -346,7 +349,7 @@
 「ゆっくりと腰を引き、また突き入れる。」[p]
 #津田花
 「ぬちゃ、という水音が、雨音に混じる。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「あっ……んっ……馬鹿……こんな……。」[p]
 [clear_talk_chara]
@@ -358,7 +361,7 @@
 「俺はペースを上げた。」[p]
 #津田花
 「奥まで届くたびに、瀬川の太ももが震える。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「やっ……深……い……。」[p]
 #瀬川
@@ -376,12 +379,13 @@
 「引き抜く。」[p]
 #津田花
 「彼女の顔の前に、熱いものを突きつける。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「は……？　何……。」[p]
 [clear_talk_chara]
 #津田花
 「出す。」[p]
+[clear_talk_chara]
 [bg storage="cg/cg_064_segawa_event_05.png" time=0]
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
@@ -392,7 +396,7 @@
 「白い飛沫が、瀬川の頰に、唇に、額に飛び散る。」[p]
 #津田花
 「彼女は目を閉じ、小さく息を詰めた。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「……最低。」[p]
 #瀬川
@@ -404,7 +408,7 @@
 「糸を引く白濁が、彼女の唇の端から顎へ伝う。」[p]
 #津田花
 「瀬川は指でそれを拭おうとしたが、逆に広げてしまった。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「……ふざけないで。」[p]
 [clear_talk_chara]
@@ -414,7 +418,7 @@
 「俺はまだ硬いままだった。」[p]
 #津田花
 「間髪を入れず、彼女の体をひっくり返した。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「えっ……まだ……？」[p]
 [clear_talk_chara]
@@ -455,10 +459,12 @@
 「こます。」[p]
 #津田花
 「後ろから、一気に挿入した。」[p]
+[clear_talk_chara]
 [bg storage="cg/segawa_event_06_first.png" time=0]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
+[clear_talk_chara]
 [bgmovie storage="segawa_event_06.mp4" loop="true" mute="true" time="300"]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「んあっ……！　後ろから……！」[p]
 [clear_talk_chara]
@@ -468,7 +474,7 @@
 「この体位は、より奥まで届く。」[p]
 #津田花
 「瀬川の背中が、弓なりに反る。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「あっ……あっ……だめ……。」[p]
 [clear_talk_chara]
@@ -478,7 +484,7 @@
 「俺は彼女の腰を掴み、激しく突いた。」[p]
 #津田花
 「肌と肌がぶつかる音が、部屋に響く。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「んっ……んあっ……馬鹿……激し……い……。」[p]
 [clear_talk_chara]
@@ -490,7 +496,7 @@
 「背面座位。」[p]
 #津田花
 「背中を俺の胸に預けたまま、下から突き上げる。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「やあっ……こんなの……！」[p]
 [clear_talk_chara]
@@ -498,7 +504,7 @@
 「両手で彼女の胸を掴み、揉みながら腰を打ちつける。」[p]
 #津田花
 「瀬川の声が、徐々に高くなっていく。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「あっ……あっ……出る……出ちゃう……。」[p]
 [clear_talk_chara]
@@ -508,6 +514,7 @@
 「抜く。」[p]
 #津田花
 「彼女の背中に、熱いものを放った。」[p]
+[clear_talk_chara]
 [bg storage="cg/segawa_event_06_last.png" time=0]
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
@@ -518,7 +525,7 @@
 「白い線が、瀬川の背中を伝う。」[p]
 #津田花
 「浴衣の端にまで、染みを作る。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「……はぁ……はぁ……。」[p]
 #瀬川
@@ -526,7 +533,7 @@
 [clear_talk_chara]
 #津田花
 「まだ。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「は……？」[p]
 [clear_talk_chara]
@@ -569,10 +576,12 @@
 「重力が、彼女の体重を俺の上に乗せる。」[p]
 #津田花
 「奥まで、深く沈む。」[p]
+[clear_talk_chara]
 [bg storage="cg/segawa_event_07_first.png" time=0]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
+[clear_talk_chara]
 [bgmovie storage="segawa_event_07.mp4" loop="true" mute="true" time="300"]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「んあっ……あっ……深……い……死ぬ……。」[p]
 [clear_talk_chara]
@@ -586,7 +595,7 @@
 「胸が弾む。」[p]
 #津田花
 「声が、意味を失っていく。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「あっ……あっ……んあっ……何……これ……。」[p]
 #瀬川
@@ -602,7 +611,7 @@
 「俺は、さらに位置をずらした。」[p]
 #津田花
 「秘部から抜き、少し上の、きつい入口に先端を当てる。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「……え。」[p]
 #瀬川
@@ -639,12 +648,14 @@
 「ケツにこます。」[p]
 #津田花
 「ゆっくりと、だが確実に、アナルへ押し込む。」[p]
+[clear_talk_chara]
 [bg storage="cg/segawa_event_08_first.png" time=0]
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
+[clear_talk_chara]
 [bgmovie storage="segawa_event_08.mp4" loop="true" mute="true" time="300"]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「んあっ……！！　だめ……そこ……違う……！」[p]
 [clear_talk_chara]
@@ -656,7 +667,7 @@
 「狭い穴が、抵抗しながらも徐々に広がっていく。」[p]
 #津田花
 「瀬川の全身が、びくびくと痙攣した。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「痛……い……変……変な感じ……。」[p]
 #瀬川
@@ -668,7 +679,7 @@
 「根元まで沈める。」[p]
 #津田花
 「彼女の内壁が、熱く、異常にきつく俺を締めつける。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「んあっ……あっ……何……これ……頭……。」[p]
 [clear_talk_chara]
@@ -678,7 +689,7 @@
 「瀬川の声は、もはや言葉になっていなかった。」[p]
 #津田花
 「意味不明な吐息と、短い悲鳴が混じる。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「や……あっ……んっ……ふぁ……。」[p]
 #瀬川
@@ -690,7 +701,7 @@
 「最初は拒絶していた筋肉が、快楽を受け入れ始めている。」[p]
 #津田花
 「俺は容赦なく突き続けた。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「あっ……あっ……出る……また……出ちゃう……。」[p]
 [clear_talk_chara]
@@ -698,6 +709,7 @@
 「俺も限界だった。」[p]
 #津田花
 「奥まで押し込んだまま、熱いものを放つ。」[p]
+[clear_talk_chara]
 [bg storage="cg/segawa_event_08_last.png" time=0]
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
@@ -712,7 +724,7 @@
 「ゆっくりと抜く。」[p]
 #津田花
 「白いものが、わずかに溢れ出る。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「……はぁ……はぁ……。」[p]
 #瀬川
@@ -722,7 +734,7 @@
 [clear_talk_chara]
 #津田花
 「でも、何だ。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「……もう、動けない……。」[p]
 [clear_talk_chara]
@@ -740,13 +752,13 @@
 「怒りの色は、ほとんど消えていた。」[p]
 #津田花
 「代わりに、虚脱と、わずかな余韻が残っている。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「……次は……絶対……許さないから……。」[p]
 [clear_talk_chara]
 #津田花
 「次、がある前提だ。」[p]
-[solo_chara name="segawa"]
+;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「……うるさい。」[p]
 [clear_talk_chara]

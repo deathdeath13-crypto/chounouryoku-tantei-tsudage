@@ -253,6 +253,7 @@
 [clear_talk_chara]
 [bg storage="cg/morishita_event_04_first.png" time=0]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
+[clear_talk_chara]
 [bgmovie storage="morishita_event_04.mp4" loop="true" mute="true" time="300"]
 #森下
 【森下】「あっ……んっ……入って、くる……。」[p]
@@ -298,10 +299,12 @@
 「反応が良い。」[p]
 #津田花
 「俺はペースを上げた。」[p]
+[clear_talk_chara]
 [bg storage="cg/morishita_event_03_first.png" time=0]
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
+[clear_talk_chara]
 [bgmovie storage="morishita_event_03.mp4" loop="true" mute="true" time="300"]
 #津田花
 「奥まで届くたびに、森下さんの内壁が痙攣する。」[p]
@@ -341,6 +344,7 @@
 「俺は彼女に、熱いものを向けた。」[p]
 #津田花
 「そして、放った。」[p]
+[clear_talk_chara]
 [bg storage="cg/cg_055_morishita_event_05.png" time=0]
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
