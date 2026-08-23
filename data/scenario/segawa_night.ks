@@ -791,4 +791,5 @@
 ;--------------------------------------------------
 ; 瀬川ルート　夜の場面終了
 ;--------------------------------------------------
-[jump storage="scenario_part_1.ks" target="bad_midnight"]
+[jump storage="scenario_09_accusation.ks" target="bad_midnight"]
+
