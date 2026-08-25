@@ -52,6 +52,10 @@
     var lastIndex = -1;
     var timer = null;
     var stopped = false;
+    var observer = null;
+    var controller = null;
+    var armTimer = null;
+    var actionHandler = null;
 
     function pickImage() {
         var next = Math.floor(Math.random() * files.length);
@@ -119,18 +123,79 @@
         }
     }
 
-    window.__titleSlideshow = {
+    controller = {
         stop: function () {
+            if (stopped) {
+                return;
+            }
             stopped = true;
             clearTimeout(timer);
+            if (observer) {
+                observer.disconnect();
+                observer = null;
+            }
+            clearInterval(armTimer);
+            if (actionHandler) {
+                document.removeEventListener("click", actionHandler, true);
+                actionHandler = null;
+            }
             for (var i = 0; i < slots.length; i++) {
                 slots[i].onload = null;
             }
             if (container.parentNode) {
                 container.parentNode.removeChild(container);
             }
+            if (window.__titleSlideshow === controller) {
+                window.__titleSlideshow = null;
+            }
         }
     };
+    window.__titleSlideshow = controller;
+
+    // CG MODEはボタン操作時、LOADは保存スロットを選択した時に破棄する。
+    // LOAD画面を開いただけ、または閉じて戻っただけなら維持する。
+    actionHandler = function (event) {
+        var target = event.target;
+        if (!target || !target.closest) {
+            return;
+        }
+        var image = target.closest("img");
+        var src = image ? (image.getAttribute("src") || "") : "";
+        var selectedSave = target.closest(".save_display_area");
+        if (src.indexOf("cg_mode.png") !== -1 || src.indexOf("new_game.png") !== -1 || selectedSave) {
+            controller.stop();
+        }
+    };
+    document.addEventListener("click", actionHandler, true);
+
+    // NEW GAME以外（LOADやCG MODE）からタイトルを離れた場合も、
+    // タイトル用ボタンが消えた時点でスライドショーを確実に破棄する。
+    // LOAD画面を開いて戻っただけならボタンは残るため、表示も維持される。
+    var titleControlsReady = false;
+    armTimer = setInterval(function () {
+        if (stopped) {
+            clearInterval(armTimer);
+            return;
+        }
+        if (baseLayer.querySelector('img[src*="title_tsudage/"]')) {
+            titleControlsReady = true;
+            clearInterval(armTimer);
+        }
+    }, 50);
+    observer = new MutationObserver(function () {
+        setTimeout(function () {
+            if (stopped) {
+                return;
+            }
+            var titleButton = baseLayer.querySelector('img[src*="title_tsudage/"]');
+            if (titleButton) {
+                titleControlsReady = true;
+            } else if (titleControlsReady) {
+                controller.stop();
+            }
+        }, 0);
+    });
+    observer.observe(baseLayer, { childList: true, subtree: true });
 
     showNext(true);
 })();
