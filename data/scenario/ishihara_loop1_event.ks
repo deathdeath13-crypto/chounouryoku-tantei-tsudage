@@ -242,8 +242,11 @@
 [clear_talk_chara]
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
-[bg storage="cg/cg_103_ishihara_event_05.png" time=700]
+[bg storage="cg/cg_103_ishihara_event_05.png" time=0]
 [cg storage="cg/cg_103_ishihara_event_05.png"]
+[clear_talk_chara]
+[playse storage="se_morishita_water.mp3" loop=true buf=3]
+[bgmovie storage="ishihara_loop1_motion_02.mp4" loop="true" mute="true" time="300"]
 #津田花
 「俺はペースを少し上げた。」[p]
 #津田花
@@ -275,6 +278,9 @@
 「限界が近い。」[p]
 #津田花
 「彼女に向かって、熱いものを放った。」[p]
+[clear_talk_chara]
+[stop_bgmovie time="250"]
+[stopse buf=3 fadeout=true time=200]
 [bg storage="cg/cg_104_ishihara_event_06.png" time=600]
 [cg storage="cg/cg_104_ishihara_event_06.png"]
 [clear_talk_chara]
