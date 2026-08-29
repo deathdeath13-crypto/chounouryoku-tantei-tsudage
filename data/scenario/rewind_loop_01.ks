@@ -636,6 +636,8 @@
 #津田花
 沈黙は気まずくなかった。[p]
 
+[call storage="ishihara_loop1_event.ks" target="*ishihara_loop1_event_start"]
+
 #津田花
 石原さんが生きている。[p]
 

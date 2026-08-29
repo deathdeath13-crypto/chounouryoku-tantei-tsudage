@@ -1,5 +1,5 @@
 ;==================================================
-; CG MODE - 4 columns x 3 rows / 5 pages
+; CG MODE - 4 columns x 3 rows / 6 pages
 ;==================================================
 [layopt layer="message0" visible=false]
 [clearfix]
@@ -24,7 +24,8 @@
 [jump target="*page_1" cond="tf.page==1"]
 [jump target="*page_2" cond="tf.page==2"]
 [jump target="*page_3" cond="tf.page==3"]
-[jump target="*page_4"]
+[jump target="*page_4" cond="tf.page==4"]
+[jump target="*page_5"]
 
 *page_0
 [cg_image_button graphic="cg/cg_010_morishita_bus_xray.png" no_graphic="../../tyrano/images/system/noimage.png" x="60" y="110" width="260" height="146" folder="bgimage"]
@@ -96,9 +97,20 @@
 [video_cg_button thumb="cg/segawa_event_08_first.png" storage="segawa_event_08.mp4" x="360" y="315" width="260" height="146" folder="bgimage"]
 [video_cg_button thumb="cg/maeda_event_05_first.png" storage="maeda_event_05.mp4" x="660" y="315" width="260" height="146" folder="bgimage"]
 [button graphic="config/arrow_prev.png" target="*backpage" x="30" y="655" folder="image"]
+[button graphic="config/arrow_next.png" target="*nextpage" x="1200" y="655" folder="image"]
+[jump target="*endpage"]
+
+*page_5
+[ptext layer="1" name="ishihara_event_title" text="ISHIHARA / LOOP 01" x="60" y="92" size="16" color="0xffe89a" letterspacing="3"]
+[cg_image_button graphic="cg/cg_100_ishihara_event_01.png" no_graphic="../../tyrano/images/system/noimage.png" x="60" y="130" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_101_ishihara_event_03.png" no_graphic="../../tyrano/images/system/noimage.png" x="360" y="130" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_102_ishihara_event_04.png" no_graphic="../../tyrano/images/system/noimage.png" x="660" y="130" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_103_ishihara_event_05.png" no_graphic="../../tyrano/images/system/noimage.png" x="960" y="130" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_104_ishihara_event_06.png" no_graphic="../../tyrano/images/system/noimage.png" x="60" y="315" width="260" height="146" folder="bgimage"]
+[button graphic="config/arrow_prev.png" target="*backpage" x="30" y="655" folder="image"]
 
 *endpage
-[ptext layer="1" name="cg_page" text=&(tf.page+1)+" / 5" x="570" y="660" width="140" align="center" size="20" color="0xffffff"]
+[ptext layer="1" name="cg_page" text=&(tf.page+1)+" / 6" x="570" y="660" width="140" align="center" size="20" color="0xffffff"]
 [s]
 
 *nextpage
