@@ -256,8 +256,11 @@
 #津田花
 「先端を当て、沈めていく。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_115_sakamoto_event_06.png" time=650]
+[bg storage="cg/cg_115_sakamoto_event_06.png" time=0]
 [cg storage="cg/cg_115_sakamoto_event_06.png"]
+[clear_talk_chara]
+[playse storage="se_morishita_water.mp3" loop=true buf=3]
+[bgmovie storage="sakamoto_loop3_motion_01.mp4" loop="true" mute="true" time="300"]
 #坂本
 【坂本】「んっ……。」[p]
 [clear_talk_chara]
@@ -326,6 +329,9 @@
 [clear_talk_chara]
 #津田花
 「同時に、達した。」[p]
+[clear_talk_chara]
+[stop_bgmovie time="250"]
+[stopse buf=3 fadeout=true time=200]
 [bg storage="cg/cg_116_sakamoto_event_07.png" time=600]
 [cg storage="cg/cg_116_sakamoto_event_07.png"]
 [clear_talk_chara]
