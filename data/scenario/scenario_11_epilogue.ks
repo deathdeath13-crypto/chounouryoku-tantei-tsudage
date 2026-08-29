@@ -206,52 +206,14 @@
 #津田花
 「そして。」[p]
 
-[bg storage="bg_bus_interior_day.png" time=1200]
-[playbgm storage="bgm_daily_prologue.mp3" loop=true time=800]
-[chara_mod name="morishita" storage="ch_morishita_normal.png"]
-
-[solo_chara name="morishita"]
-#森下
-【森下】「津田花さん、朝から飲みます？」[p]
-
 [clear_talk_chara]
-#津田花
-「バス車内。」[p]
+[bg storage="bg_black.png" time=900]
+[stopbgm time=800]
 
 #津田花
-「事件発生前。」[p]
+「事件が始まる前へ。今度こそ、誰も死なせない。」[p]
 
-#津田花
-「慰安旅行初日。」[p]
-
-#津田花
-「津田花は静かに目を開く。」[p]
-
-#津田花
-「戻った……」[p]
-
-[solo_chara name="morishita"]
-#森下
-【森下】「え？」[p]
-
-[clear_talk_chara]
-#津田花
-「いや」[p]
-
-#津田花
-「なんでもない」[p]
-
-#津田花
-「今度は――」[p]
-
-#津田花
-「誰も死なせない」[p]
-
-[bg storage="bg_black.png" time=1200]
-[stopbgm time=1000]
-[ptext name="to_be_continued" layer=0 page=fore text="TO BE CONTINUED" x=0 y=310 size=42 color="0xffffff" edge="0x333333" align="center" width=960]
-[glink target="start_extra_battle" text="EXTRA STAGE" x=260 y=320 width=760 size=26]
-[s]
+[jump storage="rewind_loop_01.ks" target="*rewind_loop_01_start"]
 
 *start_extra_battle
 [jump storage="honehone_battle.ks" target="extra_battle_start"]
