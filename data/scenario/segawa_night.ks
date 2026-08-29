@@ -386,10 +386,11 @@
 #津田花
 「出す。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_064_segawa_event_05.png" time=0]
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
 [clear_talk_chara]
+[bg storage="bg_white.png" time=450]
+[bg storage="cg/cg_064_segawa_event_05.png" time=550]
 [cg storage="cg/cg_064_segawa_event_05.png"]
 [clear_talk_chara]
 #津田花
@@ -515,10 +516,11 @@
 #津田花
 「彼女の背中に、熱いものを放った。」[p]
 [clear_talk_chara]
-[bg storage="cg/segawa_event_06_last.png" time=0]
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
 [clear_talk_chara]
+[bg storage="bg_white.png" time=450]
+[bg storage="cg/segawa_event_06_last.png" time=550]
 [cg storage="cg/segawa_event_06_last.png"]
 [clear_talk_chara]
 #津田花
@@ -710,10 +712,11 @@
 #津田花
 「奥まで押し込んだまま、熱いものを放つ。」[p]
 [clear_talk_chara]
-[bg storage="cg/segawa_event_08_last.png" time=0]
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
 [clear_talk_chara]
+[bg storage="bg_white.png" time=450]
+[bg storage="cg/segawa_event_08_last.png" time=550]
 [cg storage="cg/segawa_event_08_last.png"]
 [clear_talk_chara]
 #津田花

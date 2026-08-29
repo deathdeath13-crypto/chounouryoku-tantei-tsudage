@@ -11,8 +11,6 @@
 【森下】「……津田花さん。」[p]
 [clear_talk_chara]
 #津田花
-「森下さんは布団の端に座ったまま、膝を抱えていた。」[p]
-#津田花
 「浴衣の襟が少し乱れ、鎖骨のあたりが薄明かりに浮かんでいる。」[p]
 #津田花
 「雨音だけが部屋を満たしている。」[p]
@@ -345,10 +343,11 @@
 #津田花
 「そして、放った。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_055_morishita_event_05.png" time=0]
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
 [clear_talk_chara]
+[bg storage="bg_white.png" time=450]
+[bg storage="cg/cg_055_morishita_event_05.png" time=550]
 [cg storage="cg/cg_055_morishita_event_05.png"]
 [clear_talk_chara]
 #津田花

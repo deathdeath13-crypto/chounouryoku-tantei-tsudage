@@ -428,10 +428,11 @@
 #津田花
 「出す。」[p]
 [clear_talk_chara]
-[bg storage="cg/maeda_event_05_last.png" time=0]
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
 [clear_talk_chara]
+[bg storage="bg_white.png" time=450]
+[bg storage="cg/maeda_event_05_last.png" time=550]
 [cg storage="cg/maeda_event_05_last.png"]
 [clear_talk_chara]
 #津田花

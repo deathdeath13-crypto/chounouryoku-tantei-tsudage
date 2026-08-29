@@ -153,6 +153,7 @@
 [video_cg_button thumb="cg/cg_102_ishihara_event_04.png" storage="ishihara_loop1_motion_01.mp4" x="960" y="315" width="260" height="146" folder="bgimage"]
 [video_cg_button thumb="cg/cg_103_ishihara_event_05.png" storage="ishihara_loop1_motion_02.mp4" x="60" y="485" width="260" height="146" folder="bgimage"]
 [video_cg_button thumb="cg/cg_115_sakamoto_event_06.png" storage="sakamoto_loop3_motion_01.mp4" x="360" y="485" width="260" height="146" folder="bgimage"]
+[video_cg_button thumb="cg/cg_114_sakamoto_event_05.png" storage="sakamoto_loop3_motion_00.mp4" x="660" y="485" width="260" height="146" folder="bgimage"]
 [button graphic="config/arrow_prev.png" target="*backpage" x="30" y="655" folder="image"]
 
 *endpage

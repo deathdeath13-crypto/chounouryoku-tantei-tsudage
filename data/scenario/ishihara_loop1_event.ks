@@ -281,7 +281,8 @@
 [clear_talk_chara]
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
-[bg storage="cg/cg_104_ishihara_event_06.png" time=600]
+[bg storage="bg_white.png" time=450]
+[bg storage="cg/cg_104_ishihara_event_06.png" time=550]
 [cg storage="cg/cg_104_ishihara_event_06.png"]
 [clear_talk_chara]
 #津田花
