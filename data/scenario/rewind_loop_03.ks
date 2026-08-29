@@ -19,7 +19,7 @@
 [clear_talk_chara]
 [bg storage="bg_bus_interior_day.png" time=500]
 
-[chara_mod name="maeda" face="surprised" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_fear.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】津田花さん、朝から難しい顔してる。酔った？[p]
@@ -36,7 +36,7 @@
 #津田花
 【津田花】石原さんも。[p]
 
-[chara_mod name="ishihara" face="normal" time="0"]
+[chara_mod name="ishihara" storage="ch_ishihara_normal.png" time="0"]
 [solo_chara name="ishihara"]
 #石原
 【石原】今のところ。[p]
@@ -44,7 +44,7 @@
 #津田花
 【津田花】森下さん。[p]
 
-[chara_mod name="morishita" face="surprised" time="0"]
+[chara_mod name="morishita" storage="ch_morishita_surprised.png" time="0"]
 [solo_chara name="morishita"]
 #森下
 【森下】はい、生きてます！[p]
@@ -52,7 +52,7 @@
 #津田花
 【津田花】坂本さん。[p]
 
-[chara_mod name="sakamoto" face="normal" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_normal.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】私も元気です。[p]
@@ -60,17 +60,17 @@
 #津田花
 【津田花】瀬川さん。[p]
 
-[chara_mod name="segawa" face="normal" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_normal.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】全員の点呼でしたか。[p]
 
-[chara_mod name="maeda" face="normal" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_normal.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】先生、津田君だけ様子がおかしいです。[p]
 
-[chara_mod name="ishihara" face="normal" time="0"]
+[chara_mod name="ishihara" storage="ch_ishihara_normal.png" time="0"]
 [solo_chara name="ishihara"]
 #石原
 【石原】平常運転です。[p]
@@ -81,27 +81,27 @@
 #津田花
 空気が止まった。[p]
 
-[chara_mod name="morishita" face="normal" time="0"]
+[chara_mod name="morishita" storage="ch_morishita_normal.png" time="0"]
 [solo_chara name="morishita"]
 #森下
 【森下】何の……ことですか。[p]
 
-[chara_mod name="maeda" face="surprised" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_fear.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】旅行の朝にする話？[p]
 
-[chara_mod name="ishihara" face="normal" time="0"]
+[chara_mod name="ishihara" storage="ch_ishihara_normal.png" time="0"]
 [solo_chara name="ishihara"]
 #石原
 【石原】どこで知りました。[p]
 
-[chara_mod name="segawa" face="normal" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_normal.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】ここで話す内容ではありません。[p]
 
-[chara_mod name="sakamoto" face="normal" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_normal.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】……わかりました。[p]
@@ -112,17 +112,17 @@
 #坂本
 【坂本】今夜、時間をください。[p]
 
-[chara_mod name="maeda" face="surprised" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_fear.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】今夜、二人で？[p]
 
-[chara_mod name="sakamoto" face="normal" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_normal.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】はい。二人で。[p]
 
-[chara_mod name="maeda" face="normal" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_normal.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】なるほど。[p]
@@ -133,22 +133,22 @@
 #前田
 【前田】5年前のインシデントについて、夜、二人きりで。[p]
 
-[chara_mod name="ishihara" face="normal" time="0"]
+[chara_mod name="ishihara" storage="ch_ishihara_normal.png" time="0"]
 [solo_chara name="ishihara"]
 #石原
 【石原】ずいぶん専門的な告白ですね。[p]
 
-[chara_mod name="morishita" face="normal" time="0"]
+[chara_mod name="morishita" storage="ch_morishita_normal.png" time="0"]
 [solo_chara name="morishita"]
 #森下
 【森下】告白……。[p]
 
-[chara_mod name="sakamoto" face="angry" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_angry.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】ち、違います。告白は告白でも、そういう意味では。[p]
 
-[chara_mod name="segawa" face="normal" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_normal.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】坂本さん。説明するほど深みにはまっています。[p]
@@ -156,7 +156,7 @@
 #津田花
 【津田花】全員、顔が楽しそうだな。[p]
 
-[chara_mod name="maeda" face="normal" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_normal.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】暗い話より恋の話。人類の知恵です。[p]
@@ -164,7 +164,7 @@
 #津田花
 【津田花】ただの事情聴取だ。[p]
 
-[chara_mod name="ishihara" face="normal" time="0"]
+[chara_mod name="ishihara" storage="ch_ishihara_normal.png" time="0"]
 [solo_chara name="ishihara"]
 #石原
 【石原】事情聴取は、普通『今夜二人で』とは誘いません。[p]
@@ -172,22 +172,22 @@
 #津田花
 【津田花】誘ったのは坂本さんだ。[p]
 
-[chara_mod name="sakamoto" face="normal" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_normal.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】津田花さん、それ以上は。[p]
 
-[chara_mod name="maeda" face="surprised" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_fear.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】坂本さんから！[p]
 
-[chara_mod name="morishita" face="surprised" time="0"]
+[chara_mod name="morishita" storage="ch_morishita_surprised.png" time="0"]
 [solo_chara name="morishita"]
 #森下
 【森下】積極的です！[p]
 
-[chara_mod name="sakamoto" face="angry" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_angry.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】もう、やめてください……。[p]
@@ -225,7 +225,7 @@
 #津田花
 夜まで待つと、誰かが死ぬ。[p]
 
-[chara_mod name="sakamoto" face="normal" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_normal.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】ここなら、誰も来ませんね。[p]
@@ -244,7 +244,7 @@
 #津田花
 【津田花】古い宿だからな。[p]
 
-[chara_mod name="maeda" face="normal" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_normal.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】……痛い。[p]
@@ -257,17 +257,17 @@
 
 [playse storage="se_object_fall.mp3"]
 
-[chara_mod name="maeda" face="surprised" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_fear.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】わあっ！[p]
 
-[chara_mod name="morishita" face="surprised" time="0"]
+[chara_mod name="morishita" storage="ch_morishita_surprised.png" time="0"]
 [solo_chara name="morishita"]
 #森下
 【森下】押さないでください！[p]
 
-[chara_mod name="ishihara" face="normal" time="0"]
+[chara_mod name="ishihara" storage="ch_ishihara_normal.png" time="0"]
 [solo_chara name="ishihara"]
 #石原
 【石原】前田さんが後ろから。[p]
@@ -278,22 +278,22 @@
 #津田花
 【津田花】何をしている。[p]
 
-[chara_mod name="maeda" face="normal" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_normal.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】押し入れの耐荷重試験。[p]
 
-[chara_mod name="ishihara" face="normal" time="0"]
+[chara_mod name="ishihara" storage="ch_ishihara_normal.png" time="0"]
 [solo_chara name="ishihara"]
 #石原
 【石原】私は止めました。[p]
 
-[chara_mod name="morishita" face="normal" time="0"]
+[chara_mod name="morishita" storage="ch_morishita_normal.png" time="0"]
 [solo_chara name="morishita"]
 #森下
 【森下】私も止めるつもりで入ったら、閉められました。[p]
 
-[chara_mod name="maeda" face="normal" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_normal.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】みんな証言がばらばら。これは事件だね。[p]
@@ -304,12 +304,12 @@
 #前田
 【前田】名探偵、解決が早い。[p]
 
-[chara_mod name="sakamoto" face="normal" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_normal.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】みなさん、何か誤解しています。[p]
 
-[chara_mod name="maeda" face="normal" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_normal.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】してない、してない。続きをどうぞ。[p]
@@ -317,7 +317,7 @@
 #津田花
 【津田花】出ていけ。[p]
 
-[chara_mod name="ishihara" face="normal" time="0"]
+[chara_mod name="ishihara" storage="ch_ishihara_normal.png" time="0"]
 [solo_chara name="ishihara"]
 #石原
 【石原】津田花さん。[p]
@@ -331,7 +331,7 @@
 #津田花
 【津田花】出すか。[p]
 
-[chara_mod name="maeda" face="surprised" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_fear.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】一拍空いた！[p]
@@ -342,22 +342,22 @@
 #津田花
 三人を廊下へ追い出し、襖を閉めた。[p]
 
-[chara_mod name="maeda" face="normal" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_normal.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】壁に耳ありー。[p]
 
-[chara_mod name="segawa" face="normal" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_normal.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】廊下に前田さんあり、ですね。[p]
 
-[chara_mod name="maeda" face="surprised" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_fear.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】瀬川さん、いつからそこに？[p]
 
-[chara_mod name="segawa" face="normal" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_normal.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】あなたたちが押し入れへ入るところから。[p]
@@ -371,7 +371,7 @@
 #津田花
 襖越しの足音が、ようやく遠ざかった。[p]
 
-[chara_mod name="sakamoto" face="normal" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_normal.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】賑やかですね。[p]
@@ -397,7 +397,7 @@
 #津田花
 【津田花】好意があっても普通は入らない。[p]
 
-[chara_mod name="sakamoto" face="smile" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_smile.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 坂本さんが、声を抑えて笑った。[p]
@@ -423,7 +423,7 @@
 [eval exp="sf.rw_l3_q1=1"]
 #津田花
 【津田花】5年前、引継ぎ記録を書き直したな。[p]
-[chara_mod name="sakamoto" face="normal" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_normal.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】……はい。[p]
@@ -514,7 +514,7 @@
 #津田花
 【津田花】今夜、全員の前で話せるか。[p]
 
-[chara_mod name="sakamoto" face="fear" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_fear.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】怖いです。[p]
@@ -522,7 +522,7 @@
 #津田花
 【津田花】俺がいる。[p]
 
-[chara_mod name="sakamoto" face="normal" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_normal.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】それは、安心していい言葉ですか。[p]
@@ -530,7 +530,7 @@
 #津田花
 【津田花】少なくとも、押し入れの三人よりは。[p]
 
-[chara_mod name="sakamoto" face="smile" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_smile.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】ふふっ。では、少しだけ。[p]
@@ -543,7 +543,7 @@
 
 [call storage="sakamoto_loop3_event.ks" target="*sakamoto_loop3_event_start"]
 
-[chara_mod name="sakamoto" face="normal" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_normal.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】手を、握ってもらってもいいですか。[p]
@@ -563,7 +563,7 @@
 #津田花
 【津田花】何が。[p]
 
-[chara_mod name="sakamoto" face="smile" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_smile.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】こんな話をしているのに、少し嬉しいです。[p]
@@ -571,7 +571,7 @@
 #津田花
 【津田花】手を握ってるから？[p]
 
-[chara_mod name="sakamoto" face="normal" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_normal.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】言わせるんですか。[p]
@@ -599,7 +599,7 @@
 
 [playse storage="se_door_open.mp3"]
 
-[chara_mod name="maeda" face="smile" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_smile.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】今、俺も嬉しいって言った！[p]
@@ -610,22 +610,22 @@
 #津田花
 【津田花】帰ったんじゃなかったのか！[p]
 
-[chara_mod name="maeda" face="surprised" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_fear.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】壁に耳あり、襖に前田あり！[p]
 
-[chara_mod name="ishihara" face="normal" time="0"]
+[chara_mod name="ishihara" storage="ch_ishihara_normal.png" time="0"]
 [solo_chara name="ishihara"]
 #石原
 【石原】最低のことわざです。[p]
 
-[chara_mod name="morishita" face="normal" time="0"]
+[chara_mod name="morishita" storage="ch_morishita_normal.png" time="0"]
 [solo_chara name="morishita"]
 #森下
 【森下】手、握ってます。[p]
 
-[chara_mod name="sakamoto" face="normal" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_normal.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】あっ。[p]
@@ -633,12 +633,12 @@
 #津田花
 坂本さんが慌てて手を離す。[p]
 
-[chara_mod name="maeda" face="surprised" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_fear.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】離した！　やましい！[p]
 
-[chara_mod name="sakamoto" face="surprised" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_surprised.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】もう、前田さん！[p]
@@ -664,22 +664,22 @@
 #津田花
 だが坂本さんは来なかった。[p]
 
-[chara_mod name="morishita" face="normal" time="0"]
+[chara_mod name="morishita" storage="ch_morishita_normal.png" time="0"]
 [solo_chara name="morishita"]
 #森下
 【森下】部屋にもいません。[p]
 
-[chara_mod name="maeda" face="surprised" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_fear.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】お風呂は？[p]
 
-[chara_mod name="ishihara" face="normal" time="0"]
+[chara_mod name="ishihara" storage="ch_ishihara_normal.png" time="0"]
 [solo_chara name="ishihara"]
 #石原
 【石原】先ほど確認しました。いません。[p]
 
-[chara_mod name="segawa" face="normal" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_normal.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】約束を避けた可能性は。[p]
@@ -687,7 +687,7 @@
 #津田花
 【津田花】ない。坂本さんは話すと決めた。[p]
 
-[chara_mod name="maeda" face="normal" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_normal.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】信じてるんだ。[p]
@@ -703,7 +703,7 @@
 
 [playse storage="se_object_fall.mp3"]
 
-[chara_mod name="morishita" face="surprised" time="0"]
+[chara_mod name="morishita" storage="ch_morishita_surprised.png" time="0"]
 [solo_chara name="morishita"]
 #森下
 【森下】携帯？[p]
@@ -717,7 +717,7 @@
 #津田花
 『瀬川さんに、先に確認してきます』。[p]
 
-[chara_mod name="segawa" face="normal" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_normal.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】私には会っていません。[p]
@@ -728,7 +728,7 @@
 #瀬川
 【瀬川】食堂です。ずっと。[p]
 
-[chara_mod name="maeda" face="normal" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_normal.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】私は途中で出たから、ずっとかはわからない。[p]
@@ -744,7 +744,7 @@
 
 [playse storage="se_scream.mp3"]
 
-[chara_mod name="morishita" face="surprised" time="0"]
+[chara_mod name="morishita" storage="ch_morishita_surprised.png" time="0"]
 [solo_chara name="morishita"]
 #森下
 【森下】きゃああっ！[p]
@@ -769,7 +769,7 @@
 #津田花
 昼間、この部屋の記帳台に置かれていた物だ。[p]
 
-[chara_mod name="morishita" face="normal" time="0"]
+[chara_mod name="morishita" storage="ch_morishita_normal.png" time="0"]
 [solo_chara name="morishita"]
 #森下
 【森下】坂本さん……。[p]
@@ -780,7 +780,7 @@
 #津田花
 【津田花】待て！[p]
 
-[chara_mod name="sakamoto" face="normal" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_normal.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】……つ、だ……さん。[p]
@@ -791,7 +791,7 @@
 #津田花
 まだ生きている。[p]
 
-[chara_mod name="sakamoto" face="fear" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_fear.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】ごめん……なさい。[p]
@@ -799,7 +799,7 @@
 #津田花
 【津田花】話すな。今、助ける。[p]
 
-[chara_mod name="sakamoto" face="normal" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_normal.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】報告書……最後……。[p]
@@ -819,7 +819,7 @@
 #津田花
 【津田花】黙ってろ。温めるから。[p]
 
-[chara_mod name="sakamoto" face="smile" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_smile.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】嬉しかった……です。[p]
@@ -827,7 +827,7 @@
 #津田花
 【津田花】俺もだ。だから、まだ離すな。[p]
 
-[chara_mod name="sakamoto" face="normal" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_normal.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】はい……。[p]
@@ -835,7 +835,7 @@
 #津田花
 指から力が抜けた。[p]
 
-[chara_mod name="morishita" face="surprised" time="0"]
+[chara_mod name="morishita" storage="ch_morishita_surprised.png" time="0"]
 [solo_chara name="morishita"]
 #森下
 【森下】坂本さん？[p]
@@ -888,7 +888,7 @@
 [jump target="*l3_q2_join"]
 
 *l3_q2_join
-[chara_mod name="ishihara" face="normal" time="0"]
+[chara_mod name="ishihara" storage="ch_ishihara_normal.png" time="0"]
 [solo_chara name="ishihara"]
 #石原
 【石原】資料室の複合機に、印刷履歴が残るはずです。[p]
@@ -905,7 +905,7 @@
 #津田花
 印刷に使われた職員番号も残っている。[p]
 
-[chara_mod name="segawa" face="normal" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_normal.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】共有の番号です。誰でも使えます。[p]
@@ -928,7 +928,7 @@
 #津田花
 【津田花】職員番号を入れなければ、病院から持ち込んだ暗号化データは印刷できない。[p]
 
-[chara_mod name="ishihara" face="normal" time="0"]
+[chara_mod name="ishihara" storage="ch_ishihara_normal.png" time="0"]
 [solo_chara name="ishihara"]
 #石原
 【石原】番号を知っていた人が、印刷した。[p]
@@ -946,12 +946,12 @@
 [clear_talk_chara]
 [bg storage="bg_inn_lobby_night.png" time=500]
 
-[chara_mod name="segawa" face="normal" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_normal.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】印刷したことは認めます。[p]
 
-[chara_mod name="segawa" face="angry" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_angry.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】でも、坂本さんを殺した証拠ではありません。[p]
@@ -959,7 +959,7 @@
 #津田花
 【津田花】坂本さんは、あなたへ確認に行くと書き残した。[p]
 
-[chara_mod name="segawa" face="normal" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_normal.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】会っていません。[p]
@@ -967,7 +967,7 @@
 #津田花
 【津田花】食堂にいたという証言も、誰にも確認できない。[p]
 
-[chara_mod name="segawa" face="angry" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_angry.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】状況だけで犯人にするんですか。[p]
@@ -975,27 +975,27 @@
 #津田花
 【津田花】いいや。あなたが持ち去った最終ページで証明する。[p]
 
-[chara_mod name="segawa" face="normal" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_normal.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】持っていません。[p]
 
-[chara_mod name="maeda" face="normal" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_normal.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】瀬川さん。さっきから、左手をポケットに入れたまま。[p]
 
-[chara_mod name="segawa" face="normal" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_normal.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】関係ありません。[p]
 
-[chara_mod name="morishita" face="normal" time="0"]
+[chara_mod name="morishita" storage="ch_morishita_normal.png" time="0"]
 [solo_chara name="morishita"]
 #森下
 【森下】見せてください。[p]
 
-[chara_mod name="segawa" face="surprised" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_surprised.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】触らないで！[p]
@@ -1030,7 +1030,7 @@
 [eval exp="sf.rw_l3_q3=1"]
 #津田花
 【津田花】事故報告書をまとめた責任者は、瀬川さんだった。[p]
-[chara_mod name="segawa" face="normal" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_normal.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】作成しただけです。[p]
@@ -1071,12 +1071,12 @@
 #津田花
 【津田花】資料室で口論になり、文鎮で殴った。[p]
 
-[chara_mod name="segawa" face="angry" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_angry.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】黙らせるだけのつもりでした。[p]
 
-[chara_mod name="segawa" face="normal" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_normal.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】あの人は、全員の前で話すと言った。[p]
@@ -1090,12 +1090,12 @@
 #瀬川
 【瀬川】そして、私が全部をまとめ直したことも。[p]
 
-[chara_mod name="morishita" face="surprised" time="0"]
+[chara_mod name="morishita" storage="ch_morishita_surprised.png" time="0"]
 [solo_chara name="morishita"]
 #森下
 【森下】まとめ直した……？[p]
 
-[chara_mod name="segawa" face="normal" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_normal.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】事故報告書を改ざんしました。[p]
@@ -1109,27 +1109,27 @@
 #瀬川
 【瀬川】五人の行動が、一つの偶発的な急変に見えるように。[p]
 
-[chara_mod name="maeda" face="surprised" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_fear.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】私たちを守るため？[p]
 
-[chara_mod name="segawa" face="normal" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_normal.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】最初は、そう思っていました。[p]
 
-[chara_mod name="segawa" face="angry" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_angry.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】でも違う。[p]
 
-[chara_mod name="segawa" face="fear" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_fear.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】私が作った報告書が嘘だと知られるのが怖かっただけです。[p]
 
-[chara_mod name="ishihara" face="normal" time="0"]
+[chara_mod name="ishihara" storage="ch_ishihara_normal.png" time="0"]
 [solo_chara name="ishihara"]
 #石原
 【石原】五人とも、自分を守った。[p]
@@ -1167,7 +1167,7 @@
 #津田花
 それとも、全員が被害者でもあったのか。[p]
 
-[chara_mod name="segawa" face="surprised" time="0"]
+[chara_mod name="segawa" storage="ch_segawa_surprised.png" time="0"]
 [solo_chara name="segawa"]
 #瀬川
 【瀬川】津田花さん。あなたは、どうして全部知っているんですか。[p]
@@ -1175,7 +1175,7 @@
 #津田花
 【津田花】三回、間違えたからだ。[p]
 
-[chara_mod name="maeda" face="surprised" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_fear.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】三回？[p]

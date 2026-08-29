@@ -12,6 +12,8 @@
 
 [cm]
 [clearfix]
+[eval exp="f.ui_initialized=false"]
+[call storage="ui.ks"]
 [bg storage="bg_inn_exterior_rain.png" time=1200]
 [playbgm storage="bgm_resolve_finale.mp3" loop=true time=800]
 [layopt layer="message0" visible=true]
@@ -184,6 +186,8 @@
 
 [playse storage="se_time_rewind.mp3"]
 [quake time=1200 hmax=20 vmax=12]
+[clear_talk_chara]
+[bg storage="bg_time_reversal_fantasy.png" time=900]
 
 #津田花
 「世界が逆再生を始める。」[p]

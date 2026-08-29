@@ -30,10 +30,12 @@
 [chara_face name="maeda" face="angry" storage="ch_maeda_angry.png"]
 [chara_face name="maeda" face="fear" storage="ch_maeda_fear.png"]
 [chara_face name="maeda" face="smile" storage="ch_maeda_smile.png"]
+[chara_face name="maeda" face="surprised" storage="ch_maeda_fear.png"]
 [chara_face name="maeda" face="worried" storage="ch_maeda_worried.png"]
 [chara_face name="ishihara" face="normal" storage="ch_ishihara_normal.png"]
 [chara_face name="ishihara" face="angry" storage="ch_ishihara_angry.png"]
 [chara_face name="ishihara" face="fear" storage="ch_ishihara_fear.png"]
+[chara_face name="ishihara" face="smile" storage="ch_ishihara_normal.png"]
 [chara_face name="ishihara" face="surprised" storage="ch_ishihara_surprised.png"]
 
 [return]

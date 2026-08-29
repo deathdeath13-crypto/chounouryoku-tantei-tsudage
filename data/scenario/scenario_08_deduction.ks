@@ -74,7 +74,7 @@
 ; 事件整理1　閉鎖状況
 ;==================================================
 
-[bg storage="bg_suspension_bridge_day.png" time=700]
+[bg storage="bg_suspension_bridge_collapsed.png" time=700]
 
 #津田花
 まず、この宿は外界から切り離されている。[p]

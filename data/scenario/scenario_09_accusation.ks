@@ -7,7 +7,7 @@
 ;==================================================
 
 [scene_card date="6月7日　7:40" place="温泉宿・ロビー"]
-[bg storage="bg_inn_lobby_night.png" time=900]
+[bg storage="bg_inn_lobby_morning.png" time=900]
 
 [clear_talk_chara]
 #津田花

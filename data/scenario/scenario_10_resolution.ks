@@ -11,7 +11,7 @@
 *true_route_other
 
 [scene_card date="6月7日　7:50" place="温泉宿・ロビー　推理"]
-[bg storage="bg_inn_lobby_night.png" time=1000]
+[bg storage="bg_inn_lobby_morning.png" time=1000]
 [playbgm storage="bgm_deduction.mp3" loop=true time=800]
 [chara_mod name="morishita" storage="ch_morishita_fear.png"]
 [chara_mod name="segawa" storage="ch_segawa_fear.png"]
@@ -128,7 +128,7 @@
 【森下】「……今、音が。」[p]
 
 [scene_card date="6月7日　8:15" place="温泉宿・廊下"]
-[bg storage="bg_inn_corridor_night.png" time=1000]
+[bg storage="bg_inn_inner_corridor.png" time=1000]
 
 [clear_talk_chara]
 #津田花

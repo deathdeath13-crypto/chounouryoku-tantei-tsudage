@@ -31,7 +31,7 @@
 #津田花
 凶器は夕食後、前田さんが林檎をむくために持ち出したものだった。[p]
 
-[chara_mod name="maeda" face="normal" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_normal.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 [font color="0xFFE0B8"]
@@ -40,13 +40,13 @@
 #前田
 【前田】私が、瀬川さんを刺しました。[p]
 
-[chara_mod name="morishita" face="normal" time="0"]
+[chara_mod name="morishita" storage="ch_morishita_normal.png" time="0"]
 [solo_chara name="morishita"]
 #森下
 [font color="0xFFF2B8"]
 【森下】前田さん……どうして。[p]
 
-[chara_mod name="maeda" face="normal" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_normal.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】瀬川さんが、原本を燃やそうとしたから。[p]
@@ -54,12 +54,12 @@
 #前田
 【前田】私、今度こそ話すって言ったの。[p]
 
-[chara_mod name="maeda" face="angry" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_angry.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】濃度が違うと気づいていたことも、黙っていたことも。[p]
 
-[chara_mod name="maeda" face="normal" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_normal.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】そしたら瀬川さんが、『誰も救われない』って。[p]
@@ -73,13 +73,13 @@
 #前田
 【前田】気づいたら、手にナイフがありました。[p]
 
-[chara_mod name="sakamoto" face="normal" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_normal.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 [font color="0xD8FFD8"]
 【坂本】すぐ助けを呼べば、まだ間に合ったかもしれないのに。[p]
 
-[chara_mod name="maeda" face="worried" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_worried.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】怖かった。[p]
@@ -87,7 +87,7 @@
 #前田
 【前田】また、怖くて言えなかった。[p]
 
-[chara_mod name="maeda" face="normal" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_normal.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】5年前と同じ。[p]
@@ -110,7 +110,7 @@
 #津田花
 五人全員が、別々の世界で人を殺した。[p]
 
-[chara_mod name="ishihara" face="normal" time="0"]
+[chara_mod name="ishihara" storage="ch_ishihara_normal.png" time="0"]
 [solo_chara name="ishihara"]
 #石原
 [font color="0xD7D7D7"]
@@ -140,7 +140,7 @@
 #津田花
 だが断片を並べただけで、本当に真相を理解したと言えるのか。[p]
 
-[chara_mod name="sakamoto" face="normal" time="0"]
+[chara_mod name="sakamoto" storage="ch_sakamoto_normal.png" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
 【坂本】津田花さん。顔色が悪いです。[p]
@@ -148,7 +148,7 @@
 #津田花
 【津田花】少し、一人で考えさせてくれ。[p]
 
-[chara_mod name="morishita" face="normal" time="0"]
+[chara_mod name="morishita" storage="ch_morishita_normal.png" time="0"]
 [solo_chara name="morishita"]
 #森下
 【森下】でも、こんな時に一人になるのは。[p]
@@ -159,7 +159,7 @@
 #津田花
 【津田花】夜が明けるまでに、全部つなげる。[p]
 
-[chara_mod name="maeda" face="normal" time="0"]
+[chara_mod name="maeda" storage="ch_maeda_normal.png" time="0"]
 [solo_chara name="maeda"]
 #前田
 【前田】津田花さん……。[p]
@@ -176,7 +176,7 @@
 #津田花
 【津田花】石原さんは、現場をそのまま残してくれ。[p]
 
-[chara_mod name="ishihara" face="normal" time="0"]
+[chara_mod name="ishihara" storage="ch_ishihara_normal.png" time="0"]
 [solo_chara name="ishihara"]
 #石原
 【石原】わかりました。[p]

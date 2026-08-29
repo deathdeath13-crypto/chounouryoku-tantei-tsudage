@@ -1,0 +1,14 @@
+/*
+ * Dialogue readability over a fully transparent message layer.
+ * text-shadow is kept as a fallback for browsers without text-stroke.
+ */
+#tyrano_base .message_inner,
+#tyrano_base .message_inner span,
+#tyrano_base .chara_name_area,
+#tyrano_base .chara_name_area span {
+    color: #fff;
+    font-weight: 700 !important;
+    -webkit-text-stroke: 1px #000;
+    paint-order: stroke fill;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+}
