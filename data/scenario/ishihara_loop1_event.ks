@@ -217,6 +217,9 @@
 「ああ。」[p]
 #津田花
 「俺は腰を動かし始めた。」[p]
+[clear_talk_chara]
+[playse storage="se_morishita_water.mp3" loop=true buf=3]
+[bgmovie storage="ishihara_loop1_motion_01.mp4" loop="true" mute="true" time="300"]
 #津田花
 「ゆっくりと、丁寧に。」[p]
 #津田花
@@ -236,6 +239,9 @@
 「力は弱い。」[p]
 #津田花
 「でも、離さない。」[p]
+[clear_talk_chara]
+[stop_bgmovie time="250"]
+[stopse buf=3 fadeout=true time=200]
 [bg storage="cg/cg_103_ishihara_event_05.png" time=700]
 [cg storage="cg/cg_103_ishihara_event_05.png"]
 #津田花
