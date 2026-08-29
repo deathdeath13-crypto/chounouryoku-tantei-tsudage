@@ -72,7 +72,7 @@
 [chara_mod name="ishihara" face="normal" time="0"]
 [solo_chara name="ishihara"]
 #石原
-【石原】津田さん。[p]
+【石原】津田花さん。[p]
 
 #石原
 【石原】あなたは、これが起きると知っていたんですか。[p]
@@ -160,7 +160,10 @@
 #津田花
 最初に、何を確かめるべきだ。[p]
 
-[select text="濡れた足跡" target="*l1_q1_foot" text="破れた紙片" target="*l1_q1_paper" text="小さな鍵" target="*l1_q1_key"]
+[glink target="*l1_q1_foot" text="濡れた足跡" x=190 y=225 width=900 size=22]
+[glink target="*l1_q1_paper" text="破れた紙片" x=190 y=315 width=900 size=22]
+[glink target="*l1_q1_key" text="小さな鍵" x=190 y=405 width=900 size=22]
+[s]
 
 *l1_q1_foot
 [eval exp="sf.rw_l1_q1=1"]
@@ -239,7 +242,7 @@
 [chara_mod name="ishihara" face="normal" time="0"]
 [solo_chara name="ishihara"]
 #石原
-【石原】私は八時三分から九時四十五分まで、津田さんと客室にいました。[p]
+【石原】私は八時三分から九時四十五分まで、津田花さんと客室にいました。[p]
 
 [chara_mod name="maeda" face="normal" time="0"]
 [solo_chara name="maeda"]
@@ -249,7 +252,7 @@
 [chara_mod name="ishihara" face="normal" time="0"]
 [solo_chara name="ishihara"]
 #石原
-【石原】津田さんが何度も時計を見ていたので。[p]
+【石原】津田花さんが何度も時計を見ていたので。[p]
 
 #津田花
 【津田花】その間、石原さんは一度も部屋を出ていない。[p]
@@ -257,7 +260,7 @@
 [chara_mod name="segawa" face="normal" time="0"]
 [solo_chara name="segawa"]
 #瀬川
-【瀬川】津田さんも同じですね。[p]
+【瀬川】津田花さんも同じですね。[p]
 
 #津田花
 【津田花】ああ。[p]
@@ -386,7 +389,7 @@
 【津田花】まだ内容は読んでいない。なのに、何の紙か知っている顔をした。[p]
 
 #森下
-【森下】そんなの、津田さんの決めつけです。[p]
+【森下】そんなの、津田花さんの決めつけです。[p]
 
 [chara_mod name="ishihara" face="normal" time="0"]
 [solo_chara name="ishihara"]
@@ -423,7 +426,10 @@
 #津田花
 森下さんの証言で、最も明確な矛盾はどれだ。[p]
 
-[select text="ずっと部屋にいた" target="*l1_q2_room" text="飲み物を買いに行った" target="*l1_q2_drink" text="坂本とは少し話しただけ" target="*l1_q2_talk"]
+[glink target="*l1_q2_room" text="ずっと部屋にいた" x=190 y=225 width=900 size=22]
+[glink target="*l1_q2_drink" text="飲み物を買いに行った" x=190 y=315 width=900 size=22]
+[glink target="*l1_q2_talk" text="坂本とは少し話しただけ" x=190 y=405 width=900 size=22]
+[s]
 
 *l1_q2_room
 [eval exp="sf.rw_l1_q2=1"]
@@ -620,7 +626,10 @@
 #津田花
 浮かび上がった文字は――。[p]
 
-[select text="警察へすべて話します" target="*l1_q3_police" text="石原さんに謝ります" target="*l1_q3_ishihara" text="森下さんと話します" target="*l1_q3_morishita"]
+[glink target="*l1_q3_police" text="警察へすべて話します" x=190 y=225 width=900 size=22]
+[glink target="*l1_q3_ishihara" text="石原さんに謝ります" x=190 y=315 width=900 size=22]
+[glink target="*l1_q3_morishita" text="森下さんと話します" x=190 y=405 width=900 size=22]
+[s]
 
 *l1_q3_police
 [eval exp="sf.rw_l1_q3=1"]
@@ -891,7 +900,7 @@
 [chara_mod name="morishita" face="normal" time="0"]
 [solo_chara name="morishita"]
 #森下
-【森下】でも津田さんが石原さんを連れていった。[p]
+【森下】でも津田花さんが石原さんを連れていった。[p]
 
 #森下
 【森下】坂本さんは、しばらく動けなくなっていました。[p]
@@ -917,7 +926,7 @@
 [chara_mod name="ishihara" face="normal" time="0"]
 [solo_chara name="ishihara"]
 #石原
-【石原】津田さん。[p]
+【石原】津田花さん。[p]
 
 #石原
 【石原】あなたは、私が坂本さんに殺されると思っていたんですね。[p]
@@ -1153,7 +1162,7 @@
 [chara_mod name="maeda" face="surprised" time="0"]
 [solo_chara name="maeda"]
 #前田
-【前田】津田さん、朝から難しい顔してる。酔った？[p]
+【前田】津田花さん、朝から難しい顔してる。酔った？[p]
 
 #津田花
 同じ声。[p]

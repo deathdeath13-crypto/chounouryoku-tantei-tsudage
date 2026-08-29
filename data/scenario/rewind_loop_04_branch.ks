@@ -114,7 +114,7 @@
 [solo_chara name="ishihara"]
 #石原
 [font color="0xD7D7D7"]
-【石原】津田さん。[p]
+【石原】津田花さん。[p]
 
 #石原
 【石原】今回も、知っていたんですか。[p]
@@ -143,7 +143,7 @@
 [chara_mod name="sakamoto" face="normal" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
-【坂本】津田さん。顔色が悪いです。[p]
+【坂本】津田花さん。顔色が悪いです。[p]
 
 #津田花
 【津田花】少し、一人で考えさせてくれ。[p]
@@ -162,7 +162,7 @@
 [chara_mod name="maeda" face="normal" time="0"]
 [solo_chara name="maeda"]
 #前田
-【前田】津田さん……。[p]
+【前田】津田花さん……。[p]
 
 #津田花
 【津田花】前田さん。逃げないでくれ。[p]
@@ -290,7 +290,10 @@
 #津田花
 前田さんが5年前にしたことは――。[p]
 
-[select text="薬剤濃度の違いに気づいたが、言えなかった" target="*rw4_maeda_a" text="薬剤を確認せず投与し、確認済みと署名した" target="*rw4_maeda_b" text="患者の状態変化を見て、引継ぎ記録を書き換えた" target="*rw4_maeda_c"]
+[glink target="*rw4_maeda_a" text="薬剤濃度の違いに気づいたが、言えなかった" x=190 y=225 width=900 size=22]
+[glink target="*rw4_maeda_b" text="薬剤を確認せず投与し、確認済みと署名した" x=190 y=315 width=900 size=22]
+[glink target="*rw4_maeda_c" text="患者の状態変化を見て、引継ぎ記録を書き換えた" x=190 y=405 width=900 size=22]
+[s]
 
 *rw4_maeda_a
 [eval exp="sf.rw4_maeda=1;sf.rw4_score+=1"]
@@ -334,7 +337,10 @@
 #津田花
 森下さんが、最も知られたくなかった事実は――。[p]
 
-[select text="画像の撮影時刻を上書きした" target="*rw4_mori_a" text="事故報告書全体を改ざんした" target="*rw4_mori_b" text="薬剤を確認せず投与し、確認済みと署名した" target="*rw4_mori_c"]
+[glink target="*rw4_mori_a" text="画像の撮影時刻を上書きした" x=190 y=225 width=900 size=22]
+[glink target="*rw4_mori_b" text="事故報告書全体を改ざんした" x=190 y=315 width=900 size=22]
+[glink target="*rw4_mori_c" text="薬剤を確認せず投与し、確認済みと署名した" x=190 y=405 width=900 size=22]
+[s]
 
 *rw4_mori_a
 [eval exp="sf.rw4_morishita=1"]
@@ -384,7 +390,10 @@
 #津田花
 坂本さんが5年前に隠したものは――。[p]
 
-[select text="薬剤濃度に気づいた事実" target="*rw4_saka_a" text="患者の状態変化を見た事実" target="*rw4_saka_b" text="画像装置の時刻異常" target="*rw4_saka_c"]
+[glink target="*rw4_saka_a" text="薬剤濃度に気づいた事実" x=190 y=225 width=900 size=22]
+[glink target="*rw4_saka_b" text="患者の状態変化を見た事実" x=190 y=315 width=900 size=22]
+[glink target="*rw4_saka_c" text="画像装置の時刻異常" x=190 y=405 width=900 size=22]
+[s]
 
 *rw4_saka_a
 [eval exp="sf.rw4_sakamoto=1"]
@@ -437,7 +446,10 @@
 #津田花
 石原さんが5年前に変えた時刻は――。[p]
 
-[select text="薬剤投与記録の入力時刻" target="*rw4_ishi_a" text="画像の撮影時刻" target="*rw4_ishi_b" text="事故報告書の提出時刻" target="*rw4_ishi_c"]
+[glink target="*rw4_ishi_a" text="薬剤投与記録の入力時刻" x=190 y=225 width=900 size=22]
+[glink target="*rw4_ishi_b" text="画像の撮影時刻" x=190 y=315 width=900 size=22]
+[glink target="*rw4_ishi_c" text="事故報告書の提出時刻" x=190 y=405 width=900 size=22]
+[s]
 
 *rw4_ishi_a
 [eval exp="sf.rw4_ishihara=1"]
@@ -493,7 +505,10 @@
 #津田花
 瀬川さんが5年前にしたことは――。[p]
 
-[select text="四人の記録をまとめ、事故報告書そのものを改ざんした" target="*rw4_sega_a" text="薬剤濃度を変更して病棟へ届けた" target="*rw4_sega_b" text="患者の画像データそのものを削除した" target="*rw4_sega_c"]
+[glink target="*rw4_sega_a" text="四人の記録をまとめ、事故報告書そのものを改ざんした" x=190 y=225 width=900 size=22]
+[glink target="*rw4_sega_b" text="薬剤濃度を変更して病棟へ届けた" x=190 y=315 width=900 size=22]
+[glink target="*rw4_sega_c" text="患者の画像データそのものを削除した" x=190 y=405 width=900 size=22]
+[s]
 
 *rw4_sega_a
 [eval exp="sf.rw4_segawa=1;sf.rw4_score+=1"]
@@ -694,7 +709,6 @@
 
 ; エンディングAへ。内容は次ファイルで実装。
 [jump storage="rewind_ending_a.ks" target="*rewind_ending_a_start"]
-[s]
 
 ; ---------------------------------------------------------------------
 ; ルートB導入
@@ -737,4 +751,3 @@
 
 ; エンディングBへ。
 [jump storage="rewind_ending_b.ks" target="*rewind_ending_b_start"]
-[s]

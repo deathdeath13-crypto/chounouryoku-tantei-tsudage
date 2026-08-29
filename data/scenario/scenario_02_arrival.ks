@@ -113,7 +113,7 @@
 [bg storage="cg/cg_061_segawa_bridge_fear.png" time=700]
 [cg storage="cg/cg_061_segawa_bridge_fear.png"]
 #瀬川
-【瀬川】これ、本当に落ちませんよね！？　津田さん、次はどっち！[p]
+【瀬川】これ、本当に落ちませんよね！？　津田花さん、次はどっち！[p]
 
 [clear_talk_chara]
 [bg storage="cg/cg_064_maeda_bridge_fear.png" time=700]
@@ -131,7 +131,7 @@
 [bg storage="cg/cg_063_sakamoto_bridge_fear.png" time=700]
 [cg storage="cg/cg_063_sakamoto_bridge_fear.png"]
 #坂本
-【坂本】みなさん、縄を離さないで！　津田さんの合図に合わせましょう！[p]
+【坂本】みなさん、縄を離さないで！　津田花さんの合図に合わせましょう！[p]
 
 [clear_talk_chara]
 #津田花

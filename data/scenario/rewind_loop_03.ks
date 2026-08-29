@@ -22,7 +22,7 @@
 [chara_mod name="maeda" face="surprised" time="0"]
 [solo_chara name="maeda"]
 #前田
-【前田】津田さん、朝から難しい顔してる。酔った？[p]
+【前田】津田花さん、朝から難しい顔してる。酔った？[p]
 
 #津田花
 三度目ともなれば、聞き慣れたものだ。[p]
@@ -175,7 +175,7 @@
 [chara_mod name="sakamoto" face="normal" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
-【坂本】津田さん、それ以上は。[p]
+【坂本】津田花さん、それ以上は。[p]
 
 [chara_mod name="maeda" face="surprised" time="0"]
 [solo_chara name="maeda"]
@@ -320,7 +320,7 @@
 [chara_mod name="ishihara" face="normal" time="0"]
 [solo_chara name="ishihara"]
 #石原
-【石原】津田さん。[p]
+【石原】津田花さん。[p]
 
 #津田花
 【津田花】何だ。[p]
@@ -386,7 +386,7 @@
 【津田花】何が。[p]
 
 #坂本
-【坂本】津田さんが、みなさんに好かれていることです。[p]
+【坂本】津田花さんが、みなさんに好かれていることです。[p]
 
 #津田花
 【津田花】今のが好意に見えたのか。[p]
@@ -414,7 +414,10 @@
 #津田花
 何から聞くべきだ。[p]
 
-[select text="5年前の記録について" target="*l3_q1_record" text="石原を殺そうとした理由" target="*l3_q1_ishihara" text="今の坂本自身について" target="*l3_q1_now"]
+[glink target="*l3_q1_record" text="5年前の記録について" x=190 y=225 width=900 size=22]
+[glink target="*l3_q1_ishihara" text="石原を殺そうとした理由" x=190 y=315 width=900 size=22]
+[glink target="*l3_q1_now" text="今の坂本自身について" x=190 y=405 width=900 size=22]
+[s]
 
 *l3_q1_record
 [eval exp="sf.rw_l3_q1=1"]
@@ -855,7 +858,10 @@
 #津田花
 涙を飲み込み、現場を見る。[p]
 
-[select text="真鍮の文鎮" target="*l3_q2_weight" text="欠けた添付資料" target="*l3_q2_page" text="坂本の袖の黒い粉" target="*l3_q2_toner"]
+[glink target="*l3_q2_weight" text="真鍮の文鎮" x=190 y=225 width=900 size=22]
+[glink target="*l3_q2_page" text="欠けた添付資料" x=190 y=315 width=900 size=22]
+[glink target="*l3_q2_toner" text="坂本の袖の黒い粉" x=190 y=405 width=900 size=22]
+[s]
 
 *l3_q2_weight
 [eval exp="sf.rw_l3_q2=1"]
@@ -1015,7 +1021,10 @@
 #津田花
 最終ページが示す核心は何だ。[p]
 
-[select text="瀬川が報告書を作成した" target="*l3_q3_author" text="五人の記録が一致しない" target="*l3_q3_five" text="原本が別に存在する" target="*l3_q3_original"]
+[glink target="*l3_q3_author" text="瀬川が報告書を作成した" x=190 y=225 width=900 size=22]
+[glink target="*l3_q3_five" text="五人の記録が一致しない" x=190 y=315 width=900 size=22]
+[glink target="*l3_q3_original" text="原本が別に存在する" x=190 y=405 width=900 size=22]
+[s]
 
 *l3_q3_author
 [eval exp="sf.rw_l3_q3=1"]
@@ -1161,7 +1170,7 @@
 [chara_mod name="segawa" face="surprised" time="0"]
 [solo_chara name="segawa"]
 #瀬川
-【瀬川】津田さん。あなたは、どうして全部知っているんですか。[p]
+【瀬川】津田花さん。あなたは、どうして全部知っているんですか。[p]
 
 #津田花
 【津田花】三回、間違えたからだ。[p]

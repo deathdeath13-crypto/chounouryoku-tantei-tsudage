@@ -39,7 +39,7 @@
 [chara_mod name="maeda" face="surprised" time="0"]
 [solo_chara name="maeda"]
 #前田
-【前田】津田さん、首どうしたの。扇風機の試運転？[p]
+【前田】津田花さん、首どうしたの。扇風機の試運転？[p]
 
 [chara_mod name="segawa" face="normal" time="0"]
 [solo_chara name="segawa"]
@@ -108,7 +108,7 @@
 [chara_mod name="segawa" face="normal" time="0"]
 [solo_chara name="segawa"]
 #瀬川
-【瀬川】津田さんを中心に女性を並べる配置ですね。[p]
+【瀬川】津田花さんを中心に女性を並べる配置ですね。[p]
 
 [chara_mod name="morishita" face="normal" time="0"]
 [solo_chara name="morishita"]
@@ -247,7 +247,7 @@
 [chara_mod name="maeda" face="surprised" time="0"]
 [solo_chara name="maeda"]
 #前田
-【前田】二人羽織やろう！　津田さんが後ろね！[p]
+【前田】二人羽織やろう！　津田花さんが後ろね！[p]
 
 #津田花
 【津田花】なぜ俺が熱いおでんを顔へ運ぶ役に確定している。[p]
@@ -316,7 +316,7 @@
 [chara_mod name="sakamoto" face="fear" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
-【坂本】では、津田さんからお願いします。[p]
+【坂本】では、津田花さんからお願いします。[p]
 
 #津田花
 【津田花】俺は主催者だ。[p]
@@ -419,7 +419,7 @@
 【津田花】一つくらいやればいいだろ。[p]
 
 #石原
-【石原】では、津田さんを消す手品を。[p]
+【石原】では、津田花さんを消す手品を。[p]
 
 #津田花
 【津田花】俺だけ危険度が高い。[p]
@@ -519,14 +519,17 @@
 [chara_mod name="maeda" face="surprised" time="0"]
 [solo_chara name="maeda"]
 #前田
-【前田】津田さん、次はどれにする？[p]
+【前田】津田花さん、次はどれにする？[p]
 
-[select text="二人羽織" target="*l2_q1_ni" text="箱の中身当て" target="*l2_q1_box" text="叩いてかぶって" target="*l2_q1_helm"]
+[glink target="*l2_q1_ni" text="二人羽織" x=190 y=225 width=900 size=22]
+[glink target="*l2_q1_box" text="箱の中身当て" x=190 y=315 width=900 size=22]
+[glink target="*l2_q1_helm" text="叩いてかぶって" x=190 y=405 width=900 size=22]
+[s]
 
 *l2_q1_ni
 [eval exp="sf.rw_l2_q1=1"]
 #前田
-【前田】石原さんと津田さんで二人羽織！[p]
+【前田】石原さんと津田花さんで二人羽織！[p]
 [chara_mod name="ishihara" face="surprised" time="0"]
 [solo_chara name="ishihara"]
 #石原
@@ -544,7 +547,7 @@
 [chara_mod name="maeda" face="surprised" time="0"]
 [solo_chara name="maeda"]
 #前田
-【前田】箱の中身は、津田さんの私物です！[p]
+【前田】箱の中身は、津田花さんの私物です！[p]
 #津田花
 【津田花】勝手に鞄を開けたな。[p]
 [chara_mod name="segawa" face="normal" time="0"]
@@ -629,7 +632,7 @@
 触れた指を握る。[p]
 
 #石原
-【石原】……津田さん。[p]
+【石原】……津田花さん。[p]
 
 #津田花
 【津田花】離れるな。[p]
@@ -649,7 +652,7 @@
 [chara_mod name="maeda" face="normal" time="0"]
 [solo_chara name="maeda"]
 #前田
-【前田】あら津田さん、大胆。[p]
+【前田】あら津田花さん、大胆。[p]
 
 #津田花
 【津田花】違う！[p]
@@ -678,7 +681,7 @@
 [chara_mod name="morishita" face="normal" time="0"]
 [solo_chara name="morishita"]
 #森下
-【森下】津田さん、顔が真っ赤です。[p]
+【森下】津田花さん、顔が真っ赤です。[p]
 
 [chara_mod name="sakamoto" face="smile" time="0"]
 [solo_chara name="sakamoto"]
@@ -775,7 +778,7 @@
 [chara_mod name="sakamoto" face="normal" time="0"]
 [solo_chara name="sakamoto"]
 #坂本
-【坂本】津田さん、森下さんが気分を悪くして。[p]
+【坂本】津田花さん、森下さんが気分を悪くして。[p]
 
 #津田花
 一瞬だった。[p]
@@ -877,7 +880,10 @@
 #津田花
 事故ではないと示すものは――。[p]
 
-[select text="階段上のスリッパ" target="*l2_q2_slipper" text="手すりの傷" target="*l2_q2_rail" text="握られた紙片" target="*l2_q2_paper"]
+[glink target="*l2_q2_slipper" text="階段上のスリッパ" x=190 y=225 width=900 size=22]
+[glink target="*l2_q2_rail" text="手すりの傷" x=190 y=315 width=900 size=22]
+[glink target="*l2_q2_paper" text="握られた紙片" x=190 y=405 width=900 size=22]
+[s]
 
 *l2_q2_slipper
 [eval exp="sf.rw_l2_q2=1"]
@@ -960,7 +966,7 @@
 [chara_mod name="morishita" face="normal" time="0"]
 [solo_chara name="morishita"]
 #森下
-【森下】はい。津田さんも一緒でした。[p]
+【森下】はい。津田花さんも一緒でした。[p]
 
 #津田花
 【津田花】三人は互いに確認できる。[p]
@@ -1026,7 +1032,10 @@
 #津田花
 犯人が時計を二十二時へ動かした理由は何だ。[p]
 
-[select text="死亡時刻を遅く見せる" target="*l2_q3_late" text="停電時刻を隠す" target="*l2_q3_blackout" text="発見者の証言に合わせる" target="*l2_q3_witness"]
+[glink target="*l2_q3_late" text="死亡時刻を遅く見せる" x=190 y=225 width=900 size=22]
+[glink target="*l2_q3_blackout" text="停電時刻を隠す" x=190 y=315 width=900 size=22]
+[glink target="*l2_q3_witness" text="発見者の証言に合わせる" x=190 y=405 width=900 size=22]
+[s]
 
 *l2_q3_late
 [eval exp="sf.rw_l2_q3=1"]
@@ -1212,7 +1221,7 @@
 その静かな顔が、泣き崩れるより痛々しかった。[p]
 
 #石原
-【石原】津田さん。[p]
+【石原】津田花さん。[p]
 
 #石原
 【石原】あなたは、私を守ろうとしていたんですよね。[p]
@@ -1283,7 +1292,7 @@
 [chara_mod name="ishihara" face="normal" time="0"]
 [solo_chara name="ishihara"]
 #石原
-【石原】津田さん。[p]
+【石原】津田花さん。[p]
 
 #津田花
 振り返る。[p]
@@ -1377,7 +1386,7 @@
 [chara_mod name="maeda" face="surprised" time="0"]
 [solo_chara name="maeda"]
 #前田
-【前田】津田さん、朝から難しい顔してる。酔った？[p]
+【前田】津田花さん、朝から難しい顔してる。酔った？[p]
 
 #津田花
 【津田花】前田さん。[p]
