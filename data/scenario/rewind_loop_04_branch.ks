@@ -11,10 +11,13 @@
 *rewind_loop_04_start
 [cm]
 [eval exp="sf.rw_loop=4;sf.rw4_score=0;sf.rw4_maeda=0;sf.rw4_morishita=0;sf.rw4_sakamoto=0;sf.rw4_ishihara=0;sf.rw4_segawa=0;sf.rw4_route=0"]
+[clear_talk_chara]
 [bg storage="cg/cg_033_segawa_death.png" time=700]
 [playbgm storage="bgm_body_discovery.mp3" loop=true time=500 wait=false]
 
 [scene_card date="6月6日　22:20" place="温泉宿・第四ループ　殺人現場"]
+[clear_talk_chara]
+[bg storage="cg/cg_033_segawa_death.png" time=500]
 
 #津田花
 四度目の世界でも、殺人は起きた。[p]
@@ -28,6 +31,8 @@
 #津田花
 凶器は夕食後、前田さんが林檎をむくために持ち出したものだった。[p]
 
+[chara_mod name="maeda" face="normal" time="0"]
+[solo_chara name="maeda"]
 #前田
 [font color="0xFFE0B8"]
 【前田】私です。[p]
@@ -35,19 +40,27 @@
 #前田
 【前田】私が、瀬川さんを刺しました。[p]
 
+[chara_mod name="morishita" face="normal" time="0"]
+[solo_chara name="morishita"]
 #森下
 [font color="0xFFF2B8"]
 【森下】前田さん……どうして。[p]
 
+[chara_mod name="maeda" face="normal" time="0"]
+[solo_chara name="maeda"]
 #前田
 【前田】瀬川さんが、原本を燃やそうとしたから。[p]
 
 #前田
 【前田】私、今度こそ話すって言ったの。[p]
 
+[chara_mod name="maeda" face="angry" time="0"]
+[solo_chara name="maeda"]
 #前田
 【前田】濃度が違うと気づいていたことも、黙っていたことも。[p]
 
+[chara_mod name="maeda" face="normal" time="0"]
+[solo_chara name="maeda"]
 #前田
 【前田】そしたら瀬川さんが、『誰も救われない』って。[p]
 
@@ -60,16 +73,22 @@
 #前田
 【前田】気づいたら、手にナイフがありました。[p]
 
+[chara_mod name="sakamoto" face="normal" time="0"]
+[solo_chara name="sakamoto"]
 #坂本
 [font color="0xD8FFD8"]
 【坂本】すぐ助けを呼べば、まだ間に合ったかもしれないのに。[p]
 
+[chara_mod name="maeda" face="worried" time="0"]
+[solo_chara name="maeda"]
 #前田
 【前田】怖かった。[p]
 
 #前田
 【前田】また、怖くて言えなかった。[p]
 
+[chara_mod name="maeda" face="normal" time="0"]
+[solo_chara name="maeda"]
 #前田
 【前田】5年前と同じ。[p]
 
@@ -91,6 +110,8 @@
 #津田花
 五人全員が、別々の世界で人を殺した。[p]
 
+[chara_mod name="ishihara" face="normal" time="0"]
+[solo_chara name="ishihara"]
 #石原
 [font color="0xD7D7D7"]
 【石原】津田さん。[p]
@@ -119,12 +140,16 @@
 #津田花
 だが断片を並べただけで、本当に真相を理解したと言えるのか。[p]
 
+[chara_mod name="sakamoto" face="normal" time="0"]
+[solo_chara name="sakamoto"]
 #坂本
 【坂本】津田さん。顔色が悪いです。[p]
 
 #津田花
 【津田花】少し、一人で考えさせてくれ。[p]
 
+[chara_mod name="morishita" face="normal" time="0"]
+[solo_chara name="morishita"]
 #森下
 【森下】でも、こんな時に一人になるのは。[p]
 
@@ -134,6 +159,8 @@
 #津田花
 【津田花】夜が明けるまでに、全部つなげる。[p]
 
+[chara_mod name="maeda" face="normal" time="0"]
+[solo_chara name="maeda"]
 #前田
 【前田】津田さん……。[p]
 
@@ -149,16 +176,20 @@
 #津田花
 【津田花】石原さんは、現場をそのまま残してくれ。[p]
 
+[chara_mod name="ishihara" face="normal" time="0"]
+[solo_chara name="ishihara"]
 #石原
 【石原】わかりました。[p]
 
 #津田花
 【津田花】今度こそ、朝までに終わらせる。[p]
 
+[clear_talk_chara]
 [bg storage="bg_black.png" time=700]
 [stopbgm time=700]
 
 [scene_card date="6月6日　23:10" place="温泉宿・津田花の客室"]
+[clear_talk_chara]
 [bg storage="bg_guest_room_night.png" time=700]
 [playbgm storage="bgm_deduction.mp3" loop=true time=700 wait=false]
 
@@ -238,6 +269,7 @@
 ; 問1　前田
 ;==================================================
 [bgcolor color="0x1B2233" time="500"]
+[clear_talk_chara]
 [bg storage="cg/cg_094_maeda_deduction.png" time=700]
 
 #津田花
@@ -290,6 +322,7 @@
 #津田花
 二人目、森下さん。[p]
 
+[clear_talk_chara]
 [bg storage="cg/cg_091_morishita_deduction.png" time=700]
 
 #津田花
@@ -342,6 +375,7 @@
 #津田花
 第一ループでは森下さんに殺され、第三ループでは瀬川さんに殺された。[p]
 
+[clear_talk_chara]
 [bg storage="cg/cg_092_sakamoto_deduction.png" time=700]
 
 #津田花
@@ -397,6 +431,7 @@
 #津田花
 あれは、5年前と同じ行動だった。[p]
 
+[clear_talk_chara]
 [bg storage="cg/cg_093_ishihara_deduction.png" time=700]
 
 #津田花
@@ -446,6 +481,7 @@
 #津田花
 五人目、瀬川さん。[p]
 
+[clear_talk_chara]
 [bg storage="cg/cg_090_segawa_deduction.png" time=700]
 
 #津田花
@@ -472,6 +508,7 @@
 [jump target="*rw4_sega_join"]
 
 *rw4_sega_join
+[clear_talk_chara]
 [bg storage="bg_guest_room_night.png" time=500]
 
 #津田花
@@ -523,6 +560,8 @@
 それとも、五人が判断するより前に、すでに何かが壊れていたのか。[p]
 
 [scene_card date="6月7日　1:40" place="温泉宿・津田花の客室"]
+[clear_talk_chara]
+[bg storage="bg_guest_room_night.png" time=500]
 
 #津田花
 時計は一時四十分。[p]
@@ -618,10 +657,12 @@
 ; ルートA導入
 ; ---------------------------------------------------------------------
 *rw4_route_a
+[clear_talk_chara]
 [bg storage="bg_black.png" time=700]
 [stopbgm time=700]
 
 [scene_card date="6月7日　6:10" place="温泉宿・夜明け"]
+[clear_talk_chara]
 [bg storage="bg_inn_corridor_morning.png" time=800]
 [playbgm storage="bgm_resolve_finale.mp3" loop=true time=800 wait=false]
 
@@ -659,10 +700,12 @@
 ; ルートB導入
 ; ---------------------------------------------------------------------
 *rw4_route_b
+[clear_talk_chara]
 [bg storage="bg_black.png" time=700]
 [stopbgm time=700]
 
 [scene_card date="6月7日　6:10" place="温泉宿・夜明け"]
+[clear_talk_chara]
 [bg storage="bg_inn_corridor_morning.png" time=800]
 [playbgm storage="bgm_resolve_finale.mp3" loop=true time=800 wait=false]
 

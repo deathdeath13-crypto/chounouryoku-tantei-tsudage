@@ -8,6 +8,7 @@
 [stopbgm time=700]
 [wait time=400]
 [scene_card date="6月7日　4:50" place="温泉宿・夜明け前の廊下"]
+[clear_talk_chara]
 [bg storage="bg_inn_corridor_morning.png" time=900]
 [playbgm storage="bgm_resolve_finale.mp3" loop=true time=900 wait=false]
 ; 最終章　名探偵のいない世界
@@ -978,6 +979,7 @@
 
 5年前。
 
+[clear_talk_chara]
 [bg storage="bg_hospital_server_room.png" time=1200]
 
 病院。
@@ -1032,30 +1034,45 @@
 
 [p]
 
+[clear_talk_chara]
 [bg storage="bg_inn_corridor_morning.png" time=1200]
 
 病院の休憩室。
 
 [p]
 
+[chara_mod name="maeda" face="surprised" time="0"]
+[solo_chara name="maeda"]
 #前田
 「温泉行きたい！」
 
+[chara_mod name="segawa" face="surprised" time="0"]
+[solo_chara name="segawa"]
 #瀬川
 「急に何？」
 
+[chara_mod name="maeda" face="surprised" time="0"]
+[solo_chara name="maeda"]
 #前田
 「慰安旅行！　五人で！」
 
+[chara_mod name="ishihara" face="surprised" time="0"]
+[solo_chara name="ishihara"]
 #石原
 「なぜ五人なんですか」
 
+[chara_mod name="maeda" face="surprised" time="0"]
+[solo_chara name="maeda"]
 #前田
 「ここに五人いるから！」
 
+[chara_mod name="morishita" face="normal" time="0"]
+[solo_chara name="morishita"]
 #森下
 「そのままですね」
 
+[chara_mod name="sakamoto" face="smile" time="0"]
+[solo_chara name="sakamoto"]
 #坂本
 「ふふっ」
 
@@ -1081,15 +1098,23 @@
 
 [p]
 
+[chara_mod name="maeda" face="surprised" time="0"]
+[solo_chara name="maeda"]
 #前田
 「じゃあ決まり！」
 
+[chara_mod name="segawa" face="normal" time="0"]
+[solo_chara name="segawa"]
 #瀬川
 「決まってない」
 
+[chara_mod name="maeda" face="surprised" time="0"]
+[solo_chara name="maeda"]
 #前田
 「多数決！」
 
+[chara_mod name="ishihara" face="normal" time="0"]
+[solo_chara name="ishihara"]
 #石原
 「まだ誰も投票していません」
 
@@ -1111,14 +1136,20 @@
 
 [p]
 
+[chara_mod name="morishita" face="normal" time="0"]
+[solo_chara name="morishita"]
 #森下
 「…………」
 
+[chara_mod name="sakamoto" face="surprised" time="0"]
+[solo_chara name="sakamoto"]
 #坂本
 「どうしたの？」
 
 [p]
 
+[chara_mod name="morishita" face="normal" time="0"]
+[solo_chara name="morishita"]
 #森下
 「いえ」
 
@@ -1143,9 +1174,13 @@
 
 [p]
 
+[chara_mod name="maeda" face="worried" time="0"]
+[solo_chara name="maeda"]
 #前田
 「何それ、怖っ！」
 
+[chara_mod name="segawa" face="angry" time="0"]
+[solo_chara name="segawa"]
 #瀬川
 「昼間から怪談やめて」
 
@@ -1277,6 +1312,7 @@
 
 [wait time=1800]
 [cm]
+[clear_talk_chara]
 [bg storage="bg_black.png" time=1200]
 [glink storage="honehone_battle.ks" target="*extra_battle_start" text="EXTRA STAGE" x=310 y=300 width=660 size=28]
 [glink storage="title.ks" target="*start" text="タイトル画面へ" x=310 y=410 width=660 size=24]
