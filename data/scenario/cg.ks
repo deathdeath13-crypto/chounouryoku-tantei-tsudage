@@ -1,5 +1,5 @@
 ;==================================================
-; CG MODE - 4 columns x 3 rows / 6 pages
+; CG MODE - 4 columns x 3 rows / 7 pages
 ;==================================================
 [layopt layer="message0" visible=false]
 [clearfix]
@@ -25,7 +25,8 @@
 [jump target="*page_2" cond="tf.page==2"]
 [jump target="*page_3" cond="tf.page==3"]
 [jump target="*page_4" cond="tf.page==4"]
-[jump target="*page_5"]
+[jump target="*page_5" cond="tf.page==5"]
+[jump target="*page_6"]
 
 *page_0
 [cg_image_button graphic="cg/cg_010_morishita_bus_xray.png" no_graphic="../../tyrano/images/system/noimage.png" x="60" y="110" width="260" height="146" folder="bgimage"]
@@ -108,9 +109,22 @@
 [cg_image_button graphic="cg/cg_103_ishihara_event_05.png" no_graphic="../../tyrano/images/system/noimage.png" x="960" y="130" width="260" height="146" folder="bgimage"]
 [cg_image_button graphic="cg/cg_104_ishihara_event_06.png" no_graphic="../../tyrano/images/system/noimage.png" x="60" y="315" width="260" height="146" folder="bgimage"]
 [button graphic="config/arrow_prev.png" target="*backpage" x="30" y="655" folder="image"]
+[button graphic="config/arrow_next.png" target="*nextpage" x="1200" y="655" folder="image"]
+[jump target="*endpage"]
+
+*page_6
+[ptext layer="1" name="sakamoto_event_title" text="SAKAMOTO / LOOP 03" x="60" y="92" size="16" color="0xffe89a" letterspacing="3"]
+[cg_image_button graphic="cg/cg_110_sakamoto_event_01.png" no_graphic="../../tyrano/images/system/noimage.png" x="60" y="130" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_111_sakamoto_event_02.png" no_graphic="../../tyrano/images/system/noimage.png" x="360" y="130" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_112_sakamoto_event_03.png" no_graphic="../../tyrano/images/system/noimage.png" x="660" y="130" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_113_sakamoto_event_04.png" no_graphic="../../tyrano/images/system/noimage.png" x="960" y="130" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_114_sakamoto_event_05.png" no_graphic="../../tyrano/images/system/noimage.png" x="60" y="315" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_115_sakamoto_event_06.png" no_graphic="../../tyrano/images/system/noimage.png" x="360" y="315" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_116_sakamoto_event_07.png" no_graphic="../../tyrano/images/system/noimage.png" x="660" y="315" width="260" height="146" folder="bgimage"]
+[button graphic="config/arrow_prev.png" target="*backpage" x="30" y="655" folder="image"]
 
 *endpage
-[ptext layer="1" name="cg_page" text=&(tf.page+1)+" / 6" x="570" y="660" width="140" align="center" size="20" color="0xffffff"]
+[ptext layer="1" name="cg_page" text=&(tf.page+1)+" / 7" x="570" y="660" width="140" align="center" size="20" color="0xffffff"]
 [s]
 
 *nextpage

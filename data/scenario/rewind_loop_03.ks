@@ -437,6 +437,8 @@
 #津田花
 触れる直前で止まる。[p]
 
+[call storage="sakamoto_loop3_event.ks" target="*sakamoto_loop3_event_start"]
+
 #坂本
 【坂本】手を、握ってもらってもいいですか。[p]
 
