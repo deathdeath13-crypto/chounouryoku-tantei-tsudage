@@ -119,50 +119,5 @@
             <button data-remodal-action="cancel" id="remodal-cancel" class="remodal-cancel">Cancel</button>
             <button data-remodal-action="confirm" id="remodal-confirm" class="remodal-confirm">OK</button>
         </div>
-        <script>
-            // Title audio is deliberately independent from Tyrano's scenario
-            // queue so autoplay restrictions can never block NEW GAME.
-            (() => {
-                const audio = new Audio("./data/bgm/bgm_title_mystery.mp3");
-                audio.loop = true;
-                audio.volume = 0.65;
-                let titleVisible = false;
-
-                const stopTitleAudio = () => {
-                    audio.pause();
-                    audio.currentTime = 0;
-                };
-
-                const syncTitleState = () => {
-                    const visible = !!document.querySelector('img[src*="title_tsudage/new_game"]');
-                    if (visible && !titleVisible) {
-                        audio.play().catch(() => {});
-                    } else if (!visible && titleVisible) {
-                        stopTitleAudio();
-                    }
-                    titleVisible = visible;
-                };
-
-                new MutationObserver(syncTitleState).observe(document.body, {
-                    childList: true,
-                    subtree: true,
-                });
-
-                document.addEventListener("pointerdown", (event) => {
-                    if (!titleVisible) return;
-                    const target = event.target;
-                    const isTitleButton = target instanceof HTMLImageElement &&
-                        target.src.includes("/title_tsudage/");
-                    if (isTitleButton) {
-                        stopTitleAudio();
-                        titleVisible = false;
-                    } else {
-                        audio.play().catch(() => {});
-                    }
-                }, true);
-
-                syncTitleState();
-            })();
-        </script>
     </body>
 </html>
