@@ -59,10 +59,13 @@
 「わからない。」[p]
 #津田花
 「ただ、彼女たちが『いなくなる』ことだけが、耐えられなかった。」[p]
-[bg storage="bg_guest_room_night.png" time=1200]
+[bg storage="bg_black.png" time=1200]
 [clear_talk_chara]
 #津田花
 「だから、こうなった。」[p]
+[clear_talk_chara]
+[bg storage="cg/cg_120_endb_morishita_01.png" time=900]
+[cg storage="cg/cg_120_endb_morishita_01.png"]
 #津田花
 「暗い地下室。」[p]
 #津田花
@@ -85,27 +88,43 @@
 「守るため。」[p]
 #津田花
 「そう信じ込ませた。」[p]
-[solo_chara name="morishita"]
+[clear_talk_chara]
+[bg storage="cg/cg_121_endb_morishita_02.png" time=650]
+[cg storage="cg/cg_121_endb_morishita_02.png"]
 #森下
 【森下】「……津田花さん。」[p]
 #森下
 【森下】「これで、安全なんですね。」[p]
-[solo_chara name="segawa"]
+[clear_talk_chara]
+[bg storage="cg/cg_122_endb_morishita_03.png" time=550]
+[cg storage="cg/cg_122_endb_morishita_03.png"]
+[clear_talk_chara]
+[bg storage="cg/cg_123_endb_segawa.png" time=650]
+[cg storage="cg/cg_123_endb_segawa.png"]
 #瀬川
 【瀬川】「動けない方が、確かに安心かも。」[p]
 #瀬川
 【瀬川】「変なこと、考えなくて済むし。」[p]
-[solo_chara name="maeda"]
+[clear_talk_chara]
+[bg storage="cg/cg_127_endb_maeda.png" time=650]
+[cg storage="cg/cg_127_endb_maeda.png"]
 #前田
 【前田】「ふふっ……なんか、変な気分。」[p]
 #前田
 【前田】「でも、津田花さんがそう言うなら、正しいんだよね。」[p]
-[solo_chara name="ishihara"]
+[clear_talk_chara]
+[bg storage="cg/cg_124_endb_ishihara_01.png" time=550]
+[cg storage="cg/cg_124_endb_ishihara_01.png"]
 #石原
 【石原】「……省エネには、最適です。」[p]
 #石原
 【石原】「抵抗する必要がない。」[p]
-[solo_chara name="sakamoto"]
+[clear_talk_chara]
+[bg storage="cg/cg_125_endb_ishihara_02.png" time=550]
+[cg storage="cg/cg_125_endb_ishihara_02.png"]
+[clear_talk_chara]
+[bg storage="cg/cg_126_endb_sakamoto.png" time=650]
+[cg storage="cg/cg_126_endb_sakamoto.png"]
 #坂本
 【坂本】「私たちを、守ってくれているんですね。」[p]
 #坂本
@@ -127,8 +146,7 @@
 「縄に繋がれたまま。」[p]
 #津田花
 「俺の好きなように。」[p]
-[bg storage="bg_guest_room_night.png" time=1000]
-[cg storage="cg/cg_081_honehone_ending.png"]
+[bg storage="bg_black.png" time=1000]
 [clear_talk_chara]
 #津田花
 「俺は時間操作で、射精後の回復を即座に済ませる。」[p]
@@ -138,14 +156,38 @@
 「何回出しても、すぐに硬くなる。」[p]
 #津田花
 「無双状態だ。」[p]
+[clear_talk_chara]
+[bg storage="bg_black.png" time=0]
+[playse storage="se_morishita_water.mp3" loop=true buf=3]
+[bgmovie storage="endb_morishita_01.mp4" loop="true" mute="true" time="300"]
 #津田花
 「森下さんの小さな口を、塞ぐ。」[p]
+[clear_talk_chara]
+[stop_bgmovie time="200"]
+[stopse buf=3 fadeout=true time=150]
+[bg storage="cg/cg_123_endb_segawa.png" time=450]
 #津田花
 「瀬川の勝気な顔を、歪ませる。」[p]
+[clear_talk_chara]
+[bg storage="bg_black.png" time=0]
+[playse storage="se_morishita_water.mp3" loop=true buf=3]
+[bgmovie storage="endb_maeda_02.mp4" loop="true" mute="true" time="300"]
 #津田花
 「前田さんの明るい声を、甘い吐息に変える。」[p]
+[clear_talk_chara]
+[stop_bgmovie time="200"]
+[stopse buf=3 fadeout=true time=150]
+[bg storage="bg_black.png" time=0]
+[playse storage="se_morishita_water.mp3" loop=true buf=3]
+[bgmovie storage="endb_ishihara_01.mp4" loop="true" mute="true" time="300"]
 #津田花
 「石原さんの無表情を、微かに崩す。」[p]
+[clear_talk_chara]
+[stop_bgmovie time="200"]
+[stopse buf=3 fadeout=true time=150]
+[bg storage="bg_black.png" time=0]
+[playse storage="se_morishita_water.mp3" loop=true buf=3]
+[bgmovie storage="endb_sakamoto_01.mp4" loop="true" mute="true" time="300"]
 #津田花
 「坂本さんの清楚な唇を、白く汚す。」[p]
 #津田花
@@ -158,32 +200,56 @@
 「抑えきれない甘い声。」[p]
 #津田花
 「地下室に、それらが満ちる。」[p]
-[solo_chara name="morishita"]
+[clear_talk_chara]
+[stop_bgmovie time="200"]
+[stopse buf=3 fadeout=true time=150]
+[bg storage="bg_black.png" time=0]
+[playse storage="se_morishita_water.mp3" loop=true buf=3]
+[bgmovie storage="endb_morishita_01.mp4" loop="true" mute="true" time="300"]
 #森下
 【森下】「んっ……あっ……津田花さん……。」[p]
 #森下
 【森下】「いっぱい……出して……。」[p]
-[solo_chara name="segawa"]
+[clear_talk_chara]
+[stop_bgmovie time="200"]
+[stopse buf=3 fadeout=true time=150]
+[bg storage="cg/cg_123_endb_segawa.png" time=450]
 #瀬川
 【瀬川】「っ……はあ……はあ……。」[p]
 #瀬川
 【瀬川】「こんなの……正しいの……？」[p]
-[solo_chara name="maeda"]
+[clear_talk_chara]
+[bg storage="bg_black.png" time=0]
+[playse storage="se_morishita_water.mp3" loop=true buf=3]
+[bgmovie storage="endb_maeda_01.mp4" loop="true" mute="true" time="300"]
 #前田
 【前田】「んあっ……また……イッちゃう……。」[p]
 #前田
 【前田】「でも……気持ちいい……。」[p]
-[solo_chara name="ishihara"]
+[clear_talk_chara]
+[stop_bgmovie time="200"]
+[stopse buf=3 fadeout=true time=150]
+[bg storage="bg_black.png" time=0]
+[playse storage="se_morishita_water.mp3" loop=true buf=3]
+[bgmovie storage="endb_ishihara_02.mp4" loop="true" mute="true" time="300"]
 #石原
 【石原】「……電池、切れそうです。」[p]
 #石原
 【石原】「でも……止めないで。」[p]
-[solo_chara name="sakamoto"]
+[clear_talk_chara]
+[stop_bgmovie time="200"]
+[stopse buf=3 fadeout=true time=150]
+[bg storage="bg_black.png" time=0]
+[playse storage="se_morishita_water.mp3" loop=true buf=3]
+[bgmovie storage="endb_sakamoto_02.mp4" loop="true" mute="true" time="300"]
 #坂本
 【坂本】「……私たちを、壊さないでください。」[p]
 #坂本
 【坂本】「でも……離さないで。」[p]
 [clear_talk_chara]
+[stop_bgmovie time="250"]
+[stopse buf=3 fadeout=true time=200]
+[bg storage="bg_black.png" time=700]
 #津田花
 「彼女たちは、受け入れている。」[p]
 #津田花
@@ -200,24 +266,43 @@
 「時間を巻き戻し、すぐに回復する。」[p]
 #津田花
 「また、突き入れる。」[p]
+[clear_talk_chara]
+[bg storage="cg/cg_121_endb_morishita_02.png" time=400]
 #津田花
 「森下さんの中に。」[p]
+[clear_talk_chara]
+[bg storage="cg/cg_123_endb_segawa.png" time=400]
 #津田花
 「瀬川の喉に。」[p]
+[clear_talk_chara]
+[bg storage="bg_black.png" time=0]
+[playse storage="se_morishita_water.mp3" loop=true buf=3]
+[bgmovie storage="endb_maeda_02.mp4" loop="true" mute="true" time="250"]
 #津田花
 「前田さんの胸に。」[p]
+[clear_talk_chara]
+[stop_bgmovie time="180"]
+[stopse buf=3 fadeout=true time=120]
+[bg storage="cg/cg_125_endb_ishihara_02.png" time=400]
 #津田花
 「石原さんの奥に。」[p]
+[clear_talk_chara]
+[bg storage="bg_black.png" time=0]
+[playse storage="se_morishita_water.mp3" loop=true buf=3]
+[bgmovie storage="endb_sakamoto_02.mp4" loop="true" mute="true" time="250"]
 #津田花
 「坂本さんの顔に。」[p]
+[clear_talk_chara]
+[stop_bgmovie time="220"]
+[stopse buf=3 fadeout=true time=180]
+[bg storage="bg_black.png" time=700]
 #津田花
 「終わりがない。」[p]
 #津田花
 「ループが、ここにある。」[p]
 #津田花
 「彼女たちを失わないための、歪な永遠。」[p]
-[bg storage="bg_guest_room_night.png" time=1000]
-[cg storage="cg/cg_082_honehone_defeated.png"]
+[bg storage="bg_black.png" time=1000]
 [clear_talk_chara]
 #津田花
 「5人は進んで縄に手を出し、自ら縛られる姿勢を取るようになった。」[p]
@@ -249,19 +334,28 @@
 「この地下室で。」[p]
 #津田花
 「この歪んだ世界で。」[p]
-[solo_chara name="morishita"]
+[clear_talk_chara]
+[bg storage="cg/cg_122_endb_morishita_03.png" time=550]
 #森下
 【森下】「大好き……です……。」[p]
-[solo_chara name="segawa"]
+[clear_talk_chara]
+[bg storage="cg/cg_123_endb_segawa.png" time=500]
 #瀬川
 【瀬川】「……もう、外に出たくない。」[p]
-[solo_chara name="maeda"]
+[clear_talk_chara]
+[bg storage="bg_black.png" time=0]
+[playse storage="se_morishita_water.mp3" loop=true buf=3]
+[bgmovie storage="endb_maeda_01.mp4" loop="true" mute="true" time="250"]
 #前田
 【前田】「ずっと……こうしてようね。」[p]
-[solo_chara name="ishihara"]
+[clear_talk_chara]
+[stop_bgmovie time="180"]
+[stopse buf=3 fadeout=true time=120]
+[bg storage="cg/cg_124_endb_ishihara_01.png" time=500]
 #石原
 【石原】「……ここが、一番静か。」[p]
-[solo_chara name="sakamoto"]
+[clear_talk_chara]
+[bg storage="cg/cg_126_endb_sakamoto.png" time=500]
 #坂本
 【坂本】「あなたが、守ってくれる限り。」[p]
 [clear_talk_chara]

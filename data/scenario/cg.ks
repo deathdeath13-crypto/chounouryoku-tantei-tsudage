@@ -1,5 +1,5 @@
 ;==================================================
-; CG MODE - 4 columns x 3 rows / 7 pages
+; CG MODE - 4 columns x 3 rows / 9 pages
 ;==================================================
 [layopt layer="message0" visible=false]
 [clearfix]
@@ -26,7 +26,9 @@
 [jump target="*page_3" cond="tf.page==3"]
 [jump target="*page_4" cond="tf.page==4"]
 [jump target="*page_5" cond="tf.page==5"]
-[jump target="*page_6"]
+[jump target="*page_6" cond="tf.page==6"]
+[jump target="*page_7" cond="tf.page==7"]
+[jump target="*page_8"]
 
 *page_0
 [cg_image_button graphic="cg/cg_010_morishita_bus_xray.png" no_graphic="../../tyrano/images/system/noimage.png" x="60" y="110" width="260" height="146" folder="bgimage"]
@@ -122,9 +124,36 @@
 [cg_image_button graphic="cg/cg_115_sakamoto_event_06.png" no_graphic="../../tyrano/images/system/noimage.png" x="360" y="315" width="260" height="146" folder="bgimage"]
 [cg_image_button graphic="cg/cg_116_sakamoto_event_07.png" no_graphic="../../tyrano/images/system/noimage.png" x="660" y="315" width="260" height="146" folder="bgimage"]
 [button graphic="config/arrow_prev.png" target="*backpage" x="30" y="655" folder="image"]
+[button graphic="config/arrow_next.png" target="*nextpage" x="1200" y="655" folder="image"]
+[jump target="*endpage"]
+
+*page_7
+[ptext layer="1" name="ending_b_title" text="BAD END / DISTORTED ETERNITY" x="60" y="92" size="16" color="0xffe89a" letterspacing="3"]
+[cg_image_button graphic="cg/cg_120_endb_morishita_01.png" no_graphic="../../tyrano/images/system/noimage.png" x="60" y="130" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_121_endb_morishita_02.png" no_graphic="../../tyrano/images/system/noimage.png" x="360" y="130" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_122_endb_morishita_03.png" no_graphic="../../tyrano/images/system/noimage.png" x="660" y="130" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_123_endb_segawa.png" no_graphic="../../tyrano/images/system/noimage.png" x="960" y="130" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_127_endb_maeda.png" no_graphic="../../tyrano/images/system/noimage.png" x="60" y="315" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_124_endb_ishihara_01.png" no_graphic="../../tyrano/images/system/noimage.png" x="360" y="315" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_125_endb_ishihara_02.png" no_graphic="../../tyrano/images/system/noimage.png" x="660" y="315" width="260" height="146" folder="bgimage"]
+[cg_image_button graphic="cg/cg_126_endb_sakamoto.png" no_graphic="../../tyrano/images/system/noimage.png" x="960" y="315" width="260" height="146" folder="bgimage"]
+[button graphic="config/arrow_prev.png" target="*backpage" x="30" y="655" folder="image"]
+[button graphic="config/arrow_next.png" target="*nextpage" x="1200" y="655" folder="image"]
+[jump target="*endpage"]
+
+*page_8
+[ptext layer="1" name="ending_b_movie_title" text="BAD END / LOOP MOVIES" x="60" y="92" size="16" color="0xffe89a" letterspacing="3"]
+[video_cg_button thumb="cg/cg_121_endb_morishita_02.png" storage="endb_morishita_01.mp4" x="60" y="130" width="260" height="146" folder="bgimage"]
+[video_cg_button thumb="cg/cg_127_endb_maeda.png" storage="endb_maeda_01.mp4" x="360" y="130" width="260" height="146" folder="bgimage"]
+[video_cg_button thumb="cg/cg_127_endb_maeda.png" storage="endb_maeda_02.mp4" x="660" y="130" width="260" height="146" folder="bgimage"]
+[video_cg_button thumb="cg/cg_124_endb_ishihara_01.png" storage="endb_ishihara_01.mp4" x="960" y="130" width="260" height="146" folder="bgimage"]
+[video_cg_button thumb="cg/cg_125_endb_ishihara_02.png" storage="endb_ishihara_02.mp4" x="60" y="315" width="260" height="146" folder="bgimage"]
+[video_cg_button thumb="cg/cg_126_endb_sakamoto.png" storage="endb_sakamoto_01.mp4" x="360" y="315" width="260" height="146" folder="bgimage"]
+[video_cg_button thumb="cg/cg_126_endb_sakamoto.png" storage="endb_sakamoto_02.mp4" x="660" y="315" width="260" height="146" folder="bgimage"]
+[button graphic="config/arrow_prev.png" target="*backpage" x="30" y="655" folder="image"]
 
 *endpage
-[ptext layer="1" name="cg_page" text=&(tf.page+1)+" / 7" x="570" y="660" width="140" align="center" size="20" color="0xffffff"]
+[ptext layer="1" name="cg_page" text=&(tf.page+1)+" / 9" x="570" y="660" width="140" align="center" size="20" color="0xffffff"]
 [s]
 
 *nextpage
