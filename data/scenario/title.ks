@@ -21,7 +21,24 @@
 [button x="82" y="388" graphic="title_tsudage/continue.png" enterimg="title_tsudage/continue_on.png" target="*open_load" folder="image" keyfocus="2"]
 [button x="82" y="456" graphic="title_tsudage/cg_mode.png" enterimg="title_tsudage/cg_mode_on.png" target="*open_cg" folder="image" keyfocus="3"]
 [button x="82" y="524" graphic="title_tsudage/config.png" enterimg="title_tsudage/config_on.png" role="sleepgame" storage="config.ks" folder="image" keyfocus="4"]
-[button x="82" y="592" graphic="title_tsudage/exit.png" enterimg="title_tsudage/exit_on.png" target="*exit_game" folder="image" keyfocus="5"]
+[glink text="ABOUT / CREDITS" x="82" y="592" width="330" height="48" size="18" color="0x071827" font_color="0xdffaff" target="*about" keyfocus="5"]
+[button x="440" y="592" graphic="title_tsudage/exit.png" enterimg="title_tsudage/exit_on.png" target="*exit_game" folder="image" keyfocus="6"]
+[s]
+
+*about
+[iscript]
+if (window.__titleSlideshow && window.__titleSlideshow.stop) {
+    window.__titleSlideshow.stop();
+}
+[endscript]
+[cm]
+[clearfix]
+[freeimage layer="1" page="fore"]
+[layopt layer="1" visible=true]
+[bg storage="bg_black.png" time="400"]
+[ptext layer="1" name="about_title" text="ABOUT / CREDITS" x="90" y="70" size="38" bold="true" color="0xeaf8ff" edge="0x06111f" letterspacing="5"]
+[ptext layer="1" name="about_body" text="『超能力探偵つだげ』&#10;&#10;Music generated with MiniMax Music 3.&#10;本作品の一部楽曲制作に MiniMax Music 3 を使用しています。&#10;&#10;Scenario / Direction / Production: shimayang" x="100" y="165" width="1080" size="22" color="0xeaf8ff" edge="0x000000" linespacing="18"]
+[glink text="BACK" x="520" y="610" width="240" height="52" size="20" color="0x071827" font_color="0xdffaff" target="*start"]
 [s]
 
 *open_load

@@ -220,6 +220,7 @@
 [clear_talk_chara]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [bgmovie storage="ishihara_loop1_motion_01.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:ishihara_loop1_motion_01.mp4"]
 #津田花
 「ゆっくりと、丁寧に。」[p]
 #津田花
@@ -247,6 +248,7 @@
 [clear_talk_chara]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [bgmovie storage="ishihara_loop1_motion_02.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:ishihara_loop1_motion_02.mp4"]
 #津田花
 「俺はペースを少し上げた。」[p]
 #津田花

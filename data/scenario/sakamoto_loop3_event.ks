@@ -189,6 +189,7 @@
 [clear_talk_chara]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [bgmovie storage="sakamoto_loop3_motion_00.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:sakamoto_loop3_motion_00.mp4"]
 #坂本
 【坂本】「ん……。」[p]
 [clear_talk_chara]
@@ -266,6 +267,7 @@
 [clear_talk_chara]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [bgmovie storage="sakamoto_loop3_motion_01.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:sakamoto_loop3_motion_01.mp4"]
 #坂本
 【坂本】「んっ……。」[p]
 [clear_talk_chara]

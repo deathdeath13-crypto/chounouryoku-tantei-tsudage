@@ -253,6 +253,7 @@
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [clear_talk_chara]
 [bgmovie storage="morishita_event_04.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:morishita_event_04.mp4"]
 #森下
 【森下】「あっ……んっ……入って、くる……。」[p]
 [clear_talk_chara]
@@ -304,6 +305,7 @@
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [clear_talk_chara]
 [bgmovie storage="morishita_event_03.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:morishita_event_03.mp4"]
 #津田花
 「奥まで届くたびに、森下さんの内壁が痙攣する。」[p]
 #津田花

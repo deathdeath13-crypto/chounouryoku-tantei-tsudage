@@ -327,6 +327,7 @@
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [clear_talk_chara]
 [bgmovie storage="segawa_event_04.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:segawa_event_04.mp4"]
 ;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「んあっ……！」[p]
@@ -465,6 +466,7 @@
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [clear_talk_chara]
 [bgmovie storage="segawa_event_06.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:segawa_event_06.mp4"]
 ;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「んあっ……！　後ろから……！」[p]
@@ -583,6 +585,7 @@
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [clear_talk_chara]
 [bgmovie storage="segawa_event_07.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:segawa_event_07.mp4"]
 ;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「んあっ……あっ……深……い……死ぬ……。」[p]
@@ -657,6 +660,7 @@
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [clear_talk_chara]
 [bgmovie storage="segawa_event_08.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:segawa_event_08.mp4"]
 ;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「んあっ……！！　だめ……そこ……違う……！」[p]

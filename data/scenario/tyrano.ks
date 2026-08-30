@@ -101,10 +101,13 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 		
 		mp.graphic = mp.graphic.split(',');
 		mp.tmp_graphic = mp.graphic.concat();
-		// Gallery entries must always remain operable.  The former save-data
-		// gate made CG MODE appear broken on a fresh browser or after storage
-		// was cleared, even though the image files were present.
-		tf.is_cg_open = true;
+		tf.is_cg_open = false;
+		for (var i = 0; i < mp.graphic.length; i++) {
+			if (sf.cg_view[mp.graphic[i]] === "on") {
+				tf.is_cg_open = true;
+				break;
+			}
+		}
 		
         if(typeof mp.thumb !="undefined"){
             mp.tmp_graphic[0] = mp.thumb;
@@ -123,7 +126,14 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 
 ;CGモードのループ動画サムネイル
 [macro name="video_cg_button"]
-	[button graphic=%thumb x=&mp.x y=&mp.y width=&mp.width height=&mp.height preexp="mp.storage" exp="tf.selected_video = preexp" storage="cg.ks" target="*clickvideo" folder=%folder|bgimage]
+	[iscript]
+		tf.is_video_open = (sf.cg_view["video:" + mp.storage] === "on");
+	[endscript]
+	[if exp="tf.is_video_open==true"]
+		[button graphic=%thumb x=&mp.x y=&mp.y width=&mp.width height=&mp.height preexp="mp.storage" exp="tf.selected_video = preexp" storage="cg.ks" target="*clickvideo" folder=%folder|bgimage]
+	[else]
+		[button graphic="../../tyrano/images/system/noimage.png" x=&mp.x y=&mp.y width=&mp.width height=&mp.height storage="cg.ks" target="*no_image" folder=%folder|bgimage]
+	[endif]
 [endmacro]
 
 ;CGが閲覧された場合、CGモードで表示できるようにする

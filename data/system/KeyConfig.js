@@ -417,7 +417,8 @@ window.__tyrano_key_config = {
         "swipe_down_1"  : "load",
         "swipe_left_1"  : "auto",
         "swipe_right_1" : "menu",
-        "hold"          : "holdskip",
+        // PCの右クリックに相当するスマホ操作。長押しでメッセージ表示を切り替える。
+        "hold"          : "hidemessage",
         
         // 画面右端のダブルタップ・トリプルタップ
         "mash_right_2"  : "auto",

@@ -351,6 +351,7 @@
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [clear_talk_chara]
 [bgmovie storage="maeda_event_05.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:maeda_event_05.mp4"]
 ;[solo_chara name="maeda"]
 #前田
 【前田】「んっ……あっ……。」[p]

@@ -64,6 +64,8 @@
 #津田花
 「だから、こうなった。」[p]
 [clear_talk_chara]
+[stopbgm time=500 wait=true]
+[playbgm storage="bgm_ending_b.mp3" loop=true time=900 wait=false]
 [bg storage="cg/cg_120_endb_morishita_01.png" time=900]
 [cg storage="cg/cg_120_endb_morishita_01.png"]
 #津田花
@@ -160,6 +162,7 @@
 [bg storage="bg_black.png" time=0]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [bgmovie storage="endb_morishita_01.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:endb_morishita_01.mp4"]
 #津田花
 「森下さんの小さな口を、塞ぐ。」[p]
 [clear_talk_chara]
@@ -172,6 +175,7 @@
 [bg storage="bg_black.png" time=0]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [bgmovie storage="endb_maeda_02.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:endb_maeda_02.mp4"]
 #津田花
 「前田さんの明るい声を、甘い吐息に変える。」[p]
 [clear_talk_chara]
@@ -180,6 +184,7 @@
 [bg storage="bg_black.png" time=0]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [bgmovie storage="endb_ishihara_01.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:endb_ishihara_01.mp4"]
 #津田花
 「石原さんの無表情を、微かに崩す。」[p]
 [clear_talk_chara]
@@ -188,6 +193,7 @@
 [bg storage="bg_black.png" time=0]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [bgmovie storage="endb_sakamoto_01.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:endb_sakamoto_01.mp4"]
 #津田花
 「坂本さんの清楚な唇を、白く汚す。」[p]
 #津田花
@@ -206,6 +212,7 @@
 [bg storage="bg_black.png" time=0]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [bgmovie storage="endb_morishita_01.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:endb_morishita_01.mp4"]
 #森下
 【森下】「んっ……あっ……津田花さん……。」[p]
 #森下
@@ -222,6 +229,7 @@
 [bg storage="bg_black.png" time=0]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [bgmovie storage="endb_maeda_01.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:endb_maeda_01.mp4"]
 #前田
 【前田】「んあっ……また……イッちゃう……。」[p]
 #前田
@@ -232,6 +240,7 @@
 [bg storage="bg_black.png" time=0]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [bgmovie storage="endb_ishihara_02.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:endb_ishihara_02.mp4"]
 #石原
 【石原】「……電池、切れそうです。」[p]
 #石原
@@ -242,6 +251,7 @@
 [bg storage="bg_black.png" time=0]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [bgmovie storage="endb_sakamoto_02.mp4" loop="true" mute="true" time="300"]
+[cg storage="video:endb_sakamoto_02.mp4"]
 #坂本
 【坂本】「……私たちを、壊さないでください。」[p]
 #坂本
@@ -278,6 +288,7 @@
 [bg storage="bg_black.png" time=0]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [bgmovie storage="endb_maeda_02.mp4" loop="true" mute="true" time="250"]
+[cg storage="video:endb_maeda_02.mp4"]
 #津田花
 「前田さんの胸に。」[p]
 [clear_talk_chara]
@@ -290,6 +301,7 @@
 [bg storage="bg_black.png" time=0]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [bgmovie storage="endb_sakamoto_02.mp4" loop="true" mute="true" time="250"]
+[cg storage="video:endb_sakamoto_02.mp4"]
 #津田花
 「坂本さんの顔に。」[p]
 [clear_talk_chara]
@@ -346,6 +358,7 @@
 [bg storage="bg_black.png" time=0]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [bgmovie storage="endb_maeda_01.mp4" loop="true" mute="true" time="250"]
+[cg storage="video:endb_maeda_01.mp4"]
 #前田
 【前田】「ずっと……こうしてようね。」[p]
 [clear_talk_chara]
