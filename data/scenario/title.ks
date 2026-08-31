@@ -17,12 +17,12 @@
 [call storage="title_slideshow.ks"]
 [playbgm storage="bgm_title_op.mp3" loop="true" time="800" wait="false"]
 
-[button x="82" y="320" graphic="title_tsudage/new_game.png" enterimg="title_tsudage/new_game_on.png" target="*gamestart" folder="image" keyfocus="1"]
-[button x="82" y="388" graphic="title_tsudage/continue.png" enterimg="title_tsudage/continue_on.png" target="*open_load" folder="image" keyfocus="2"]
-[button x="82" y="456" graphic="title_tsudage/cg_mode.png" enterimg="title_tsudage/cg_mode_on.png" target="*open_cg" folder="image" keyfocus="3"]
-[button x="82" y="524" graphic="title_tsudage/config.png" enterimg="title_tsudage/config_on.png" role="sleepgame" storage="config.ks" folder="image" keyfocus="4"]
-[glink text="ABOUT / CREDITS" x="82" y="592" width="330" height="48" size="18" color="0x071827" font_color="0xdffaff" target="*about" keyfocus="5"]
-[button x="440" y="592" graphic="title_tsudage/exit.png" enterimg="title_tsudage/exit_on.png" target="*exit_game" folder="image" keyfocus="6"]
+[button x="82" y="254" graphic="title_tsudage/new_game.png" enterimg="title_tsudage/new_game_on.png" target="*gamestart" folder="image" keyfocus="1"]
+[button x="82" y="320" graphic="title_tsudage/continue.png" enterimg="title_tsudage/continue_on.png" target="*open_load" folder="image" keyfocus="2"]
+[button x="82" y="386" graphic="title_tsudage/cg_mode.png" enterimg="title_tsudage/cg_mode_on.png" target="*open_cg" folder="image" keyfocus="3"]
+[button x="82" y="452" graphic="title_tsudage/config.png" enterimg="title_tsudage/config_on.png" role="sleepgame" storage="config.ks" folder="image" keyfocus="4"]
+[button x="82" y="518" graphic="title_tsudage/about.png" enterimg="title_tsudage/about_on.png" target="*about" folder="image" keyfocus="5"]
+[button x="82" y="584" graphic="title_tsudage/exit.png" enterimg="title_tsudage/exit_on.png" target="*exit_game" folder="image" keyfocus="6"]
 [s]
 
 *about
