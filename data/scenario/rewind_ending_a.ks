@@ -980,11 +980,13 @@
 5年前。
 
 [clear_talk_chara]
-[bg storage="bg_hospital_server_room.png" time=1200]
+[bg storage="bg_hospital_nurse_station.png" time=1200]
 
 病院。
 
 [p]
+
+[bg storage="ending_a_sakamoto_bedside.png" time=900]
 
 その日は、
 
@@ -992,17 +994,31 @@
 
 [p]
 
+[bg storage="ending_a_morishita_ward.png" time=900]
+
 誰かが確認した。
 
+[p]
+
+[bg storage="ending_a_ishihara_ward.png" time=900]
+
 誰かが声をかけた。
+
+[p]
+
+[bg storage="ending_a_maeda_pharmacy.png" time=900]
 
 誰かが、ほんの少し立ち止まった。
 
 [p]
 
+[bg storage="ending_a_segawa_office.png" time=900]
+
 それだけだった。
 
 [p]
+
+[bg storage="bg_hospital_nurse_station.png" time=1200]
 
 インシデントは――
 
@@ -1035,44 +1051,30 @@
 [p]
 
 [clear_talk_chara]
-[bg storage="bg_inn_corridor_morning.png" time=1200]
+[bg storage="bg_hospital_staff_break_room.png" time=1200]
 
 病院の休憩室。
 
 [p]
 
-[chara_mod name="maeda" face="surprised" time="0"]
-[solo_chara name="maeda"]
 #前田
 「温泉行きたい！」
 
-[chara_mod name="segawa" face="surprised" time="0"]
-[solo_chara name="segawa"]
 #瀬川
 「急に何？」
 
-[chara_mod name="maeda" face="surprised" time="0"]
-[solo_chara name="maeda"]
 #前田
 「慰安旅行！　五人で！」
 
-[chara_mod name="ishihara" face="surprised" time="0"]
-[solo_chara name="ishihara"]
 #石原
 「なぜ五人なんですか」
 
-[chara_mod name="maeda" face="surprised" time="0"]
-[solo_chara name="maeda"]
 #前田
 「ここに五人いるから！」
 
-[chara_mod name="morishita" face="normal" time="0"]
-[solo_chara name="morishita"]
 #森下
 「そのままですね」
 
-[chara_mod name="sakamoto" face="smile" time="0"]
-[solo_chara name="sakamoto"]
 #坂本
 「ふふっ」
 
@@ -1098,23 +1100,15 @@
 
 [p]
 
-[chara_mod name="maeda" face="surprised" time="0"]
-[solo_chara name="maeda"]
 #前田
 「じゃあ決まり！」
 
-[chara_mod name="segawa" face="normal" time="0"]
-[solo_chara name="segawa"]
 #瀬川
 「決まってない」
 
-[chara_mod name="maeda" face="surprised" time="0"]
-[solo_chara name="maeda"]
 #前田
 「多数決！」
 
-[chara_mod name="ishihara" face="normal" time="0"]
-[solo_chara name="ishihara"]
 #石原
 「まだ誰も投票していません」
 
@@ -1136,20 +1130,14 @@
 
 [p]
 
-[chara_mod name="morishita" face="normal" time="0"]
-[solo_chara name="morishita"]
 #森下
 「…………」
 
-[chara_mod name="sakamoto" face="surprised" time="0"]
-[solo_chara name="sakamoto"]
 #坂本
 「どうしたの？」
 
 [p]
 
-[chara_mod name="morishita" face="normal" time="0"]
-[solo_chara name="morishita"]
 #森下
 「いえ」
 
@@ -1174,13 +1162,9 @@
 
 [p]
 
-[chara_mod name="maeda" face="worried" time="0"]
-[solo_chara name="maeda"]
 #前田
 「何それ、怖っ！」
 
-[chara_mod name="segawa" face="angry" time="0"]
-[solo_chara name="segawa"]
 #瀬川
 「昼間から怪談やめて」
 
