@@ -383,8 +383,7 @@
 [jump storage="segawa_night.ks" target="bad_peek_segawa"]
 
 [clear_talk_chara]
-[bg storage="cg/cg_058_segawa_room_peek.png" time=800]
-[cg storage="cg/cg_058_segawa_room_peek.png"]
+[show_event_cg storage="cg/cg_058_segawa_room_peek.png"]
 
 [clear_talk_chara]
 #津田花
@@ -434,8 +433,7 @@
 [playse storage="se_door_open.mp3"]
 
 [clear_talk_chara]
-[bg storage="cg/cg_058_segawa_room_peek.png" time=700]
-[cg storage="cg/cg_058_segawa_room_peek.png"]
+[show_event_cg storage="cg/cg_058_segawa_room_peek.png"]
 
 ;[solo_chara name="segawa"]
 #瀬川
@@ -474,8 +472,7 @@
 [jump storage="maeda_night.ks" target="bad_peek_maeda"]
 
 [clear_talk_chara]
-[bg storage="cg/cg_059_maeda_room_peek.png" time=800]
-[cg storage="cg/cg_059_maeda_room_peek.png"]
+[show_event_cg storage="cg/cg_059_maeda_room_peek.png"]
 
 [clear_talk_chara]
 #津田花
@@ -513,8 +510,7 @@
 [playse storage="se_door_open.mp3"]
 
 [clear_talk_chara]
-[bg storage="cg/cg_059_maeda_room_peek.png" time=700]
-[cg storage="cg/cg_059_maeda_room_peek.png"]
+[show_event_cg storage="cg/cg_059_maeda_room_peek.png"]
 
 ;[solo_chara name="maeda"]
 #前田
@@ -582,8 +578,7 @@
 [playse storage="se_door_open.mp3"]
 
 [clear_talk_chara]
-[bg storage="cg/cg_032_morishita_death.png" time=700]
-[cg storage="cg/cg_032_morishita_death.png"]
+[show_event_cg storage="cg/cg_032_morishita_death.png"]
 [playbgm storage="bgm_body_discovery.mp3" loop=true time=800]
 
 [clear_talk_chara]
@@ -591,16 +586,14 @@
 「最初の部屋は、血の海だった。」[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_033_segawa_death.png" time=700]
-[cg storage="cg/cg_033_segawa_death.png"]
+[show_event_cg storage="cg/cg_033_segawa_death.png"]
 
 [clear_talk_chara]
 #津田花
 「次の部屋も。」[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_030_maeda_death.png" time=700]
-[cg storage="cg/cg_030_maeda_death.png"]
+[show_event_cg storage="cg/cg_030_maeda_death.png"]
 
 [clear_talk_chara]
 #津田花
@@ -616,8 +609,7 @@
 「誰も、生きていない。」[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_031_sakamoto_death.png" time=700]
-[cg storage="cg/cg_031_sakamoto_death.png"]
+[show_event_cg storage="cg/cg_031_sakamoto_death.png"]
 
 [clear_talk_chara]
 #津田花

@@ -8,8 +8,7 @@
 [clear_talk_chara]
 [stopbgm time=600]
 [scene_card date="6月6日　21:05（第一ループ）" place="石原の客室"]
-[bg storage="cg/cg_100_ishihara_event_01.png" time=800]
-[cg storage="cg/cg_100_ishihara_event_01.png"]
+[show_event_cg storage="cg/cg_100_ishihara_event_01.png"]
 [playbgm storage="bgm_romance.mp3" loop=true time=700 wait=false]
 [clear_talk_chara]
 
@@ -118,8 +117,7 @@
 「抵抗する様子はない。」[p]
 #津田花
 「ただ、熱を持った体を晒すように、膝を外側へ倒す。」[p]
-[bg storage="cg/cg_101_ishihara_event_03.png" time=700]
-[cg storage="cg/cg_101_ishihara_event_03.png"]
+[show_event_cg storage="cg/cg_101_ishihara_event_03.png"]
 [clear_talk_chara]
 #津田花
 「白いのパンツが、正面からはっきりと見える。」[p]
@@ -171,8 +169,7 @@
 [clear_talk_chara]
 #津田花
 「俺は彼女を優しく押し倒した。」[p]
-[bg storage="cg/cg_102_ishihara_event_04.png" time=700]
-[cg storage="cg/cg_102_ishihara_event_04.png"]
+[show_event_cg storage="cg/cg_102_ishihara_event_04.png"]
 #津田花
 「布団の上。」[p]
 #津田花
@@ -243,8 +240,7 @@
 [clear_talk_chara]
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
-[bg storage="cg/cg_103_ishihara_event_05.png" time=0]
-[cg storage="cg/cg_103_ishihara_event_05.png"]
+[show_event_cg storage="cg/cg_103_ishihara_event_05.png"]
 [clear_talk_chara]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [bgmovie storage="ishihara_loop1_motion_02.mp4" loop="true" mute="true" time="300"]
@@ -284,8 +280,7 @@
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
 [bg storage="bg_white.png" time=450]
-[bg storage="cg/cg_104_ishihara_event_06.png" time=550]
-[cg storage="cg/cg_104_ishihara_event_06.png"]
+[show_event_cg storage="cg/cg_104_ishihara_event_06.png"]
 [clear_talk_chara]
 #津田花
 「石原さんの体が、小さく跳ねた。」[p]

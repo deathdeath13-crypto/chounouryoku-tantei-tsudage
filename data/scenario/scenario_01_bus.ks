@@ -289,8 +289,7 @@
 [clear_talk_chara]
 [stopbgm time=250 wait=true]
 [playbgm storage="bgm_lucky_comedy.mp3" loop=true time=500]
-[bg storage="cg/cg_010_morishita_bus_xray.png" time=700]
-[cg storage="cg/cg_010_morishita_bus_xray.png"]
+[show_event_cg storage="cg/cg_010_morishita_bus_xray.png"]
 
 #津田花
 だが、見えたのはカードだけではなかった。[p]

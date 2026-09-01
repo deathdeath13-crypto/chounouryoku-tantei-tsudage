@@ -3,8 +3,7 @@
 ;==================================================
 *bad_peek_segawa
 [clear_talk_chara]
-[bg storage="cg/cg_058_segawa_room_peek.png" time=800]
-[cg storage="cg/cg_058_segawa_room_peek.png"]
+[show_event_cg storage="cg/cg_058_segawa_room_peek.png"]
 [playbgm storage="bgm_romance.mp3" loop=true time=700]
 [clear_talk_chara]
 #津田花
@@ -40,8 +39,7 @@
 [wait time=500]
 ;[playse storage="se_door_open.ogg"]
 [clear_talk_chara]
-[bg storage="cg/cg_060_segawa_event_01.png" time=700]
-[cg storage="cg/cg_060_segawa_event_01.png"]
+[show_event_cg storage="cg/cg_060_segawa_event_01.png"]
 ;[solo_chara name="segawa"]
 #瀬川
 【瀬川】「……情けない顔。」[p]
@@ -69,8 +67,7 @@
 #津田花
 「瀬川は自分の布団に潜り込むと、はっきりと背中を向けた。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_061_segawa_event_02.png" time=700]
-[cg storage="cg/cg_061_segawa_event_02.png"]
+[show_event_cg storage="cg/cg_061_segawa_event_02.png"]
 #津田花
 「怒りが、まだ残っている。」[p]
 #津田花
@@ -204,8 +201,7 @@
 #津田花
 「浴衣を左右にはだけさせる。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_062_segawa_event_03.png" time=700]
-[cg storage="cg/cg_062_segawa_event_03.png"]
+[show_event_cg storage="cg/cg_062_segawa_event_03.png"]
 [clear_talk_chara]
 #津田花
 「白い肌。」[p]
@@ -323,7 +319,7 @@
 #津田花
 「一気に押し込む。」[p]
 [clear_talk_chara]
-[bg storage="cg/segawa_event_04_first.png" time=0]
+[show_event_cg storage="cg/segawa_event_04_first.png"]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [clear_talk_chara]
 [bgmovie storage="segawa_event_04.mp4" loop="true" mute="true" time="300"]
@@ -391,8 +387,7 @@
 [stopse buf=3 fadeout=true time=200]
 [clear_talk_chara]
 [bg storage="bg_white.png" time=450]
-[bg storage="cg/cg_064_segawa_event_05.png" time=550]
-[cg storage="cg/cg_064_segawa_event_05.png"]
+[show_event_cg storage="cg/cg_064_segawa_event_05.png"]
 [clear_talk_chara]
 #津田花
 「白い飛沫が、瀬川の頰に、唇に、額に飛び散る。」[p]
@@ -462,7 +457,7 @@
 #津田花
 「後ろから、一気に挿入した。」[p]
 [clear_talk_chara]
-[bg storage="cg/segawa_event_06_first.png" time=0]
+[show_event_cg storage="cg/segawa_event_06_first.png"]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [clear_talk_chara]
 [bgmovie storage="segawa_event_06.mp4" loop="true" mute="true" time="300"]
@@ -522,8 +517,7 @@
 [stopse buf=3 fadeout=true time=200]
 [clear_talk_chara]
 [bg storage="bg_white.png" time=450]
-[bg storage="cg/segawa_event_06_last.png" time=550]
-[cg storage="cg/segawa_event_06_last.png"]
+[show_event_cg storage="cg/segawa_event_06_last.png"]
 [clear_talk_chara]
 #津田花
 「白い線が、瀬川の背中を伝う。」[p]
@@ -581,7 +575,7 @@
 #津田花
 「奥まで、深く沈む。」[p]
 [clear_talk_chara]
-[bg storage="cg/segawa_event_07_first.png" time=0]
+[show_event_cg storage="cg/segawa_event_07_first.png"]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [clear_talk_chara]
 [bgmovie storage="segawa_event_07.mp4" loop="true" mute="true" time="300"]
@@ -654,7 +648,7 @@
 #津田花
 「ゆっくりと、だが確実に、アナルへ押し込む。」[p]
 [clear_talk_chara]
-[bg storage="cg/segawa_event_08_first.png" time=0]
+[show_event_cg storage="cg/segawa_event_08_first.png"]
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
@@ -720,8 +714,7 @@
 [stopse buf=3 fadeout=true time=200]
 [clear_talk_chara]
 [bg storage="bg_white.png" time=450]
-[bg storage="cg/segawa_event_08_last.png" time=550]
-[cg storage="cg/segawa_event_08_last.png"]
+[show_event_cg storage="cg/segawa_event_08_last.png"]
 [clear_talk_chara]
 #津田花
 「瀬川の体が、大きく跳ねた。」[p]

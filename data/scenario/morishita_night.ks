@@ -3,8 +3,7 @@
 ;==================================================
 [scene_card date="6月6日　23:25" place="客室・深夜"]
 [clear_talk_chara]
-[bg storage="cg/cg_050_morishita_cry.png" time=700]
-[cg storage="cg/cg_050_morishita_cry.png"]
+[show_event_cg storage="cg/cg_050_morishita_cry.png"]
 [playbgm storage="bgm_romance.mp3" loop=true time=700]
 [clear_talk_chara]
 #森下
@@ -146,8 +145,7 @@
 #津田花
 「俺は、彼女の唇に自分の唇を重ねた。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_051_morishita_kiss.png" time=700]
-[cg storage="cg/cg_051_morishita_kiss.png"]
+[show_event_cg storage="cg/cg_051_morishita_kiss.png"]
 #森下
 【森下】「ん……。」[p]
 [clear_talk_chara]
@@ -183,8 +181,7 @@
 #津田花
 「すると、浴衣が自然とはだけた。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_052_morishita_event_02.png" time=700]
-[cg storage="cg/cg_052_morishita_event_02.png"]
+[show_event_cg storage="cg/cg_052_morishita_event_02.png"]
 [clear_talk_chara]
 #津田花
 「白い肌。」[p]
@@ -249,7 +246,7 @@
 #津田花
 「ぬるりと、中へ。」[p]
 [clear_talk_chara]
-[bg storage="cg/morishita_event_04_first.png" time=0]
+[show_event_cg storage="cg/morishita_event_04_first.png"]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [clear_talk_chara]
 [bgmovie storage="morishita_event_04.mp4" loop="true" mute="true" time="300"]
@@ -299,7 +296,7 @@
 #津田花
 「俺はペースを上げた。」[p]
 [clear_talk_chara]
-[bg storage="cg/morishita_event_03_first.png" time=0]
+[show_event_cg storage="cg/morishita_event_03_first.png"]
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
@@ -349,8 +346,7 @@
 [stopse buf=3 fadeout=true time=200]
 [clear_talk_chara]
 [bg storage="bg_white.png" time=450]
-[bg storage="cg/cg_055_morishita_event_05.png" time=550]
-[cg storage="cg/cg_055_morishita_event_05.png"]
+[show_event_cg storage="cg/cg_055_morishita_event_05.png"]
 [clear_talk_chara]
 #津田花
 「白い飛沫が、彼女の柔らかい肌に降りかかる。」[p]

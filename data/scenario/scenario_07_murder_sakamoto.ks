@@ -182,8 +182,7 @@
 【前田】「いやあああああっ！！」[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_031_sakamoto_death.png" time=700]
-[cg storage="cg/cg_031_sakamoto_death.png"]
+[show_event_cg storage="cg/cg_031_sakamoto_death.png"]
 [playbgm storage="bgm_body_discovery.mp3" loop=true time=800]
 
 [clear_talk_chara]

@@ -3,8 +3,7 @@
 ;==================================================
 *bad_peek_maeda
 [clear_talk_chara]
-[bg storage="cg/cg_059_maeda_room_peek.png" time=800]
-[cg storage="cg/cg_059_maeda_room_peek.png"]
+[show_event_cg storage="cg/cg_059_maeda_room_peek.png"]
 [clear_talk_chara]
 #津田花
 「前田さんの部屋を見た。」[p]
@@ -31,8 +30,7 @@
 [wait time=500]
 ;[playse storage="se_door_open.ogg"]
 [clear_talk_chara]
-[bg storage="cg/cg_059_maeda_room_peek.png" time=700]
-[cg storage="cg/cg_059_maeda_room_peek.png"]
+[show_event_cg storage="cg/cg_059_maeda_room_peek.png"]
 ;[solo_chara name="maeda"]
 #前田
 【前田】「私も……。」[p]
@@ -44,8 +42,7 @@
 #津田花
 「その夜、俺は前田さんの部屋で朝を待つことになった。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_070_maeda_event_01.png" time=800]
-[cg storage="cg/cg_070_maeda_event_01.png"]
+[show_event_cg storage="cg/cg_070_maeda_event_01.png"]
 [playbgm storage="bgm_romance.mp3" loop=true time=700]
 [clear_talk_chara]
 #津田花
@@ -171,8 +168,7 @@
 #津田花
 「前田さんは顔を上げた。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_071_maeda_event_02.png" time=700]
-[cg storage="cg/cg_071_maeda_event_02.png"]
+[show_event_cg storage="cg/cg_071_maeda_event_02.png"]
 #津田花
 「近い。」[p]
 #津田花
@@ -230,8 +226,7 @@
 #津田花
 「前田さんは、ゆっくりと布団の上で立ち上がった。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_072_maeda_event_03.png" time=700]
-[cg storage="cg/cg_072_maeda_event_03.png"]
+[show_event_cg storage="cg/cg_072_maeda_event_03.png"]
 #津田花
 「浴衣の裾を、少しずつ捲る。」[p]
 #津田花
@@ -306,8 +301,7 @@
 #津田花
 「はだけた胸元に、白い肌が広がる。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_073_maeda_event_04.png" time=700]
-[cg storage="cg/cg_073_maeda_event_04.png"]
+[show_event_cg storage="cg/cg_073_maeda_event_04.png"]
 ;[solo_chara name="maeda"]
 #前田
 【前田】「……見ないで。」[p]
@@ -347,7 +341,7 @@
 #津田花
 「ゆっくりと、押し込む。」[p]
 [clear_talk_chara]
-[bg storage="cg/maeda_event_05_first.png" time=0]
+[show_event_cg storage="cg/maeda_event_05_first.png"]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [clear_talk_chara]
 [bgmovie storage="maeda_event_05.mp4" loop="true" mute="true" time="300"]
@@ -433,8 +427,7 @@
 [stopse buf=3 fadeout=true time=200]
 [clear_talk_chara]
 [bg storage="bg_white.png" time=450]
-[bg storage="cg/maeda_event_05_last.png" time=550]
-[cg storage="cg/maeda_event_05_last.png"]
+[show_event_cg storage="cg/maeda_event_05_last.png"]
 [clear_talk_chara]
 #津田花
 「白い飛沫が、前田さんの頰に、唇に、まぶたに飛び散る。」[p]

@@ -6,8 +6,7 @@
 [clear_talk_chara]
 [stopbgm time=500]
 [scene_card date="6月6日　20:40（第三ループ）" place="温泉宿・坂本の客室"]
-[bg storage="cg/cg_110_sakamoto_event_01.png" time=800]
-[cg storage="cg/cg_110_sakamoto_event_01.png"]
+[show_event_cg storage="cg/cg_110_sakamoto_event_01.png"]
 [playbgm storage="bgm_romance.mp3" loop=true time=700 wait=false]
 
 #津田花
@@ -130,8 +129,7 @@
 #津田花
 「すると、坂本さんがゆっくりと身を起こした。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_111_sakamoto_event_02.png" time=650]
-[cg storage="cg/cg_111_sakamoto_event_02.png"]
+[show_event_cg storage="cg/cg_111_sakamoto_event_02.png"]
 #津田花
 「そして、俺の正面に膝をついた。」[p]
 #坂本
@@ -144,8 +142,7 @@
 #津田花
 「坂本さんは、俺の浴衣の合わせ目に手をかけた。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_112_sakamoto_event_03.png" time=650]
-[cg storage="cg/cg_112_sakamoto_event_03.png"]
+[show_event_cg storage="cg/cg_112_sakamoto_event_03.png"]
 #津田花
 「静かに、だがはっきりと、開く。」[p]
 #津田花
@@ -179,13 +176,11 @@
 #津田花
 「そして、顔を近づける。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_113_sakamoto_event_04.png" time=650]
-[cg storage="cg/cg_113_sakamoto_event_04.png"]
+[show_event_cg storage="cg/cg_113_sakamoto_event_04.png"]
 #津田花
 「唇が、先端に触れた。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_114_sakamoto_event_05.png" time=0]
-[cg storage="cg/cg_114_sakamoto_event_05.png"]
+[show_event_cg storage="cg/cg_114_sakamoto_event_05.png"]
 [clear_talk_chara]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [bgmovie storage="sakamoto_loop3_motion_00.mp4" loop="true" mute="true" time="300"]
@@ -262,8 +257,7 @@
 [clear_talk_chara]
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
-[bg storage="cg/cg_115_sakamoto_event_06.png" time=0]
-[cg storage="cg/cg_115_sakamoto_event_06.png"]
+[show_event_cg storage="cg/cg_115_sakamoto_event_06.png"]
 [clear_talk_chara]
 [playse storage="se_morishita_water.mp3" loop=true buf=3]
 [bgmovie storage="sakamoto_loop3_motion_01.mp4" loop="true" mute="true" time="300"]
@@ -340,8 +334,7 @@
 [stop_bgmovie time="250"]
 [stopse buf=3 fadeout=true time=200]
 [bg storage="bg_white.png" time=450]
-[bg storage="cg/cg_116_sakamoto_event_07.png" time=550]
-[cg storage="cg/cg_116_sakamoto_event_07.png"]
+[show_event_cg storage="cg/cg_116_sakamoto_event_07.png"]
 [clear_talk_chara]
 #津田花
 「白い飛沫が、坂本さんの頰に、唇に、まぶたに飛び散る。」[p]

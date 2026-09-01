@@ -66,8 +66,7 @@
 [clear_talk_chara]
 [stopbgm time=500 wait=true]
 [playbgm storage="bgm_ending_b.mp3" loop=true time=900 wait=false]
-[bg storage="cg/cg_120_endb_morishita_01.png" time=900]
-[cg storage="cg/cg_120_endb_morishita_01.png"]
+[show_event_cg storage="cg/cg_120_endb_morishita_01.png"]
 #津田花
 「暗い地下室。」[p]
 #津田花
@@ -91,42 +90,35 @@
 #津田花
 「そう信じ込ませた。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_121_endb_morishita_02.png" time=650]
-[cg storage="cg/cg_121_endb_morishita_02.png"]
+[show_event_cg storage="cg/cg_121_endb_morishita_02.png"]
 #森下
 【森下】「……津田花さん。」[p]
 #森下
 【森下】「これで、安全なんですね。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_122_endb_morishita_03.png" time=550]
-[cg storage="cg/cg_122_endb_morishita_03.png"]
+[show_event_cg storage="cg/cg_122_endb_morishita_03.png"]
 [clear_talk_chara]
-[bg storage="cg/cg_123_endb_segawa.png" time=650]
-[cg storage="cg/cg_123_endb_segawa.png"]
+[show_event_cg storage="cg/cg_123_endb_segawa.png"]
 #瀬川
 【瀬川】「動けない方が、確かに安心かも。」[p]
 #瀬川
 【瀬川】「変なこと、考えなくて済むし。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_127_endb_maeda.png" time=650]
-[cg storage="cg/cg_127_endb_maeda.png"]
+[show_event_cg storage="cg/cg_127_endb_maeda.png"]
 #前田
 【前田】「ふふっ……なんか、変な気分。」[p]
 #前田
 【前田】「でも、津田花さんがそう言うなら、正しいんだよね。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_124_endb_ishihara_01.png" time=550]
-[cg storage="cg/cg_124_endb_ishihara_01.png"]
+[show_event_cg storage="cg/cg_124_endb_ishihara_01.png"]
 #石原
 【石原】「……省エネには、最適です。」[p]
 #石原
 【石原】「抵抗する必要がない。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_125_endb_ishihara_02.png" time=550]
-[cg storage="cg/cg_125_endb_ishihara_02.png"]
+[show_event_cg storage="cg/cg_125_endb_ishihara_02.png"]
 [clear_talk_chara]
-[bg storage="cg/cg_126_endb_sakamoto.png" time=650]
-[cg storage="cg/cg_126_endb_sakamoto.png"]
+[show_event_cg storage="cg/cg_126_endb_sakamoto.png"]
 #坂本
 【坂本】「私たちを、守ってくれているんですね。」[p]
 #坂本
@@ -168,7 +160,7 @@
 [clear_talk_chara]
 [stop_bgmovie time="200"]
 [stopse buf=3 fadeout=true time=150]
-[bg storage="cg/cg_123_endb_segawa.png" time=450]
+[show_event_cg storage="cg/cg_123_endb_segawa.png"]
 #津田花
 「瀬川の勝気な顔を、歪ませる。」[p]
 [clear_talk_chara]
@@ -220,7 +212,7 @@
 [clear_talk_chara]
 [stop_bgmovie time="200"]
 [stopse buf=3 fadeout=true time=150]
-[bg storage="cg/cg_123_endb_segawa.png" time=450]
+[show_event_cg storage="cg/cg_123_endb_segawa.png"]
 #瀬川
 【瀬川】「っ……はあ……はあ……。」[p]
 #瀬川
@@ -277,11 +269,11 @@
 #津田花
 「また、突き入れる。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_121_endb_morishita_02.png" time=400]
+[show_event_cg storage="cg/cg_121_endb_morishita_02.png"]
 #津田花
 「森下さんの中に。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_123_endb_segawa.png" time=400]
+[show_event_cg storage="cg/cg_123_endb_segawa.png"]
 #津田花
 「瀬川の喉に。」[p]
 [clear_talk_chara]
@@ -294,7 +286,7 @@
 [clear_talk_chara]
 [stop_bgmovie time="180"]
 [stopse buf=3 fadeout=true time=120]
-[bg storage="cg/cg_125_endb_ishihara_02.png" time=400]
+[show_event_cg storage="cg/cg_125_endb_ishihara_02.png"]
 #津田花
 「石原さんの奥に。」[p]
 [clear_talk_chara]
@@ -347,11 +339,11 @@
 #津田花
 「この歪んだ世界で。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_122_endb_morishita_03.png" time=550]
+[show_event_cg storage="cg/cg_122_endb_morishita_03.png"]
 #森下
 【森下】「大好き……です……。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_123_endb_segawa.png" time=500]
+[show_event_cg storage="cg/cg_123_endb_segawa.png"]
 #瀬川
 【瀬川】「……もう、外に出たくない。」[p]
 [clear_talk_chara]
@@ -364,11 +356,11 @@
 [clear_talk_chara]
 [stop_bgmovie time="180"]
 [stopse buf=3 fadeout=true time=120]
-[bg storage="cg/cg_124_endb_ishihara_01.png" time=500]
+[show_event_cg storage="cg/cg_124_endb_ishihara_01.png"]
 #石原
 【石原】「……ここが、一番静か。」[p]
 [clear_talk_chara]
-[bg storage="cg/cg_126_endb_sakamoto.png" time=500]
+[show_event_cg storage="cg/cg_126_endb_sakamoto.png"]
 #坂本
 【坂本】「あなたが、守ってくれる限り。」[p]
 [clear_talk_chara]

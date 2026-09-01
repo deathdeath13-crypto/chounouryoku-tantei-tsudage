@@ -72,15 +72,13 @@
 スカートの裾が、後ろからふわりと持ち上がる。[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_109_maeda_skirt_flip_closeup.png" time=600]
-[cg storage="cg/cg_109_maeda_skirt_flip_closeup.png"]
+[show_event_cg storage="cg/cg_109_maeda_skirt_flip_closeup.png"]
 
 #津田花
 スカートの奥が、視界いっぱいに飛び込んできた。[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_110_maeda_skirt_flip.png" time=600]
-[cg storage="cg/cg_110_maeda_skirt_flip.png"]
+[show_event_cg storage="cg/cg_110_maeda_skirt_flip.png"]
 
 #津田花
 純白のパンツが、雨の中にはっきりと見えた。[p]

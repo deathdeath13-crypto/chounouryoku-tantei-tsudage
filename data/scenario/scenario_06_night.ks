@@ -249,8 +249,7 @@
 [clear_talk_chara]
 [playse storage="se_xray.mp3"]
 [clear_talk_chara]
-[bg storage="cg/cg_040_segawa_scan.png" time=700]
-[cg storage="cg/cg_040_segawa_scan.png"]
+[show_event_cg storage="cg/cg_040_segawa_scan.png"]
 
 [clear_talk_chara]
 #津田花
@@ -294,8 +293,7 @@
 [clear_talk_chara]
 [playse storage="se_xray.mp3"]
 [clear_talk_chara]
-[bg storage="cg/cg_041_maeda_scan.png" time=700]
-[cg storage="cg/cg_041_maeda_scan.png"]
+[show_event_cg storage="cg/cg_041_maeda_scan.png"]
 
 
 [clear_talk_chara]
@@ -339,8 +337,7 @@
 [clear_talk_chara]
 [playse storage="se_xray.mp3"]
 [clear_talk_chara]
-[bg storage="cg/cg_042_sakamoto_scan.png" time=700]
-[cg storage="cg/cg_042_sakamoto_scan.png"]
+[show_event_cg storage="cg/cg_042_sakamoto_scan.png"]
 
 
 
@@ -414,8 +411,7 @@
 [clear_talk_chara]
 [playse storage="se_xray.mp3"]
 [clear_talk_chara]
-[bg storage="cg/cg_043_morishita_scan.png" time=700]
-[cg storage="cg/cg_043_morishita_scan.png"]
+[show_event_cg storage="cg/cg_043_morishita_scan.png"]
 
 
 [clear_talk_chara]

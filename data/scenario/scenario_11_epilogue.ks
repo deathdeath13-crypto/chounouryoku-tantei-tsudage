@@ -39,8 +39,7 @@
 [stopbgm time=500]
 [playbgm storage="bgm_honehone_appear.mp3" loop=true time=700]
 [clear_talk_chara]
-[bg storage="cg/cg_081_honehone_ending.png" time=700]
-[cg storage="cg/cg_081_honehone_ending.png"]
+[show_event_cg storage="cg/cg_081_honehone_ending.png"]
 
 [clear_talk_chara]
 #津田花

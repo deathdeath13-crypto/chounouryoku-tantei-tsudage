@@ -133,8 +133,7 @@
 
 [scene_card date="6月6日　21:45" place="石原の客室"]
 [clear_talk_chara]
-[bg storage="cg/cg_034_ishihara_death.png" time=700]
-[cg storage="cg/cg_034_ishihara_death.png"]
+[show_event_cg storage="cg/cg_034_ishihara_death.png"]
 [playbgm storage="bgm_body_discovery.mp3" loop=true time=800]
 [playse storage="se_scream.mp3"]
 [quake time=1000 hmax=14 vmax=12]

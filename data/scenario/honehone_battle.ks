@@ -8,8 +8,7 @@
 [free layer="0" name="battle_clear"]
 [clear_talk_chara]
 [stopbgm time=500]
-[bg storage="cg/cg_081_honehone_ending.png" time=800]
-[cg storage="cg/cg_081_honehone_ending.png"]
+[show_event_cg storage="cg/cg_081_honehone_ending.png"]
 [playbgm storage="bgm_honehone_appear.mp3" loop=true time=700]
 [eval exp="f.hb_player_hp=145"]
 [eval exp="f.hb_player_max=145"]
@@ -125,8 +124,7 @@
 [playse storage="se_telekinesis.mp3"]
 [quake time=900 hmax=18 vmax=12]
 [clear_talk_chara]
-[bg storage="cg/cg_082_honehone_defeated.png" time=900]
-[cg storage="cg/cg_082_honehone_defeated.png"]
+[show_event_cg storage="cg/cg_082_honehone_defeated.png"]
 #ホネホネ神
 「見事だ……まさか本当に十ターン前後で倒すとは。」[p]
 #津田花

@@ -104,32 +104,27 @@
 その瞬間、集中しすぎた俺の視界は、橋の揺れとは別の意味で鮮明になった。[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_060_morishita_bridge_fear.png" time=700]
-[cg storage="cg/cg_060_morishita_bridge_fear.png"]
+[show_event_cg storage="cg/cg_060_morishita_bridge_fear.png"]
 #森下
 【森下】こ、怖いです～！　手、離したら終わりですよね！？[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_061_segawa_bridge_fear.png" time=700]
-[cg storage="cg/cg_061_segawa_bridge_fear.png"]
+[show_event_cg storage="cg/cg_061_segawa_bridge_fear.png"]
 #瀬川
 【瀬川】これ、本当に落ちませんよね！？　津田花さん、次はどっち！[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_064_maeda_bridge_fear.png" time=700]
-[cg storage="cg/cg_064_maeda_bridge_fear.png"]
+[show_event_cg storage="cg/cg_064_maeda_bridge_fear.png"]
 #前田
 【前田】だ、大丈夫！　こういうのは案外――うわっ、やっぱ無理！[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_062_ishihara_bridge_fear.png" time=700]
-[cg storage="cg/cg_062_ishihara_bridge_fear.png"]
+[show_event_cg storage="cg/cg_062_ishihara_bridge_fear.png"]
 #石原
 【石原】“案外”に命を預けるのは、断固として反対です……！[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_063_sakamoto_bridge_fear.png" time=700]
-[cg storage="cg/cg_063_sakamoto_bridge_fear.png"]
+[show_event_cg storage="cg/cg_063_sakamoto_bridge_fear.png"]
 #坂本
 【坂本】みなさん、縄を離さないで！　津田花さんの合図に合わせましょう！[p]
 

@@ -750,12 +750,12 @@
 【森下】きゃああっ！[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_031_sakamoto_death.png" time=700]
+[show_event_cg storage="cg/cg_031_sakamoto_death.png"]
 [playbgm storage="bgm_body_discovery.mp3" loop=true time=400 wait=false]
 
 [scene_card date="6月6日　21:42" place="温泉宿・資料室"]
 [clear_talk_chara]
-[bg storage="cg/cg_031_sakamoto_death.png" time=500]
+[show_event_cg storage="cg/cg_031_sakamoto_death.png"]
 
 #津田花
 坂本さんは、書架の間に倒れていた。[p]
@@ -1189,7 +1189,7 @@
 
 [scene_card date="6月7日　4:40" place="温泉宿・資料室"]
 [clear_talk_chara]
-[bg storage="cg/cg_031_sakamoto_death.png" time=500]
+[show_event_cg storage="cg/cg_031_sakamoto_death.png"]
 [playbgm storage="bgm_time_rewind.mp3" loop=true time=800 wait=false]
 
 #津田花
@@ -1264,7 +1264,7 @@
 ;==================================================
 [scene_card date="6月6日　22:20" place="温泉宿・第四ループ　殺人現場"]
 [clear_talk_chara]
-[bg storage="cg/cg_033_segawa_death.png" time=500]
+[show_event_cg storage="cg/cg_033_segawa_death.png"]
 
 #津田花
 四度目の世界でも、殺人は起きた。[p]

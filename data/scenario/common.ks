@@ -80,10 +80,45 @@
 [endmacro]
 
 ; Event CGs use the base layer through one dedicated macro so the next [bg] clears them.
-; Pass a path relative to data/image, for example cg/cg_010_xxx.png.
+; Web版では大きなCGを通常のワイプ付き[bg]で切り替えると、残留動画や
+; 読み込み競合によってNO IMAGE表示のまま停止する場合がある。
+; そのため動画・タイトル用DOM・代替画像を掃除し、CGは即時切替に統一する。
+; Pass a path relative to data/bgimage, for example cg/cg_010_xxx.png.
 [macro name="show_event_cg"]
+[iscript]
+(function () {
+    if (window.__titleSlideshow && window.__titleSlideshow.stop) {
+        window.__titleSlideshow.stop();
+    }
+
+    var movie = document.getElementById("bgmovie");
+    if (movie) {
+        try { movie.pause(); } catch (e) {}
+        movie.removeAttribute("src");
+        try { movie.load(); } catch (e) {}
+        if (movie.parentNode) {
+            movie.parentNode.removeChild(movie);
+        }
+    }
+
+    if (window.TYRANO && TYRANO.kag) {
+        TYRANO.kag.tmp.video_playing = false;
+        TYRANO.kag.stat.current_bgmovie = { storage: "", volume: "" };
+    }
+
+    var root = document.getElementById("root_layer_game");
+    if (root) {
+        var placeholders = root.querySelectorAll('img[src*="tyrano/images/system/noimage.png"]');
+        for (var i = 0; i < placeholders.length; i++) {
+            if (placeholders[i].parentNode) {
+                placeholders[i].parentNode.removeChild(placeholders[i]);
+            }
+        }
+    }
+})();
+[endscript]
 [clear_talk_chara]
-[image layer="base" page="fore" storage="%storage" left="0" top="0" width="1280" height="720"]
+[bg storage="%storage" time="0"]
 [cg storage="%storage"]
 [endmacro]
 
@@ -93,9 +128,7 @@
 
 ; Full-screen character image used during the solo deduction chapter.
 [macro name="deduction_cg"]
-[clear_talk_chara]
-[bg storage="%storage" time="600"]
-[cg storage="%storage"]
+[show_event_cg storage="%storage"]
 [endmacro]
 
 [return]

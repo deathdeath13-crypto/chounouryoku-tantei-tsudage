@@ -50,8 +50,7 @@
 [playse storage="se_xray.mp3"]
 
 [clear_talk_chara]
-[bg storage="cg/cg_020_dressing_room_01.png" time=700]
-[cg storage="cg/cg_020_dressing_room_01.png"]
+[show_event_cg storage="cg/cg_020_dressing_room_01.png"]
 [playse storage="se_heartbeat.mp3"]
 
 [clear_talk_chara]
@@ -62,43 +61,37 @@
 壁の向こうから、楽しそうな声がする。[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_021_dressing_room_02.png" time=700]
-[cg storage="cg/cg_021_dressing_room_02.png"]
+[show_event_cg storage="cg/cg_021_dressing_room_02.png"]
 
 #森下
 【森下】わぁ、気持ちいいですねぇ。[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_022_dressing_room_03.png" time=700]
-[cg storage="cg/cg_022_dressing_room_03.png"]
+[show_event_cg storage="cg/cg_022_dressing_room_03.png"]
 
 #前田
 【前田】修学旅行みたい！[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_023_morishita_bath.png" time=700]
-[cg storage="cg/cg_023_morishita_bath.png"]
+[show_event_cg storage="cg/cg_023_morishita_bath.png"]
 
 #瀬川
 【瀬川】もう少し静かにしてよ……[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_024_maeda_bath.png" time=700]
-[cg storage="cg/cg_024_maeda_bath.png"]
+[show_event_cg storage="cg/cg_024_maeda_bath.png"]
 
 #坂本
 【坂本】ふふっ、でも楽しそうですね。[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_025_segawa_bath.png" time=700]
-[cg storage="cg/cg_025_segawa_bath.png"]
+[show_event_cg storage="cg/cg_025_segawa_bath.png"]
 
 #石原
 【石原】湯気が濃いですね。三歩先がもう異世界です。[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_026_sakamoto_bath.png" time=700]
-[cg storage="cg/cg_026_sakamoto_bath.png"]
+[show_event_cg storage="cg/cg_026_sakamoto_bath.png"]
 
 [clear_talk_chara]
 #津田花
@@ -111,8 +104,7 @@
 目を逸らすべきなのに、逸らすほど鮮明になる。[p]
 
 [clear_talk_chara]
-[bg storage="cg/cg_027_ishihara_bath.png" time=700]
-[cg storage="cg/cg_027_ishihara_bath.png"]
+[show_event_cg storage="cg/cg_027_ishihara_bath.png"]
 
 [clear_talk_chara]
 #津田花

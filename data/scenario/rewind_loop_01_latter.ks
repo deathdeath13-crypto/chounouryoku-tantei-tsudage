@@ -12,7 +12,7 @@
 [cm]
 [eval exp="sf.rw_l1_q1=0;sf.rw_l1_q2=0;sf.rw_l1_q3=0"]
 [clear_talk_chara]
-[bg storage="cg/cg_031_sakamoto_death.png" time=700]
+[show_event_cg storage="cg/cg_031_sakamoto_death.png"]
 [playbgm storage="bgm_body_discovery.mp3" loop=true time=500 wait=false]
 
 [scene_card date="6月6日　22:10" place="温泉宿・浴場前廊下"]

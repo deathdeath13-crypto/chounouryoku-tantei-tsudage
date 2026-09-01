@@ -707,7 +707,7 @@
 
 [scene_card date="6月6日　21:20" place="温泉宿・宴会場前廊下"]
 [clear_talk_chara]
-[bg storage="cg/cg_030_maeda_death.png" time=700]
+[show_event_cg storage="cg/cg_030_maeda_death.png"]
 [playbgm storage="bgm_private_room_tension.mp3" loop=true time=500 wait=false]
 
 #津田花
@@ -815,7 +815,7 @@
 
 [scene_card date="6月6日　22:12" place="温泉宿・階段下"]
 [clear_talk_chara]
-[bg storage="cg/cg_030_maeda_death.png" time=700]
+[show_event_cg storage="cg/cg_030_maeda_death.png"]
 [playbgm storage="bgm_body_discovery.mp3" loop=true time=500 wait=false]
 
 [playse storage="se_scream.mp3"]
