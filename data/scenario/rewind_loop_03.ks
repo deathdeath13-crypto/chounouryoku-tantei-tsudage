@@ -1236,7 +1236,7 @@
 
 [playse storage="se_time_rewind.mp3"]
 [quake time=1000 hmax=18 vmax=12]
-[bgcolor color="0xFFFFFF" time="900"]
+[bg storage="bg_white.png" time="900"]
 
 #津田花
 坂本さんの血が戻る。[p]
