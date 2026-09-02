@@ -14,7 +14,6 @@
 [cm]
 [eval exp="sf.rw_loop=2;sf.rw_l2_q1=0;sf.rw_l2_q2=0;sf.rw_l2_q3=0"]
 [clear_talk_chara]
-[bg storage="bg_bus_interior_day.png" time=700]
 [playbgm storage="bgm_daily_prologue.mp3" loop=true time=700 wait=false]
 
 [scene_card date="6月6日　9:30" place="慰安旅行バス車内・第二ループ"]
@@ -810,7 +809,6 @@
 その背中を、俺は信じた。[p]
 
 [clear_talk_chara]
-[bg storage="bg_basement_stairs.png" time=500]
 [stopbgm time=500]
 
 [scene_card date="6月6日　22:12" place="温泉宿・階段下"]

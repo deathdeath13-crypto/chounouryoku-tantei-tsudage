@@ -12,7 +12,6 @@
 [cm]
 [eval exp="sf.rw_loop=4;sf.rw4_score=0;sf.rw4_maeda=0;sf.rw4_morishita=0;sf.rw4_sakamoto=0;sf.rw4_ishihara=0;sf.rw4_segawa=0;sf.rw4_route=0"]
 [clear_talk_chara]
-[show_event_cg storage="cg/cg_033_segawa_death.png"]
 [playbgm storage="bgm_body_discovery.mp3" loop=true time=500 wait=false]
 
 [scene_card date="6月6日　22:20" place="温泉宿・第四ループ　殺人現場"]

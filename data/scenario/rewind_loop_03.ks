@@ -12,7 +12,6 @@
 [cm]
 [eval exp="sf.rw_loop=3;sf.rw_l3_q1=0;sf.rw_l3_q2=0;sf.rw_l3_q3=0"]
 [clear_talk_chara]
-[bg storage="bg_bus_interior_day.png" time=700]
 [playbgm storage="bgm_daily_prologue.mp3" loop=true time=700 wait=false]
 
 [scene_card date="6月6日　9:30" place="慰安旅行バス車内・第三ループ"]
@@ -750,7 +749,6 @@
 【森下】きゃああっ！[p]
 
 [clear_talk_chara]
-[show_event_cg storage="cg/cg_031_sakamoto_death.png"]
 [playbgm storage="bgm_body_discovery.mp3" loop=true time=400 wait=false]
 
 [scene_card date="6月6日　21:42" place="温泉宿・資料室"]
@@ -940,8 +938,6 @@
 表示された番号は、瀬川さんのものだった。[p]
 
 [clear_talk_chara]
-[bg storage="bg_inn_lobby_night.png" time=600]
-
 [scene_card date="6月6日　22:30" place="温泉宿・ロビー"]
 [clear_talk_chara]
 [bg storage="bg_inn_lobby_night.png" time=500]

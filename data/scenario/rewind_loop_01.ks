@@ -362,8 +362,6 @@
 坂本さんだけが、わずかに目を伏せた気がした。[p]
 
 [clear_talk_chara]
-[bg storage="bg_inn_corridor_night.png" time=500]
-
 [scene_card date="6月6日　20:03" place="温泉宿・客室前廊下"]
 [clear_talk_chara]
 [bg storage="bg_guest_room_night.png" time=500]
@@ -468,7 +466,6 @@
 【石原】本当に、今夜だけです。[p]
 
 [clear_talk_chara]
-[bg storage="bg_guest_room_night.png" time=600]
 [playbgm storage="bgm_private_room_tension.mp3" loop=true time=800 wait=false]
 
 [scene_card date="6月6日　20:10" place="石原の客室"]
@@ -909,8 +906,6 @@
 
 [stopbgm time=300]
 [clear_talk_chara]
-[bg storage="bg_inn_corridor_night.png" time=350]
-
 [scene_card date="6月6日　22:05" place="温泉宿・浴場前廊下"]
 [clear_talk_chara]
 [bg storage="bg_inn_corridor_night.png" time=500]

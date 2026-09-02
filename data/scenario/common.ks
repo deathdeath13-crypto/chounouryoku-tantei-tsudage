@@ -11,7 +11,7 @@
 [chara_hide name="ishihara" time="0" wait="false"]
 [layopt layer="message0" visible=false]
 [layopt layer="1" page="fore" visible=true]
-[bg storage="bg_black.png" time=300]
+[bg storage="bg_black.png" time=0]
 [wait time=100]
 [ptext name="scene_card_date_label" layer=1 page=fore text="DATE / TIME" x=92 y=176 size=16 bold="true" color="0x8fa0b5" letterspacing=5]
 [ptext name="scene_card_date" layer=1 page=fore text="%date" x=88 y=208 size=36 bold="true" color="0xffffff" edge="0x111827" letterspacing=2]
@@ -40,6 +40,8 @@
 
 ; Conversation staging helpers. These must be defined before the main scenario starts.
 [macro name="solo_chara"]
+[if exp="typeof tf._current_solo_chara !== 'undefined' && tf._current_solo_chara == mp.name"]
+[else]
 [chara_hide name="morishita" time="0" wait="false"]
 [chara_hide name="segawa" time="0" wait="false"]
 [chara_hide name="sakamoto" time="0" wait="false"]
@@ -50,9 +52,12 @@
 [else]
 [chara_show name="%name" left="460" top="10" width="360" time="140"]
 [endif]
+[eval exp="tf._current_solo_chara=mp.name"]
+[endif]
 [endmacro]
 
 [macro name="clear_talk_chara"]
+[eval exp="tf._current_solo_chara='' "]
 [chara_hide name="morishita" time="0" wait="false"]
 [chara_hide name="segawa" time="0" wait="false"]
 [chara_hide name="sakamoto" time="0" wait="false"]
@@ -62,6 +67,7 @@
 
 ; Exceptional two-person staging for direct exchanges and confrontations.
 [macro name="pair_chara"]
+[eval exp="tf._current_solo_chara='' "]
 [chara_hide name="morishita" time="0" wait="false"]
 [chara_hide name="segawa" time="0" wait="false"]
 [chara_hide name="sakamoto" time="0" wait="false"]
@@ -78,6 +84,9 @@
 [chara_show name="%right" left="670" top="10" width="360" time="140"]
 [endif]
 [endmacro]
+
+; 同じBGMを再指定した場合は先頭から再生し直さず、そのまま継続する。
+[bgmopt samebgm_restart=false]
 
 ; Event CGs use the base layer through one dedicated macro so the next [bg] clears them.
 ; Web版では大きなCGを通常のワイプ付き[bg]で切り替えると、残留動画や
